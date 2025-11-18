@@ -1,31 +1,33 @@
 baseURL: https://maxama99.github.io/imeko-2026/
 theme: event
 
-defaultContentLanguage: de
+defaultContentLanguage: en
 languages:
     _merge: deep
     en:
         disabled: false
         menus:
             main:
+                - identifier: home
+                  name: Home
+                  pageRef: /
+                  weight: 5
                 - identifier: about
+                  name: About
                   pageRef: /about
                   weight: 10
-                - identifier: sessions
-                  pageRef: /sessions
+                - identifier: registration
+                  name: Dates & Registration
+                  pageRef: /registration
                   weight: 20
-                - identifier: speakers
-                  pageRef: /speakers
+                - identifier: sessions
+                  name: Programme
+                  pageRef: /sessions
                   weight: 30
-                - identifier: location
-                  pageRef: /location
-                  weight: 40
                 - identifier: sponsors
+                  name: Sponsors
                   pageRef: /sponsors
-                  weight: 50
-                - identifier: code_of_conduct
-                  pageRef: /code-of-conduct
-                  weight: 60
+                  weight: 40
             footer:
                 - identifier: imprint
                   pageRef: /imprint
@@ -105,27 +107,29 @@ languages:
                         - We bring together diverse expertise and innovation.
 
     de:
-        disabled: false
+        disabled: true
         menus:
             main:
+                - identifier: home
+                  name: Home
+                  pageRef: /
+                  weight: 5
                 - identifier: about
+                  name: Über uns
                   pageRef: /about
                   weight: 10
-                - identifier: sessions
-                  pageRef: /sessions
+                - identifier: registration
+                  name: Termine & Anmeldung
+                  pageRef: /registration
                   weight: 20
-                - identifier: speakers
-                  pageRef: /speakers
+                - identifier: sessions
+                  name: Programm
+                  pageRef: /sessions
                   weight: 30
-                - identifier: location
-                  pageRef: /location
-                  weight: 40
                 - identifier: sponsors
+                  name: Sponsoren
                   pageRef: /sponsors
-                  weight: 50
-                - identifier: code_of_conduct
-                  pageRef: /code-of-conduct
-                  weight: 60
+                  weight: 40
             footer:
                 - identifier: imprint
                   pageRef: /imprint
