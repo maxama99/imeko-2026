@@ -8,10 +8,6 @@ languages:
         disabled: false
         menus:
             main:
-                - identifier: home
-                  name: Home
-                  pageRef: /
-                  weight: 5
                 - identifier: about
                   name: About
                   pageRef: /about
@@ -110,10 +106,6 @@ languages:
         disabled: true
         menus:
             main:
-                - identifier: home
-                  name: Home
-                  pageRef: /
-                  weight: 5
                 - identifier: about
                   name: Über uns
                   pageRef: /about
@@ -220,7 +212,7 @@ params:
     themes:
         event:
             sessionizeId: 67poir7q
-            title: medicon
+            title: Home
             shortTitle:
             startDate: 2026-01-30
             endDate: 2026-01-31
@@ -241,7 +233,7 @@ params:
                 facebookUrl: https://www.facebook.com/medialesson/
                 linkedinUrl: https://de.linkedin.com/company/medialesson-gmbh
             images:
-                logo: logos/medicon-512.webp
+                logo: logos/meas-logo.png
                 titleBackground: images/pexels-caleboquendo-3023317.webp
                 location: images/habermehlstr.webp
             sponsors:
