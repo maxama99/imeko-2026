@@ -69,7 +69,7 @@ languages:
             themes:
                 event:
                     slogan: Not a real conference - this is just a demo!
-                    location: Pforzheim, Germany
+                    location: Prague, Czechia
                     description: |
                         This is a demo website to showcase the features of the __Event__ theme
                         for the static website generator [Hugo](https://gohugo.io). You can
@@ -169,7 +169,7 @@ languages:
             themes:
                 event:
                     slogan: Keine echte Konferenz - nur eine Demo!
-                    location: Pforzheim
+                    location: Prague, Czechia
                     description: |
                         Dies ist eine Demo-Website, um die Funktionen des Thema __Event__
                         für den statischen Website-Generator [Hugo](https://gohugo.io)
@@ -212,19 +212,19 @@ params:
     themes:
         event:
             sessionizeId: 67poir7q
-            title: Home
+            title: IMEKO TC4 & TC13 Joint Conference
             shortTitle:
-            startDate: 2026-01-30
-            endDate: 2026-01-31
+            startDate: 2026-09-10
+            endDate: 2026-09-10
             address:
-                - Medialesson GmbH
-                - Habermehlstraße 15
-                - 75172 Pforzheim
-                - Germany
+                - Czech Technical University in Prague
+                - Technická 2
+                - 160 00 Praha 6
+                - Czechia
             map:
-                embeddableMapUrl: //umap.openstreetmap.fr/en/map/medialesson-gmbh_1105977?scrollWheelZoom=false
-                viewLargerMapUrl: //umap.openstreetmap.fr/en/map/medialesson-gmbh_1105977
-                # Link to edit the map: https://umap.openstreetmap.fr/en/map/anonymous-edit/1105977:HjtVVnbwCn6Yi3O02DTPnspzuyoHvP_Kn-M9rE53eE8
+                embeddableMapUrl: //www.openstreetmap.org/export/embed.html?bbox=14.3500,50.0650,14.4700,50.0950&layer=mapnik&marker=50.0755,14.4378
+                viewLargerMapUrl: //www.openstreetmap.org/?mlat=50.0755&mlon=14.4378#map=13/50.0755/14.4378
+                # Centered on Prague, Czechia
             callToAction:
                 eventbrite:
                     eventId: 976108886957
