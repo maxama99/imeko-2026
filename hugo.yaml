@@ -42,8 +42,8 @@ languages:
                   params:
                       description: |
                           Learn more about our mission, values, and the people behind our organization.
-                          The "About Us" page provides insights into who we are, what we do,
-                          and why we’re passionate about our work.
+                          The "About" page provides insights into who we are, what we do,
+                          and why we're passionate about our work.
                 - identifier: speakers
                   pageRef: /speakers
                   weight: 30
