@@ -8,6 +8,7 @@ on:
 jobs:
   deploy-production:
     runs-on: ubuntu-latest
+    environment: PROD
 
     steps:
       - name: Checkout
