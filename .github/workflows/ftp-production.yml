@@ -43,5 +43,8 @@ jobs:
             set ftp:ssl-force true
             set ssl:verify-certificate no
             open -u $FTP_USER,$FTP_PASSWORD $FTP_SERVER
-            mirror -R --parallel=4 public/ /web/
+            cd /web/
+            mirror -R --parallel=4 --verbose --log=/tmp/lftp-mirror.log public/ ./
           "
+          echo "--- lftp mirror log ---"
+          cat /tmp/lftp-mirror.log || true
