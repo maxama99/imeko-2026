@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-    workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   deploy-production:
@@ -23,12 +23,25 @@ jobs:
       - name: Build Hugo site
         run: hugo --gc --minify
 
-      - name: Deploy to FTP
-        uses: SamKirkland/FTP-Deploy-Action@4.3.3
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./public/
-          server-dir: /web/
-          protocol: ftp
+      - name: Install lftp
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lftp
+
+      - name: Upload via FTP/FTPS
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          lftp -c "
+            set ftp:passive-mode on
+            set net:max-retries 2
+            set net:timeout 20
+            set net:reconnect-interval-base 5
+            set ftp:ssl-allow yes
+            set ftp:ssl-force true
+            set ssl:verify-certificate no
+            open -u $FTP_USER,$FTP_PASSWORD $FTP_SERVER
+            mirror -R --parallel=4 public/ /web/
+          "
