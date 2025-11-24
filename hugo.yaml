@@ -118,7 +118,7 @@ params:
         viewLargerMapUrl: //www.openstreetmap.org/?mlat=50.1026411&mlon=14.3930039#map=13/50.1026/14.3930
       callToAction:
         eventbrite:
-          eventId: 976108886957
+          eventId: 
       socialLinks:
         xUrl: https://x.com/ctu
         facebookUrl: https://www.facebook.com/ctuprague
@@ -155,3 +155,4 @@ params:
         primary: '#0d81be'
         primaryDarker: '#143e8b'
         track: '#15B8CA'
+
