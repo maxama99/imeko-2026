@@ -107,7 +107,7 @@ params:
           eventId: 
       images:
         logos:
-          - logos/meas-logo.png;
+          - logos/meas-logo.png
           - logos/imeko-logo.gif
         logo: logos/meas-logo.png
         titleBackground: images/pexels-caleboquendo-3023317.webp
