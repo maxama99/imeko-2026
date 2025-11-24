@@ -6,7 +6,7 @@ layout: "single"
 
 ## Important Dates
 
-- **Event Date:** January 30-31, 2026
+- **Event Date:** September 16, 2026
 - **Registration Deadline:** TBA
 - **Early Bird Deadline:** TBA
 
@@ -23,7 +23,3 @@ Registration details will be announced soon. Stay tuned for updates!
 ## How to Register
 
 Registration information coming soon.
-
----
-
-For questions about registration, please contact us at [email@example.com](mailto:email@example.com).
