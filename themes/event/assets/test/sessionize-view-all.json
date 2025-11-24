@@ -13,7 +13,7 @@
         "spk-mluvci"
       ],
       "categoryItems": [
-        "track-instrumentation",
+        "track-keynote",
         "type-keynote"
       ]
     },
@@ -33,6 +33,23 @@
         "track-session-a",
         "type-talk"
       ]
+    },
+    {
+      "id": "ses-keynote-2",
+      "title": "Opening Keynote 2nd day",
+      "description": "Welcome and conference overview.",
+      "startsAt": "2026-09-11T09:00:00+02:00",
+      "endsAt": "2026-09-11T09:45:00+02:00",
+      "roomId": "room-aula",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-mluvci"
+      ],
+      "categoryItems": [
+        "track-keynote",
+        "type-keynote"
+      ]
     }
   ],
   "speakers": [
@@ -47,7 +64,8 @@
       "profilePicture": "",
       "links": [],
       "sessions": [
-        "ses-keynote"
+        "ses-keynote",
+        "ses-keynote-2"
       ],
       "questionAnswers": []
     },
@@ -87,11 +105,6 @@
           "id": "track-session-b",
           "name": "Session B",
           "sort": 2
-        },
-        {
-          "id": "track-instrumentation",
-          "name": "instrumentation",
-          "sort": 3
         }
       ]
     },

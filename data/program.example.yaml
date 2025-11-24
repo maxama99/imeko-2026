@@ -22,7 +22,7 @@ sessions:
     description: Welcome and conference overview.
     speakers: [spk-mluvci]
     type: keynote
-    track: instrumentation
+    track: Keynote
     room: Aula
     start: 2026-09-10 09:00
     end: 2026-09-10 09:45
@@ -35,3 +35,13 @@ sessions:
     room: Room B
     start: 2026-09-10 10:00
     end: 2026-09-10 10:30
+
+  - title: Opening Keynote 2nd day
+    id: ses-keynote-2
+    description: Welcome and conference overview.
+    speakers: [spk-mluvci]
+    type: keynote
+    track: Keynote
+    room: Aula
+    start: 2026-09-11 09:00
+    end: 2026-09-11 09:45
