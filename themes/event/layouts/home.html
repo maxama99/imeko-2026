@@ -18,6 +18,7 @@
         "title" .Site.Params.themes.event.title
         "subtitle" .Site.Params.themes.event.slogan
         "description" .Site.Params.themes.event.description
+        "logos" .Site.Params.themes.event.images.logos
         "logo" .Site.Params.themes.event.images.logo
         "numberOfSpeakers" ((where .Site.RegularPages "Section" "speakers") | len)
         "numberOfSessions" (where (where .Site.RegularPages "Section" "sessions") "Params.isServiceSession" false | len)

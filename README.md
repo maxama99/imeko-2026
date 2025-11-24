@@ -31,3 +31,12 @@ You can use this repository as template for your new project.
     hugo server
     ```
 6. View the demo event website on http://localhost:1313/.
+
+## Event content & schedule
+
+- Základní nastavení webu: `hugo.yaml` → sekce `params.themes.event` (název konference, datum, adresa, CTA, barvy, loga, sociální odkazy). `sessionizeId` nech `test` pro lokální data; skutečné ID použij až když je dostupný internet.
+- Lokální program/speakery: uprav YAML `data/program.example.yaml` (speakeři, sessions, tracky) a vygeneruj JSON pro Hugo:
+  ```shell
+  python scripts/generate_sessionize_view_all.py --input data/program.example.yaml --output themes/event/assets/test/sessionize-view-all.json
+  ```
+  Skript vytvoří `view/all` strukturu kompatibilní se Sessionize a Hugo ji načte místo vzdáleného API. Tracky lze předdefinovat v `tracks:` a u každé session stačí doplnit `title`, `speakers`, `type`, `track`, `room`, `start`, `end`.

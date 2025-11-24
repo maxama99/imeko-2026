@@ -1,17 +1,30 @@
 {{ $input := . }}
+{{- $logos := slice }}
+{{- with $input.logos }}
+    {{- $logos = . }}
+{{- end }}
+{{- if and (eq ($logos | len) 0) $input.logo }}
+    {{- $logos = slice $input.logo }}
+{{- end }}
 
 
 <div class="section-container">
     <section class="section section--long event-highlights-section">
         <header class="event-highlights-section__header">
-            {{- with resources.Get $input.logo }}
-                <img
-                    class="event-highlights-section__logo"
-                    src="{{ .RelPermalink }}"
-                    {{ if not (eq .MediaType.SubType "svg") }}
-                        width="{{ .Width }}" height="{{ .Height }}"
-                    {{ end }} />
-            {{ end }}
+            {{- if gt ($logos | len) 0 }}
+                <div class="event-highlights-section__logos">
+                    {{- range $logos }}
+                        {{- with resources.Get . }}
+                            <img
+                                class="event-highlights-section__logo"
+                                src="{{ .RelPermalink }}"
+                                {{ if not (eq .MediaType.SubType "svg") }}
+                                    width="{{ .Width }}" height="{{ .Height }}"
+                                {{ end }} />
+                        {{- end }}
+                    {{- end }}
+                </div>
+            {{- end }}
             <article class="event-highlights-section__description">
                 <h1 class="heading heading--highlighted">
                     {{ $input.title }}
