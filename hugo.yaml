@@ -3,258 +3,161 @@ theme: event
 
 defaultContentLanguage: en
 languages:
-    _merge: deep
-    en:
-        disabled: false
-        menus:
-            main:
-                - identifier: about
-                  name: About
-                  pageRef: /about
-                  weight: 10
-                - identifier: registration
-                  name: Dates & Registration
-                  pageRef: /registration
-                  weight: 20
-                - identifier: sessions
-                  name: Programme
-                  pageRef: /sessions
-                  weight: 30
-                - identifier: sponsors
-                  name: Sponsors
-                  pageRef: /sponsors
-                  weight: 40
-            footer:
-                - identifier: imprint
-                  pageRef: /imprint
-                  weight: 10
-                - identifier: privacy
-                  pageRef: /privacy-policy
-                  weight: 20
-            secondary:
-                - identifier: about
-                  pageRef: /about
-                  weight: 10
-                  params:
-                      description: |
-                          Learn more about our mission, values, and the people behind our organization.
-                          The "About" page provides insights into who we are, what we do,
-                          and why we're passionate about our work.
-                - identifier: speakers
-                  pageRef: /speakers
-                  weight: 30
-                  params:
-                      description: |
-                          Meet our distinguished speakers who will be sharing their expertise.
-                          Learn more about their backgrounds and what they will discuss.
-                - identifier: location
-                  pageRef: /location
-                  weight: 40
-                  params:
-                      description: |
-                          Find out where the event will take place.
-                          This section provides details on the venue, directions, and nearby accommodations.
-                - identifier: code_of_conduct
-                  pageRef: /code-of-conduct
-                  weight: 60
-                  params:
-                      description: |
-                          Read about the code of conduct for our event.
-                          This section outlines the expectations for participant behavior and event policies.
-        params:
-            # Open Graph / X (Twitter) Cards
+  en:
+    disabled: false
+    menus:
+      main:
+        - identifier: about
+          name: About
+          pageRef: /about
+          weight: 10
+        - identifier: registration
+          name: Dates & Registration
+          pageRef: /registration
+          weight: 20
+        - identifier: sessions
+          name: Programme
+          pageRef: /sessions
+          weight: 30
+        - identifier: sponsors
+          name: Sponsors
+          pageRef: /sponsors
+          weight: 40
+      footer:
+        - identifier: imprint
+          pageRef: /imprint
+          weight: 10
+        - identifier: privacy
+          pageRef: /privacy-policy
+          weight: 20
+      secondary:
+        - identifier: about
+          pageRef: /about
+          weight: 
+          params:
             description: |
-                A demo website to showcase the features of the "Event" theme for the
-                static website generator HUGO.
-            themes:
-                event:
-                    slogan: Not a real conference - this is just a demo!
-                    location: Prague, Czechia
-                    description: |
-                        This is a demo website to showcase the features of the __Event__ theme
-                        for the static website generator [Hugo](https://gohugo.io). You can
-                        find the source code of this website on
-                        [GitHub](https://github.com/medialesson/hugo-theme-event-demo). The theme
-                        can fetch data of any event from [Sessionize](https://sessionize.com) and
-                        automatically generates a schedule, a speaker list, and more. It also 
-                        integrates well with [Eventbrite](https://www.eventbrite.com) to sell tickets.
-                    directions: |
-                        #### By Public Transportation
-                        Take the number 25 bus from downtown. [Click here for the bus
-                        schedule](https://www.kvv.de/en/plan-trip/timetables.html).
-
-                        #### By Car:
-                        From Downtown: Take Main Street north for 2 miles and turn right on
-                        Elm Street. [Get
-                        directions](https://www.kvv.de/en/plan-trip/timetables.html).
-                    aboutUs: |
-                        ### Mission
-                        We help companies and organizations to digital transform their business, products and processes through consulting,
-                        strategy, design, software development and training using cutting edge technology.
-
-                        ### Established
-                        - **2002** - Founded
-
-                        ### Our Team
-                        - **25+** Employees
-                        - **5** Nationalities
-
-                        ### Additional Info
-                        - We bring together diverse expertise and innovation.
-
-    de:
-        disabled: true
-        menus:
-            main:
-                - identifier: about
-                  name: Über uns
-                  pageRef: /about
-                  weight: 10
-                - identifier: registration
-                  name: Termine & Anmeldung
-                  pageRef: /registration
-                  weight: 20
-                - identifier: sessions
-                  name: Programm
-                  pageRef: /sessions
-                  weight: 30
-                - identifier: sponsors
-                  name: Sponsoren
-                  pageRef: /sponsors
-                  weight: 40
-            footer:
-                - identifier: imprint
-                  pageRef: /imprint
-                  weight: 10
-                - identifier: privacy
-                  pageRef: /privacy-policy
-                  weight: 20
-            secondary:
-                - identifier: about
-                  pageRef: /about
-                  weight: 10
-                  params:
-                      description: |
-                          Erfahren Sie mehr über unsere Mission, Werte und die Menschen hinter unserer Organisation.
-                          Die Seite „Über uns“ bietet Einblicke, wer wir sind, was wir tun
-                          und warum wir leidenschaftlich an unserer Arbeit interessiert sind.
-                - identifier: speakers
-                  pageRef: /speakers
-                  weight: 30
-                  params:
-                      description: |
-                          Lernen Sie unsere herausragenden Referenten kennen, die ihr Fachwissen mit uns teilen werden.
-                          Erfahren Sie mehr über ihre Hintergründe und was sie besprechen werden.
-                - identifier: location
-                  pageRef: /location
-                  weight: 40
-                  params:
-                      description: |
-                          Finden Sie heraus, wo die Veranstaltung stattfindet.
-                          Dieser Abschnitt bietet Informationen zum Veranstaltungsort,
-                          zu Anfahrtsbeschreibungen und zu nahegelegenen Unterkünften.
-                - identifier: code_of_conduct
-                  pageRef: /code-of-conduct
-                  weight: 60
-                  params:
-                      description: |
-                          Lesen Sie die Verhaltensregeln für unsere Veranstaltung.
-                          Dieser Abschnitt beschreibt die Erwartungen an das Verhalten der Teilnehmer
-                          und die Veranstaltungsrichtlinien.
-        params:
-            # Open Graph / X (Twitter) Cards
+              Learn more about the IMEKO 2026 event, its committees, its mission, and the institutions involved.
+              This page provides background on TC4, TC11, and the organizing partners behind the conference.
+        - identifier: speakers
+          pageRef: /speakers
+          weight: 30
+          params:
             description: |
-                Eine Demo-Website die das Thema "Event" für den statischen
-                Website-Generator HUGO vorstellt.
-            themes:
-                event:
-                    slogan: Keine echte Konferenz - nur eine Demo!
-                    location: Prague, Czechia
-                    description: |
-                        Dies ist eine Demo-Website, um die Funktionen des Thema __Event__
-                        für den statischen Website-Generator [Hugo](https://gohugo.io)
-                        vorzustellen. Der Quellcode dieser Website steht auf
-                        [GitHub](https://github.com/medialesson/hugo-theme-event-demo)
-                        bereit. Das Thema kann Daten einer beliebigen Veranstaltung von
-                        [Sessionize](https://sessionize.com) abrufen und generiert
-                        automatisch einen Zeitplan, eine Rednerliste und mehr. Es lässt sich
-                        zudem gut mit [Eventbrite](https://www.eventbrite.com) integrieren,
-                        um Tickets zu verkaufen.
-                    directions: |
-                        #### Mit den Öffentlichen:
-                        Nehmen Sie den Bus Nummer 25 vom Stadtzentrum. [Hier klicken für den
-                        Busfahrplan](https://www.kvv.de/en/plan-trip/timetables.html).
+              Explore the list of speakers contributing to the technical programme.
+              Learn about their expertise and the topics they will present.
+        - identifier: location
+          pageRef: /location
+          weight: 40
+          params:
+            description: |
+              Information about the venue at the Czech Technical University in Prague,
+              including directions, campus navigation, and nearby amenities.
+        - identifier: code_of_conduct
+          pageRef: /code-of-conduct
+          weight: 60
+          params:
+            description: |
+              Review the event’s code of conduct, outlining expected attendee behavior
+              and policies ensuring a professional, inclusive environment.
 
-                        #### Mit dem Auto:
-                        Fahren Sie vom Stadtzentrum aus 2 Meilen nach Norden auf der Main
-                        Street und biegen Sie dann rechts in die Elm Street ab.
-                        [Wegbeschreibung
-                        abrufen](https://www.kvv.de/en/plan-trip/timetables.html).
+    params:
+      description: IMEKO 27th International TC4 Conference in Prague.
+      themes:
+        event:
+          slogan: Advancing Precision Measurement
+          location: Prague, Czech Technical University
+          description: |
+            The IMEKO 27th International Symposium TC4 Conference 2026 with a Special TC11 Technical Session.
+            This edition brings together researchers, engineers, and metrology experts to discuss advances
+            in electrical measurements, digital metrology, and new developments in testing, inspection,
+            and certification through the dedicated TC11 session.
+          directions: |
+            #### Venue
+            Czech Technical University in Prague  
+            Faculty of Electrical Engineering  
+            Technicka 2, 160 00 Prague 6 (Dejvice campus)
 
-                    aboutUs: |
-                        ### Mission
-                        Wir helfen Unternehmen und Organisationen, ihr Geschäft, ihre Produkte und Prozesse durch Beratung, Strategie, Design, Softwareentwicklung und Schulungen mit modernster Technologie digital zu transformieren.
+            #### Getting there
+            - **Metro A – Dejvicka:** Approx. 5 minutes on foot.
+            - **From the airport:** Bus 119 to Veleslavin, then Metro A to Dejvicka.
+            - **By car:** Paid parking available in campus garages. Residential zones apply in Prague 6.
 
-                        ### Gründung
-                        - **2002** - Gegründet
+          aboutUs: |
+            ### Hosted by the Department of Measurement
+            The Department of Measurement at CTU in Prague focuses on precision instrumentation,
+            embedded sensing, calibration techniques, and advanced metrology for scientific and industrial applications.
 
-                        ### Unser Team
-                        - **25+** Mitarbeiter
-                        - **5** Nationalitäten
+            ### About IMEKO TC4
+            TC4 addresses theoretical and practical aspects of measuring electrical quantities using
+            electronic instruments. Its work spans measurement accuracy, instrumentation design,
+            calibration principles, uncertainty analysis, and digital metrology.
 
-                        ### Zusätzliche Informationen
-                        - Wir vereinen vielfältige Expertise und Innovation.
+            ### About IMEKO TC11
+            TC11 focuses on measurement in testing, inspection, and certification (TIC).
+            Key topics include digital transformation of metrology, blockchain-based traceability,
+            secure data infrastructures, and modern approaches to ensuring integrity and reliability
+            in TIC processes.
+
+            ### What to Expect in 2026
+            - A full technical programme with keynotes, oral sessions, and poster contributions.
+            - A dedicated Special Technical Session organized by TC11.
+            - Opportunities for collaboration between academia, industry, and metrology institutes.
+            - Demonstrations, lab visits, and networking activities at CTU's Dejvice campus.
 
 params:
-    # Open Graph / X (Twitter) Cards
-    images:
-        - logos/medicon-512.jpg
-    themes:
-        event:
-            sessionizeId: 67poir7q
-            title: IMEKO TC4 & TC13 Joint Conference
-            shortTitle:
-            startDate: 2026-09-10
-            endDate: 2026-09-10
-            address:
-                - Czech Technical University in Prague
-                - Technická 2
-                - 160 00 Praha 6
-                - Czechia
-            map:
-                embeddableMapUrl: //www.openstreetmap.org/export/embed.html?bbox=14.3500,50.0650,14.4700,50.0950&layer=mapnik&marker=50.0755,14.4378
-                viewLargerMapUrl: //www.openstreetmap.org/?mlat=50.0755&mlon=14.4378#map=13/50.0755/14.4378
-                # Centered on Prague, Czechia
-            callToAction:
-                eventbrite:
-                    eventId: 976108886957
-            socialLinks:
-                xUrl: https://x.com/medialesson
-                facebookUrl: https://www.facebook.com/medialesson/
-                linkedinUrl: https://de.linkedin.com/company/medialesson-gmbh
-            images:
-                logo: logos/meas-logo.png
-                titleBackground: images/pexels-caleboquendo-3023317.webp
-                location: images/habermehlstr.webp
-            sponsors:
-                - logo: logos/medialesson-logo.svg
-                  url: https://www.media-lesson.com/
-                  name: 'Medialesson GmbH'
-            partners:
-                - logo: logos/medialesson-logo.svg
-                  url: https://www.media-lesson.com/
-                  name: 'Medialesson GmbH'
-            organizers:
-                - '00000000-0000-0000-0000-000000000000'
-                - '00000000-0000-0000-0000-000000000001'
-                - '00000000-0000-0000-0000-000000000004'
-                - '00000000-0000-0000-0000-000000000002'
-            featuredSessions:
-                - '729572'
-                - '729576'
-                - '729579'
-            colors:
-                primaryLighter: '#5CB1E8'
-                primary: '#0d81be'
-                primaryDarker: '#143e8b'
-                track: '#15B8CA'
+  images:
+    - logos/medicon-512.jpg
+  themes:
+    event:
+      sessionizeId: 67poir7q
+      title: IMEKO TC4 Conference 2026 with Special TC11 Technical Session
+      shortTitle: IMEKO TC4 2026
+      startDate: 2026-09-16
+      endDate: 2026-09-18
+      address:
+        - Czech Technical University in Prague
+        - Technicka 2
+        - 160 00 Praha 6
+        - Czechia
+      map:
+        embeddableMapUrl: //www.openstreetmap.org/export/embed.html?bbox=14.3500,50.0650,14.4700,50.0950&layer=mapnik&marker=50.0755,14.4378
+        viewLargerMapUrl: //www.openstreetmap.org/?mlat=50.0755&mlon=14.4378#map=13/50.0755/14.4378
+      callToAction:
+        eventbrite:
+          eventId: 976108886957
+      socialLinks:
+        xUrl: https://x.com/ctu
+        facebookUrl: https://www.facebook.com/ctuprague
+        linkedinUrl: https://www.linkedin.com/school/czech-technical-university-in-prague/
+      images:
+        logos:
+          - logos/meas-logo.png
+          - logos/meas-logo.png
+        logo: logos/meas-logo.png
+        titleBackground: images/pexels-caleboquendo-3023317.webp
+        location: images/habermehlstr.webp
+      sponsors:
+        - logo: logos/meas-logo.png
+          url: https://meas.fel.cvut.cz
+          name: Department of Measurement, CTU in Prague
+        - logo: logos/meas-logo.png
+          url: https://www.imeko.org
+          name: IMEKO
+      partners:
+        - logo: logos/meas-logo.png
+          url: https://meas.fel.cvut.cz
+          name: Department of Measurement, CTU in Prague
+      organizers:
+        - '00000000-0000-0000-0000-000000000000'
+        - '00000000-0000-0000-0000-000000000001'
+        - '00000000-0000-0000-0000-000000000004'
+        - '00000000-0000-0000-0000-000000000002'
+      featuredSessions:
+        - '729572'
+        - '729576'
+        - '729579'
+      colors:
+        primaryLighter: '#5CB1E8'
+        primary: '#0d81be'
+        primaryDarker: '#143e8b'
+        track: '#15B8CA'
