@@ -79,8 +79,8 @@ languages:
 
             #### Getting there
             - **Metro A – Dejvicka:** Approx. 5 minutes on foot.
-            - **From the airport:** Bus 119 to Veleslavin, then Metro A to Dejvicka.
-            - **By car:** Paid parking available in campus garages. Residential zones apply in Prague 6.
+            - **From the airport:** trolleybus 56 to Veleslavin, then Metro A to Dejvicka.
+            - **By car:** Paid parking available in campus garages.
 
           aboutUs: |
             ### Hosted by the Department of Measurement
@@ -98,12 +98,6 @@ languages:
             secure data infrastructures, and modern approaches to ensuring integrity and reliability
             in TIC processes.
 
-            ### What to Expect in 2026
-            - A full technical programme with keynotes, oral sessions, and poster contributions.
-            - A dedicated Special Technical Session organized by TC11.
-            - Opportunities for collaboration between academia, industry, and metrology institutes.
-            - Demonstrations, lab visits, and networking activities at CTU's Dejvice campus.
-
 params:
   images:
     - logos/medicon-512.jpg
@@ -120,8 +114,8 @@ params:
         - 160 00 Praha 6
         - Czechia
       map:
-        embeddableMapUrl: //www.openstreetmap.org/export/embed.html?bbox=14.3500,50.0650,14.4700,50.0950&layer=mapnik&marker=50.0755,14.4378
-        viewLargerMapUrl: //www.openstreetmap.org/?mlat=50.0755&mlon=14.4378#map=13/50.0755/14.4378
+        embeddableMapUrl: //www.openstreetmap.org/export/embed.html?bbox=14.3630039,50.1026411,14.4230039,50.1026411&layer=mapnik&marker=50.1026411,14.3930039
+        viewLargerMapUrl: //www.openstreetmap.org/?mlat=50.1026411&mlon=14.3930039#map=13/50.1026/14.3930
       callToAction:
         eventbrite:
           eventId: 976108886957
