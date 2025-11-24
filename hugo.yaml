@@ -108,7 +108,7 @@ params:
       images:
         logos:
           - logos/meas-logo.png;
-          - logos/meas-logo.png
+          - logos/imeko-logo.gif
         logo: logos/meas-logo.png
         titleBackground: images/pexels-caleboquendo-3023317.webp
         location: images/habermehlstr.webp
@@ -116,7 +116,7 @@ params:
         - logo: logos/meas-logo.png
           url: https://meas.fel.cvut.cz
           name: Department of Measurement, CTU in Prague
-        - logo: logos/meas-logo.png
+        - logo: logos/imeko-logo.gif
           url: https://www.imeko.org
           name: IMEKO
       partners:
