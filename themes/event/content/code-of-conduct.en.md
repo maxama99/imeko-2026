@@ -1,3 +1,8 @@
+---
+title: "Code of Conduct"
+draft: true
+---
+
 # Code of Conduct
 
 ## Purpose

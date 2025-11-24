@@ -23,13 +23,6 @@ languages:
           name: Sponsors
           pageRef: /sponsors
           weight: 40
-      footer:
-        - identifier: imprint
-          pageRef: /imprint
-          weight: 10
-        - identifier: privacy
-          pageRef: /privacy-policy
-          weight: 20
       secondary:
         - identifier: about
           pageRef: /about
@@ -52,13 +45,6 @@ languages:
             description: |
               Information about the venue at the Czech Technical University in Prague,
               including directions, campus navigation, and nearby amenities.
-        - identifier: code_of_conduct
-          pageRef: /code-of-conduct
-          weight: 60
-          params:
-            description: |
-              Review the event’s code of conduct, outlining expected attendee behavior
-              and policies ensuring a professional, inclusive environment.
 
     params:
       description: IMEKO 27th International TC4 Conference in Prague.
@@ -119,13 +105,9 @@ params:
       callToAction:
         eventbrite:
           eventId: 
-      socialLinks:
-        xUrl: https://x.com/ctu
-        facebookUrl: https://www.facebook.com/ctuprague
-        linkedinUrl: https://www.linkedin.com/school/czech-technical-university-in-prague/
       images:
         logos:
-          - logos/meas-logo.png
+          - logos/meas-logo.png;
           - logos/meas-logo.png
         logo: logos/meas-logo.png
         titleBackground: images/pexels-caleboquendo-3023317.webp
