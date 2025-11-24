@@ -109,7 +109,7 @@ params:
     - logos/medicon-512.jpg
   themes:
     event:
-      sessionizeId: 67poir7q
+      sessionizeId: test
       title: IMEKO TC4 Conference 2026 with Special TC11 Technical Session
       shortTitle: IMEKO TC4 2026
       startDate: 2026-09-16
