@@ -15,6 +15,10 @@ languages:
           name: Dates & Registration
           pageRef: /registration
           weight: 20
+        - identifier: location
+          name: Location
+          pageRef: /location
+          weight: 25
         - identifier: sessions
           name: Programme
           pageRef: /sessions
