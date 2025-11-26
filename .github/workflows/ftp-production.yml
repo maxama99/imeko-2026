@@ -8,7 +8,7 @@ on:
 
 jobs:
   deploy-production:
-    uns-on: self-hosted
+    runs-on: self-hosted
     environment: PROD
 
     steps:
