@@ -10,13 +10,15 @@ jobs:
   deploy-production:
     runs-on: self-hosted
     environment: PROD
+    env:
+      HUGO_BASEURL: https://imeko2026.fel.cvut.cz/
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Build Hugo site
-        run: hugo --gc --minify
+        run: hugo --gc --minify --baseURL "$HUGO_BASEURL"
 
       - name: Upload via FTP/FTPS
         env:
