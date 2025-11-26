@@ -15,19 +15,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install Hugo
-        run: |
-          wget -O hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.128.0/hugo_extended_0.128.0_linux-arm64.deb
-          dpkg -i hugo.deb || true
-          apt-get -f install -y
-
       - name: Build Hugo site
         run: hugo --gc --minify
-
-      - name: Install lftp
-        run: |
-          apt-get update
-          DEBIAN_FRONTEND=noninteractive apt-get install -y lftp
 
       - name: Upload via FTP/FTPS
         env:
@@ -45,5 +34,5 @@ jobs:
             set ssl:verify-certificate no
             open -u $FTP_USER,$FTP_PASSWORD $FTP_SERVER
             cd /web/
-            mirror -R --parallel=2 --verbose public/ ./
+            mirror -R --parallel=2 --verbose public/ ./ 
           "
