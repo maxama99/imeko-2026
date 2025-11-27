@@ -49,7 +49,7 @@ languages:
             description: |
               Information about the venue at the Czech Technical University in Prague,
               including directions, campus navigation, and nearby amenities.
-
+        
     params:
       description: IMEKO 27th International TC4 Conference in Prague.
       themes:
@@ -115,7 +115,7 @@ params:
           - logos/imeko-logo.gif
         logo: logos/meas-logo.png
         titleBackground: images/pexels-caleboquendo-3023317.webp
-        location: images/habermehlstr.webp
+        location: images/fel.png
       sponsors:
         - logo: logos/meas-logo.png
           url: https://meas.fel.cvut.cz
