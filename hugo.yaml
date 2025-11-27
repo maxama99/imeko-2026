@@ -11,6 +11,10 @@ languages:
           name: About
           pageRef: /about
           weight: 10
+        - identifier: committees
+          name: Committees
+          pageRef: /committees
+          weight: 15
         - identifier: registration
           name: Dates & Registration
           pageRef: /registration
