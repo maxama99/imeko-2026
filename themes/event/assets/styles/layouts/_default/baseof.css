@@ -133,7 +133,8 @@
 }
 
 .page-header__content {
-    overflow-x: hidden;
+    /* Allow dropdown menus to render beyond the header bounds. */
+    overflow: visible;
 }
 
 .page-header__navigation {

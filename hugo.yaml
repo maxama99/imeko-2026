@@ -7,30 +7,43 @@ languages:
     disabled: false
     menus:
       main:
-        - identifier: about
-          name: About
+        - identifier: conference
+          name: Conference
           pageRef: /about
           weight: 10
+        - identifier: about
+          name: About IMEKO 2026
+          pageRef: /about
+          parent: conference
+          weight: 12
         - identifier: committees
           name: Committees
           pageRef: /committees
+          parent: conference
           weight: 15
+        - identifier: sponsors
+          name: Sponsors
+          pageRef: /sponsors
+          parent: conference
+          weight: 18
+        - identifier: attend
+          name: Attend
+          pageRef: /registration
+          weight: 20
         - identifier: registration
           name: Dates & Registration
           pageRef: /registration
+          parent: attend
           weight: 20
         - identifier: location
           name: Location
           pageRef: /location
+          parent: attend
           weight: 25
-        - identifier: sessions
+        - identifier: programme
           name: Programme
           pageRef: /sessions
           weight: 30
-        - identifier: sponsors
-          name: Sponsors
-          pageRef: /sponsors
-          weight: 40
       secondary:
         - identifier: about
           pageRef: /about
