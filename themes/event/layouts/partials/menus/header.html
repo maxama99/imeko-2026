@@ -2,7 +2,7 @@
 
 
 <ul class="header-menu">
-    <li>
+    <li class="header-menu__item">
         <a
             {{- if $input.context.IsHome }}
                 class="header-menu__link header-menu__link--active"
@@ -16,16 +16,36 @@
 
     {{- $currentNode := $input.context }}
     {{- range $input.menu }}
-        <li>
+        {{- $isActive := or ($currentNode.IsMenuCurrent .Menu .) ($currentNode.HasMenuCurrent .Menu .) }}
+        <li class="header-menu__item {{ if .HasChildren }}header-menu__item--has-children{{ end }}">
             <a
                 href="{{ .URL }}"
-                {{- if or ($currentNode.IsMenuCurrent .Menu .) ($currentNode.HasMenuCurrent .Menu .) }}
+                {{- if $isActive }}
                     class="header-menu__link header-menu__link--active" aria-current="page"
                 {{- else }}
                     class="header-menu__link"
-                {{- end }}>
+                {{- end }}
+                {{- if .HasChildren }} aria-haspopup="true" {{- end }}>
                 {{- or (T (printf "menu.%s" .Identifier)) .Name | safeHTML }}
             </a>
+
+            {{- if .HasChildren }}
+                <ul class="header-submenu" aria-label="{{ or (T (printf "menu.%s" .Identifier)) .Name | safeHTML }}">
+                    {{- range .Children }}
+                        <li class="header-submenu__item">
+                            <a
+                                href="{{ .URL }}"
+                                {{- if or ($currentNode.IsMenuCurrent .Menu .) ($currentNode.HasMenuCurrent .Menu .) }}
+                                    class="header-submenu__link header-submenu__link--active" aria-current="page"
+                                {{- else }}
+                                    class="header-submenu__link"
+                                {{- end }}>
+                                {{- or (T (printf "menu.%s" .Identifier)) .Name | safeHTML }}
+                            </a>
+                        </li>
+                    {{- end }}
+                </ul>
+            {{- end }}
         </li>
     {{- end }}
 </ul>
