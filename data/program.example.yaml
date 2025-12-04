@@ -1,13 +1,14 @@
 timezone: Europe/Prague
 
 tracks:
+  - Ceremony
   - Keynote
   - Session A
   - Session B
 
 speakers:
-  - name: Jan Mluvci
-    id: spk-mluvci
+  - name: Jakub Svatos
+    id: spk-svatos
     tagline: Department of Measurement, CTU in Prague
     bio: Focus on precision instrumentation and metrology.
     
@@ -17,31 +18,22 @@ speakers:
     bio: Works on sensors and data quality for healthcare.
 
 sessions:
-  - title: Opening Keynote
-    id: ses-keynote
+  - title: Welcome Ceremony
+    id: ses-ceremony
     description: Welcome and conference overview.
-    speakers: [spk-mluvci]
-    type: keynote
-    track: Keynote
-    room: Aula
-    start: 2026-09-10 09:00
-    end: 2026-09-10 09:45
+    speakers: [spk-svatos]
+    type: welcome
+    track: Ceremony
+    room: CIIRC
+    start: 2026-09-16 17:00
+    end: 2026-09-16 22:00
 
-  - title: Smart Sensors for Healthcare
-    description: Latest trends in biomedical sensing and validation.
-    speakers: [spk-mluvka]
-    type: talk
-    track: Session A
-    room: Room B
-    start: 2026-09-10 10:00
-    end: 2026-09-10 10:30
-
-  - title: Opening Keynote 2nd day
-    id: ses-keynote-2
+  - title: Opening Ceremony
+    id: ses-opening
     description: Welcome and conference overview.
-    speakers: [spk-mluvci]
-    type: keynote
-    track: Keynote
-    room: Aula
-    start: 2026-09-11 09:00
-    end: 2026-09-11 09:45
+    speakers: [spk-svatos]
+    type: welcome
+    track: Ceremony
+    room: CIIRC
+    start: 2026-09-17 09:00
+    end: 2026-09-17 10:00
