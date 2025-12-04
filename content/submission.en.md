@@ -12,7 +12,7 @@ We invite you to submit original research papers for presentation at the **IMEKO
 
 The IMEKO TC4 2026 Symposium welcomes two categories of contributions. Authors are invited to choose the format that best suits the maturity and scope of their work.
 
-**Extended Abstract (1 page, not included in Proceedings)**
+#### Extended Abstract (1 page, not included in Proceedings)
 
 This category is intended for researchers who wish to present ongoing work, preliminary results, or ideas that are not yet ready for full-paper publication or will be published later.
 
@@ -26,7 +26,7 @@ Accepted abstracts will be presented as oral or poster contributions during the 
 
 This format offers authors an opportunity to share ideas, gain feedback, and engage with the community without committing to a full manuscript.
 
-**Full Paper (4–6 pages, included in Proceedings)**
+#### Full Paper (4–6 pages, included in Proceedings)
 
 Full papers should present original research, significant technical developments, or innovative applications relevant to the TC4 or TC11 community.
 
@@ -40,12 +40,10 @@ Selected high-quality papers will be invited for extended publication in a Speci
 
 This category is suitable for mature research results intended for archival publication and further dissemination within the IMEKO community.
 
-
-
 ### Submission Requirements
 
 - **Language:** English
-- **Format:** Original research papers (full length or short papers)
+- **Format:** Original research papers (Extended Abstracts or Full Papers)
 - **Peer Review:** All submissions will undergo peer review by the Technical Program Committee
 - **Publication:** Accepted papers will be published in the conference proceedings
 
@@ -65,7 +63,6 @@ Submission details and platform information will be announced soon. Please check
 Selected contributions may be invited for extended publication in:
 - ACTA IMEKO
 - Measurement
-- Other recognized journals
 
 For questions or more information, please contact the Technical Program Committee.
 

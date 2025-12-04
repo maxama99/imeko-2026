@@ -18,7 +18,10 @@
 }
 
 .markdown h2,
-.markdown h3,
-.markdown h4 {
+.markdown h3 {
     margin-top: 2.875rem;
+}
+
+.markdown h4 {
+    margin-top: 2.5rem;
 }
