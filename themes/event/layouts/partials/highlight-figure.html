@@ -2,16 +2,18 @@
 
 
 <figure class="highlight-figure" aria-label="Highlight">
-    {{- with resources.Get $input.icon }}
+    {{- $iconResource := resources.Get $input.icon }}
+    {{- $iconPath := cond (ne $iconResource nil) $iconResource.RelPermalink ($input.icon | relURL) }}
+    {{- if $iconPath }}
         <div class="highlight-figure__image-wrapper">
             <!--    alt="" tells screen readers to skip the image, as it's purely decorative -->
             <img
                 class="highlight-figure__image"
                 aria-hidden="true"
-                src="{{ .RelPermalink }}"
+                src="{{ $iconPath }}"
                 alt=""
-                {{ if not (eq .MediaType.SubType "svg") }}
-                    width="{{ .Width }}" height="{{ .Height }}"
+                {{ if and $iconResource (not (eq $iconResource.MediaType.SubType "svg")) }}
+                    width="{{ $iconResource.Width }}" height="{{ $iconResource.Height }}"
                 {{ end }} />
         </div>
     {{ end }}
