@@ -35,6 +35,11 @@ languages:
           pageRef: /registration
           parent: attend
           weight: 20
+        - identifier: submission
+          name: Submission
+          pageRef: /submission
+          parent: attend
+          weight: 22
         - identifier: location
           name: Location
           pageRef: /location
