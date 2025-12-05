@@ -40,8 +40,8 @@ languages:
           pageRef: /submission
           parent: attend
           weight: 22
-        - identifier: location
-          name: Location
+        - identifier: venue
+          name: Venue
           pageRef: /location
           parent: attend
           weight: 25
@@ -106,8 +106,8 @@ languages:
 
             #### Getting there
             - **Metro A – Dejvicka:** Approx. 5 minutes on foot.
-            - **From the airport:** trolleybus 56 to Veleslavin, then Metro A to Dejvicka.
-            - **By car:** Paid parking available in campus garages.
+            - **From the airport:** Trolleybus 59 to Veleslavin, then Metro A to Dejvicka.
+            - **By car:** Paid parking available near campus.
 
           aboutUs: |
             ### Hosted by the Department of Measurement

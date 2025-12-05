@@ -10,7 +10,7 @@ We invite you to submit original research papers for presentation at the **IMEKO
 
 ### Submission type
 
-The IMEKO TC4 2026 Symposium welcomes two categories of contributions. Authors are invited to choose the format that best suits the maturity and scope of their work.
+The IMEKO TC4 2026 Conference welcomes two categories of contributions. Authors are invited to choose the format that best suits the maturity and scope of their work.
 
 #### Extended Abstract (1 page, not included in Proceedings)
 
@@ -18,11 +18,11 @@ This category is intended for researchers who wish to present ongoing work, prel
 
 The length of the paper is exactly one page.
 
-Extended abstracts will **not be included** in the official Symposium Proceedings.
+Extended abstracts will **not be included** in the official Conference Proceedings.
 
 Extended abstracts **cannot be considered for invitation** to journal Special Issue.
 
-Accepted abstracts will be presented as oral or poster contributions during the Symposium, depending on the decision of the Technical Program Committee.
+Accepted abstracts will be presented as oral or poster contributions during the Conference, depending on the decision of the Technical Program Committee.
 
 This format offers authors an opportunity to share ideas, gain feedback, and engage with the community without committing to a full manuscript.
 

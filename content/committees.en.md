@@ -4,7 +4,7 @@ type: "miscellaneous"
 layout: "single"
 ---
 
-#### General Symposium Chair
+#### General Conference Chair
 
 - **Assoc. Prof. Jakub Svatoš, Ph.D**, CTU in Prague, Czechia
 
