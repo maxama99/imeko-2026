@@ -16,9 +16,10 @@ Registration details will be announced soon. Stay tuned for updates!
 
 ### Registration Fees
 
-- **Early Bird:** TBA
-- **Regular:** TBA
-- **Student:** TBA
+- **Early Bird:** 650 Euro
+- **Regular:** 700 Euro
+- **Student:** 450 Euro
+- **Accompanying person** 150 Euro 
 
 ## How to Register
 
