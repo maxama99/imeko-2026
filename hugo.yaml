@@ -35,8 +35,13 @@ languages:
           pageRef: /registration
           parent: attend
           weight: 20
-        - identifier: location
-          name: Location
+        - identifier: submission
+          name: Submission
+          pageRef: /submission
+          parent: attend
+          weight: 22
+        - identifier: venue
+          name: Venue
           pageRef: /location
           parent: attend
           weight: 25
@@ -71,13 +76,29 @@ languages:
       description: IMEKO 27th International TC4 Conference in Prague.
       themes:
         event:
-          slogan: Advancing Precision Measurement
-          location: Prague, Czech Technical University
+          slogan: Measuring the Future
+          location: CTU in Prague
           description: |
-            The IMEKO 27th International Symposium TC4 Conference 2026 with a Special TC11 Technical Session.
-            This edition brings together researchers, engineers, and metrology experts to discuss advances
-            in electrical measurements, digital metrology, and new developments in testing, inspection,
-            and certification through the dedicated TC11 session.
+            On behalf of the Organizing Committee, it is our great pleasure to invite you to the **IMEKO TC4 Conference 2026 with Special TC11 Technical Session**, held under the auspices of the International Measurement Confederation (IMEKO). The conference will bring together researchers, metrologists, and industry professionals to discuss the latest advances in electrical, electronic, and magnetic measurement techniques, instrumentation, standards, as well as testing, inspection, and certification.
+
+            Building on the long tradition of TC4 events, the 2026 conference will feature a technical program covering a wide range of topics, including:
+
+            - **Measurement and instrumentation for electrical and magnetic quantities**
+            - **ADC and DAC modelling, characterization, and testing**
+            - **Calibration, traceability, and metrological standards**
+            - **Advanced sensors, signal processing, and measurement systems**
+            - **Applications in energy systems, e-mobility, industry automation, and emerging technologies**
+
+            We are also pleased to announce a Special Technical Session organized by IMEKO TC11 with the topic:
+            - **Testing, Inspection and Certification in Electrical Sector**
+
+            Authors are invited to submit original research papers in English. All submissions will undergo peer review by the Technical Program Committee. Accepted papers will be presented during the Symposium and published in the conference proceedings. Selected contributions may be invited for extended publication in ACTA IMEKO, Measurement, or other recognized journals.
+
+            The IMEKO TC4 2026 Symposium aims to provide a vibrant forum for scientific exchange, networking, and collaboration across academia, industry, and metrology institutions. We look forward to welcoming you in 2026 and sharing an inspiring and fruitful conference experience.
+
+            Sincerely,
+            **The Organizing Committee**
+
           directions: |
             #### Venue
             Czech Technical University in Prague  
@@ -86,8 +107,8 @@ languages:
 
             #### Getting there
             - **Metro A – Dejvicka:** Approx. 5 minutes on foot.
-            - **From the airport:** trolleybus 56 to Veleslavin, then Metro A to Dejvicka.
-            - **By car:** Paid parking available in campus garages.
+            - **From the airport:** Trolleybus 59 to Veleslavin, then Metro A to Dejvicka.
+            - **By car:** Paid parking available near campus.
 
           aboutUs: |
             ### Hosted by the Department of Measurement

@@ -1,71 +1,54 @@
 {
   "sessions": [
     {
-      "id": "ses-keynote",
-      "title": "Opening Keynote",
+      "id": "ses-ceremony",
+      "title": "Welcome Ceremony",
       "description": "Welcome and conference overview.",
-      "startsAt": "2026-09-10T09:00:00+02:00",
-      "endsAt": "2026-09-10T09:45:00+02:00",
-      "roomId": "room-aula",
+      "startsAt": "2026-09-16T17:00:00+02:00",
+      "endsAt": "2026-09-16T22:00:00+02:00",
+      "roomId": "room-ciirc",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "spk-mluvci"
+        "spk-svatos"
       ],
       "categoryItems": [
         "track-keynote",
-        "type-keynote"
+        "type-welcome"
       ]
     },
     {
-      "id": "ses-smart-sensors-for-healthcare",
-      "title": "Smart Sensors for Healthcare",
-      "description": "Latest trends in biomedical sensing and validation.",
-      "startsAt": "2026-09-10T10:00:00+02:00",
-      "endsAt": "2026-09-10T10:30:00+02:00",
-      "roomId": "room-room-b",
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "spk-mluvka"
-      ],
-      "categoryItems": [
-        "track-session-a",
-        "type-talk"
-      ]
-    },
-    {
-      "id": "ses-keynote-2",
-      "title": "Opening Keynote 2nd day",
+      "id": "ses-opening",
+      "title": "Opening Ceremony",
       "description": "Welcome and conference overview.",
-      "startsAt": "2026-09-11T09:00:00+02:00",
-      "endsAt": "2026-09-11T09:45:00+02:00",
-      "roomId": "room-aula",
+      "startsAt": "2026-09-17T09:00:00+02:00",
+      "endsAt": "2026-09-17T10:00:00+02:00",
+      "roomId": "room-ciirc",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "spk-mluvci"
+        "spk-svatos"
       ],
       "categoryItems": [
-        "track-keynote",
-        "type-keynote"
+        "track-ceremony",
+        "type-welcome"
       ]
     }
   ],
   "speakers": [
     {
-      "id": "spk-mluvci",
-      "firstName": "Jan",
-      "lastName": "Mluvci",
-      "fullName": "Jan Mluvci",
+      "id": "spk-svatos",
+      "firstName": "Jakub",
+      "lastName": "Svatos",
+      "fullName": "Jakub Svatos",
       "tagLine": "Department of Measurement, CTU in Prague",
       "bio": "Focus on precision instrumentation and metrology.",
       "isTopSpeaker": false,
       "profilePicture": "",
       "links": [],
       "sessions": [
-        "ses-keynote",
-        "ses-keynote-2"
+        "ses-ceremony",
+        "ses-opening"
       ],
       "questionAnswers": []
     },
@@ -79,9 +62,7 @@
       "isTopSpeaker": false,
       "profilePicture": "",
       "links": [],
-      "sessions": [
-        "ses-smart-sensors-for-healthcare"
-      ],
+      "sessions": [],
       "questionAnswers": []
     }
   ],
@@ -92,19 +73,24 @@
       "title": "Track",
       "items": [
         {
+          "id": "track-ceremony",
+          "name": "Ceremony",
+          "sort": 0
+        },
+        {
           "id": "track-keynote",
           "name": "Keynote",
-          "sort": 0
+          "sort": 1
         },
         {
           "id": "track-session-a",
           "name": "Session A",
-          "sort": 1
+          "sort": 2
         },
         {
           "id": "track-session-b",
           "name": "Session B",
-          "sort": 2
+          "sort": 3
         }
       ]
     },
@@ -113,26 +99,17 @@
       "title": "Session Type",
       "items": [
         {
-          "id": "type-keynote",
-          "name": "keynote",
+          "id": "type-welcome",
+          "name": "welcome",
           "sort": 0
-        },
-        {
-          "id": "type-talk",
-          "name": "talk",
-          "sort": 1
         }
       ]
     }
   ],
   "rooms": [
     {
-      "id": "room-aula",
-      "name": "Aula"
-    },
-    {
-      "id": "room-room-b",
-      "name": "Room B"
+      "id": "room-ciirc",
+      "name": "CIIRC"
     }
   ]
 }
