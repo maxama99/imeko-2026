@@ -6,7 +6,7 @@ layout: "single"
 
 ## Important Dates
 
-- **Event Date:** September 16, 2026
+- **Event Date:** September 16 - 18, 2026
 - **Registration Deadline:** TBA
 - **Early Bird Deadline:** TBA
 
