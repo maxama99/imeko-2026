@@ -40,8 +40,8 @@ languages:
           pageRef: /submission
           parent: attend
           weight: 22
-        - identifier: location
-          name: Location
+        - identifier: venue
+          name: Venue
           pageRef: /location
           parent: attend
           weight: 25
@@ -83,13 +83,14 @@ languages:
 
             Building on the long tradition of TC4 events, the 2026 conference will feature a technical program covering a wide range of topics, including:
 
-            - Measurement and instrumentation for electrical and magnetic quantities
-            - ADC and DAC modelling, characterization, and testing
-            - Calibration, traceability, and metrological standards
-            - Advanced sensors, signal processing, and measurement systems
-            - Applications in energy systems, e-mobility, industry automation, and emerging technologies
+            - **Measurement and instrumentation for electrical and magnetic quantities**
+            - **ADC and DAC modelling, characterization, and testing**
+            - **Calibration, traceability, and metrological standards**
+            - **Advanced sensors, signal processing, and measurement systems**
+            - **Applications in energy systems, e-mobility, industry automation, and emerging technologies**
 
-            We are also pleased to announce a Special Technical Session organized by IMEKO TC11 - Measurement in Testing, Inspection and Certification.
+            We are also pleased to announce a Special Technical Session organized by IMEKO TC11 with the topic:
+            - **Testing, Inspection and Certification in Electrical Sector**
 
             Authors are invited to submit original research papers in English. All submissions will undergo peer review by the Technical Program Committee. Accepted papers will be presented during the Symposium and published in the conference proceedings. Selected contributions may be invited for extended publication in ACTA IMEKO, Measurement, or other recognized journals.
 
@@ -106,8 +107,8 @@ languages:
 
             #### Getting there
             - **Metro A – Dejvicka:** Approx. 5 minutes on foot.
-            - **From the airport:** trolleybus 56 to Veleslavin, then Metro A to Dejvicka.
-            - **By car:** Paid parking available in campus garages.
+            - **From the airport:** Trolleybus 59 to Veleslavin, then Metro A to Dejvicka.
+            - **By car:** Paid parking available near campus.
 
           aboutUs: |
             ### Hosted by the Department of Measurement
