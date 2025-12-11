@@ -30,7 +30,7 @@ This format offers authors an opportunity to share ideas, gain feedback, and eng
 
 Full papers should present original research, significant technical developments, or innovative applications relevant to the TC4 or TC11 community.
 
-Manuscripts must be 4–6 pages in length and follow the provided formatting guidelines.
+Manuscripts **must be 4–6 pages** in length and follow the provided formatting guidelines.
 
 Full papers will undergo peer review by the Technical Program Committee.
 

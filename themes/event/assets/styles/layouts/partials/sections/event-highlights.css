@@ -8,7 +8,7 @@
 
 .event-highlights-section__header {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
     gap: 5.625rem;
@@ -16,7 +16,7 @@
 
 .event-highlights-section__logos {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 1.5rem;
     flex-wrap: wrap;
