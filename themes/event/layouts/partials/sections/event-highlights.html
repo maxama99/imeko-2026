@@ -11,6 +11,16 @@
 <div class="section-container">
     <section class="section section--long event-highlights-section">
         <header class="event-highlights-section__header">
+            <article class="event-highlights-section__description">
+                <h1 class="heading heading--highlighted">
+                    {{ $input.title }}
+                </h1>
+                <h2 class="heading heading--2">
+                    {{ $input.subtitle }}
+                </h2>
+
+                <p class="paragraph event-highlights-section__paragraph">{{ $input.description | markdownify }}</p>
+            </article>
             {{- if gt ($logos | len) 0 }}
                 <div class="event-highlights-section__logos">
                     {{- range $logos }}
@@ -25,16 +35,6 @@
                     {{- end }}
                 </div>
             {{- end }}
-            <article class="event-highlights-section__description">
-                <h1 class="heading heading--highlighted">
-                    {{ $input.title }}
-                </h1>
-                <h2 class="heading heading--2">
-                    {{ $input.subtitle }}
-                </h2>
-
-                <p class="paragraph event-highlights-section__paragraph">{{ $input.description | markdownify }}</p>
-            </article>
         </header>
 
         <article class="event-highlights-section__figures">
