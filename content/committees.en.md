@@ -6,7 +6,7 @@ layout: "single"
 
 #### General Conference Chair
 
-- **Assoc. Prof. Jakub Svatoš, Ph.D**, CTU in Prague, Czechia
+- **Assoc. Prof. Jakub Svatos, Ph.D**, CTU in Prague, Czechia
 
 #### Scientific Chairs
 
@@ -28,7 +28,7 @@ layout: "single"
 
 #### IMEKO TC4 Chair
 
-- **Assoc. Prof. Jakub Svatoš, Ph.D**, CTU in Prague, Czechia
+- **Assoc. Prof. Jakub Svatos, Ph.D**, CTU in Prague, Czechia
 
 #### International Program Committee
 
