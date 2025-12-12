@@ -159,13 +159,13 @@ params:
         - logo: logos/meas-logo.png
           url: https://meas.fel.cvut.cz
           name: Department of Measurement, CTU in Prague
-        - logo: logos/imeko-logo.gif
-          url: https://www.imeko.org
-          name: IMEKO
       partners:
         - logo: logos/meas-logo.png
           url: https://meas.fel.cvut.cz
           name: Department of Measurement, CTU in Prague
+        - logo: logos/imeko-logo.gif
+          url: https://www.imeko.org
+          name: IMEKO
       organizers:
         - '00000000-0000-0000-0000-000000000000'
         - '00000000-0000-0000-0000-000000000001'
