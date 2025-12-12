@@ -79,7 +79,7 @@ languages:
           slogan: Measuring the Future
           location: CTU in Prague
           description: |
-            On behalf of the Organizing Committee, it is our great pleasure to invite you to the **IMEKO TC4 Conference 2026 with Special TC11 Technical Session**, held under the auspices of the International Measurement Confederation (IMEKO). The conference will bring together researchers, metrologists, and industry professionals to discuss the latest advances in electrical, electronic, and magnetic measurement techniques, instrumentation, standards, as well as testing, inspection, and certification.
+            On behalf of the Organizing Committee, it is our great pleasure to invite you to the **27th IMEKO TC4 Conference 2026 with Special TC11 Technical Session**, held under the auspices of the International Measurement Confederation (IMEKO). The conference will bring together researchers, metrologists, and industry professionals to discuss the latest advances in electrical, electronic, and magnetic measurement techniques, instrumentation, standards, as well as testing, inspection, and certification.
 
             Building on the long tradition of TC4 events, the 2026 conference will feature a technical program covering a wide range of topics, including:
 
@@ -133,7 +133,7 @@ params:
   themes:
     event:
       sessionizeId: test
-      title: IMEKO TC4 Conference 2026 with Special TC11 Technical Session
+      title: 27th IMEKO TC4 Conference 2026 with Special TC11 Technical Session
       shortTitle: IMEKO TC4 2026
       startDate: 2026-09-16
       endDate: 2026-09-18
