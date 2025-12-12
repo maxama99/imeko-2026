@@ -153,7 +153,7 @@ params:
           - logos/meas-logo.png
           - logos/imeko-logo.gif
         logo: logos/meas-logo.png
-        titleBackground: images/pexels-caleboquendo-3023317.webp
+        titleBackground: images/prague-main.jpg
         location: images/fel.png
       sponsors:
         - logo: logos/meas-logo.png
