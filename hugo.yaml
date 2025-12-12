@@ -22,7 +22,7 @@ languages:
           parent: conference
           weight: 15
         - identifier: sponsors
-          name: Sponsors
+          name: Sponsors & Partners
           pageRef: /sponsors
           parent: conference
           weight: 18
