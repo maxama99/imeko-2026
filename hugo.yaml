@@ -22,7 +22,7 @@ languages:
           parent: conference
           weight: 15
         - identifier: sponsors
-          name: Sponsors
+          name: Sponsors & Partners
           pageRef: /sponsors
           parent: conference
           weight: 18
@@ -79,7 +79,7 @@ languages:
           slogan: Measuring the Future
           location: CTU in Prague
           description: |
-            On behalf of the Organizing Committee, it is our great pleasure to invite you to the **IMEKO TC4 Conference 2026 with Special TC11 Technical Session**, held under the auspices of the International Measurement Confederation (IMEKO). The conference will bring together researchers, metrologists, and industry professionals to discuss the latest advances in electrical, electronic, and magnetic measurement techniques, instrumentation, standards, as well as testing, inspection, and certification.
+            On behalf of the Organizing Committee, it is our great pleasure to invite you to the **27th IMEKO TC4 Conference 2026 with Special TC11 Technical Session**, held under the auspices of the International Measurement Confederation (IMEKO). The conference will bring together researchers, metrologists, and industry professionals to discuss the latest advances in electrical, electronic, and magnetic measurement techniques, instrumentation, standards, as well as testing, inspection, and certification.
 
             Building on the long tradition of TC4 events, the 2026 conference will feature a technical program covering a wide range of topics, including:
 
@@ -92,9 +92,10 @@ languages:
             We are also pleased to announce a Special Technical Session organized by IMEKO TC11 with the topic:
             - **Testing, Inspection and Certification in Electrical Sector**
 
-            Authors are invited to submit original research papers in English. All submissions will undergo peer review by the Technical Program Committee. Accepted papers will be presented during the Symposium and published in the conference proceedings. Selected contributions may be invited for extended publication in ACTA IMEKO, Measurement, or other recognized journals.
 
-            The IMEKO TC4 2026 Symposium aims to provide a vibrant forum for scientific exchange, networking, and collaboration across academia, industry, and metrology institutions. We look forward to welcoming you in 2026 and sharing an inspiring and fruitful conference experience.
+            Authors are invited to submit original research papers in English. All submissions will undergo peer review by the Technical Program Committee. Accepted papers will be presented during the Conference and published in the conference proceedings. Selected contributions may be invited for extended publication in ACTA IMEKO, Measurement, or other recognized journals.
+
+            The IMEKO TC4 2026 Conference aims to provide a vibrant forum for scientific exchange, networking, and collaboration across academia, industry, and metrology institutions. We look forward to welcoming you in 2026 and sharing an inspiring and fruitful conference experience.
 
             Sincerely,
             **The Organizing Committee**
@@ -132,7 +133,7 @@ params:
   themes:
     event:
       sessionizeId: test
-      title: IMEKO TC4 Conference 2026 with Special TC11 Technical Session
+      title: 27th IMEKO TC4 Conference 2026 with Special TC11 Technical Session
       shortTitle: IMEKO TC4 2026
       startDate: 2026-09-16
       endDate: 2026-09-18
@@ -152,19 +153,19 @@ params:
           - logos/meas-logo.png
           - logos/imeko-logo.gif
         logo: logos/meas-logo.png
-        titleBackground: images/pexels-caleboquendo-3023317.webp
+        titleBackground: images/prague-main.jpg
         location: images/fel.png
       sponsors:
+        - logo: logos/meas-logo.png
+          url: https://meas.fel.cvut.cz
+          name: Department of Measurement, CTU in Prague
+      partners:
         - logo: logos/meas-logo.png
           url: https://meas.fel.cvut.cz
           name: Department of Measurement, CTU in Prague
         - logo: logos/imeko-logo.gif
           url: https://www.imeko.org
           name: IMEKO
-      partners:
-        - logo: logos/meas-logo.png
-          url: https://meas.fel.cvut.cz
-          name: Department of Measurement, CTU in Prague
       organizers:
         - '00000000-0000-0000-0000-000000000000'
         - '00000000-0000-0000-0000-000000000001'

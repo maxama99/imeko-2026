@@ -13,7 +13,7 @@
         "spk-svatos"
       ],
       "categoryItems": [
-        "track-keynote",
+        "track-ceremony",
         "type-welcome"
       ]
     },
@@ -33,6 +33,23 @@
         "track-ceremony",
         "type-welcome"
       ]
+    },
+    {
+      "id": "ses-closing",
+      "title": "Closing Ceremony",
+      "description": "Closing ceremony and farewell.",
+      "startsAt": "2026-09-18T09:00:00+02:00",
+      "endsAt": "2026-09-18T10:00:00+02:00",
+      "roomId": "room-ciirc",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-svatos"
+      ],
+      "categoryItems": [
+        "track-ceremony",
+        "type-end"
+      ]
     }
   ],
   "speakers": [
@@ -48,21 +65,9 @@
       "links": [],
       "sessions": [
         "ses-ceremony",
-        "ses-opening"
+        "ses-opening",
+        "ses-closing"
       ],
-      "questionAnswers": []
-    },
-    {
-      "id": "spk-mluvka",
-      "firstName": "Eva",
-      "lastName": "Mluvilka",
-      "fullName": "Eva Mluvilka",
-      "tagLine": "Department of Measurement, CTU in Prague",
-      "bio": "Works on sensors and data quality for healthcare.",
-      "isTopSpeaker": false,
-      "profilePicture": "",
-      "links": [],
-      "sessions": [],
       "questionAnswers": []
     }
   ],
@@ -99,9 +104,14 @@
       "title": "Session Type",
       "items": [
         {
+          "id": "type-end",
+          "name": "end",
+          "sort": 0
+        },
+        {
           "id": "type-welcome",
           "name": "welcome",
-          "sort": 0
+          "sort": 1
         }
       ]
     }

@@ -6,13 +6,15 @@ layout: "single"
 
 ## Important Dates
 
+- **Deadline for Extended Abstract and Full Paper Submission** March 31, 2026
+- **Papers Acceptance Notification** May 11, 2026
+- **Final Paper Submission Deadline** June 12, 2026
 - **Event Date:** September 16 - 18, 2026
-- **Registration Deadline:** TBA
-- **Early Bird Deadline:** TBA
 
 ## Registration Information
 
-Registration details will be announced soon. Stay tuned for updates!
+- **Registration Deadline:** TBA
+- **Early Bird Deadline:** TBA
 
 ### Registration Fees
 
@@ -23,4 +25,4 @@ Registration details will be announced soon. Stay tuned for updates!
 
 ## How to Register
 
-Registration information coming soon.
+Registration details will be announced in future. Stay tuned for updates!
