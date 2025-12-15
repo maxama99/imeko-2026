@@ -24,7 +24,7 @@ layout: "single"
 
 - **Prof. Alvaro Silva Ribeiro**, National Laboratory for Civil Engineering Lisbon, Portugal
 - **MSc. Mladen Jakovcic**, Croatian Metrology Society, Croatia
-- **Prof. Marija Cundeva-Blajer**, University in Skopje, North Macedonia
+- **Prof. Marija Cundeva-Blajer**, Ss. Cyril and Methodius University in Skopje, North Macedonia
 
 #### IMEKO TC4 Chair
 
