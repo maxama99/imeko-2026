@@ -51,12 +51,19 @@ This category is suitable for mature research results intended for archival publ
 - **Peer Review:** All submissions will undergo peer review by the Technical Program Committee
 - **Publication:** Accepted papers will be published in the conference proceedings
 
+### Templates
+
+Download the submission templates:
+
+- **Word template (.zip):** [IMEKO 2026 Word template]({{< relURL "files/imeko-2026-tc4-template-word.zip" >}})
+- **LaTeX template (.zip):** [IMEKO 2026 LaTeX template]({{< relURL "files/imeko-2026-tc4-template-latex.zip" >}})
+
 ### Important Dates
 
-- **Abstract/Paper Submission Deadline:** TBA
-- **Notification of Acceptance:** TBA
-- **Final Paper Submission:** TBA
-- **Conference Date:** September 16–18, 2026
+- **Deadline for Extended Abstract and Full Paper Submission** March 31, 2026
+- **Papers Acceptance Notification** May 11, 2026
+- **Final Paper Submission Deadline** June 12, 2026
+- **Event Date:** September 16 - 18, 2026
 
 ### Submission Process
 
