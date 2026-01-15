@@ -47,6 +47,13 @@ This category is suitable for mature research results intended for archival publ
 - **Peer Review:** All submissions will undergo peer review by the Technical Program Committee
 - **Publication:** Accepted papers will be published in the conference proceedings
 
+### Templates
+
+Download the submission templates:
+
+- **Word template (.zip):** [IMEKO 2026 Word template]({{< relURL "files/imeko-2026-tc4-template-word.zip" >}})
+- **LaTeX template (.zip):** [IMEKO 2026 LaTeX template]({{< relURL "files/imeko-2026-tc4-template-latex.zip" >}})
+
 ### Important Dates
 
 - **Abstract/Paper Submission Deadline:** TBA
