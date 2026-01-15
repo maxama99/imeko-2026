@@ -8,6 +8,10 @@ layout: "single"
 
 We invite you to submit original research papers for presentation at the **IMEKO TC4 Conference 2026 with Special TC11 Technical Session**.
 
+### Call for Papers
+
+[Download the Call for Papers (PDF)]({{< relURL "files/imeko-2026-call-for-papers.pdf" >}})
+
 ### Submission type
 
 The IMEKO TC4 2026 Conference welcomes two categories of contributions. Authors are invited to choose the format that best suits the maturity and scope of their work.
