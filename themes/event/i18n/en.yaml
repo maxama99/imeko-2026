@@ -4,6 +4,7 @@ countdown.minutes: Mins
 countdown.seconds: Secs
 cta_banner.message: Get your ticket now!
 cta_button.get_ticket: Register now!
+cta_button.contact_us: Contact us
 cta_section.heading: Have you discovered something exciting?
 cta_section.subheading: Register for the Conference!
 cta_section.message: |

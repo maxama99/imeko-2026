@@ -72,9 +72,14 @@ languages:
               Information about the venue at the Czech Technical University in Prague,
               including directions, campus navigation, and nearby amenities.
       footer:
+        - identifier: contact
+          name: Contact
+          pageRef: /contact
+          weight: 10
         - identifier: contact-email
           name: imeko2026@fel.cvut.cz
           url: mailto:imeko2026@fel.cvut.cz
+          weight: 20
         
     params:
       description: IMEKO 27th International TC4 Conference in Prague.
@@ -136,6 +141,7 @@ params:
     - logos/medicon-512.jpg
   themes:
     event:
+      contactEmail: imeko2026@fel.cvut.cz
       sessionizeId: test
       title: 27th IMEKO TC4 Conference 2026 with Special TC11 Technical Session
       shortTitle: IMEKO TC4 2026
