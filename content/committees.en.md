@@ -1,5 +1,5 @@
 ---
-title: "committees"
+title: "Committees"
 type: "miscellaneous"
 layout: "single"
 ---

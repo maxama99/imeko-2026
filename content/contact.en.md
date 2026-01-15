@@ -1,5 +1,5 @@
 ---
-title: "contact"
+title: "Contact"
 type: "miscellaneous"
 layout: "single"
 ---
