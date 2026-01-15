@@ -56,10 +56,10 @@ Download the submission templates:
 
 ### Important Dates
 
-- **Abstract/Paper Submission Deadline:** TBA
-- **Notification of Acceptance:** TBA
-- **Final Paper Submission:** TBA
-- **Conference Date:** September 16–18, 2026
+- **Deadline for Extended Abstract and Full Paper Submission** March 31, 2026
+- **Papers Acceptance Notification** May 11, 2026
+- **Final Paper Submission Deadline** June 12, 2026
+- **Event Date:** September 16 - 18, 2026
 
 ### Submission Process
 
