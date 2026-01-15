@@ -3,7 +3,13 @@
 
 <figure class="highlight-figure" aria-label="Highlight">
     {{- $iconResource := resources.Get $input.icon }}
-    {{- $iconPath := cond (ne $iconResource nil) $iconResource.RelPermalink ($input.icon | relURL) }}
+    {{- $iconPath := "" }}
+    {{- if $iconResource }}
+        {{- $iconCopy := $iconResource | resources.Copy (printf "media/%s" $input.icon) }}
+        {{- $iconPath = $iconCopy.RelPermalink }}
+    {{- else }}
+        {{- $iconPath = ($input.icon | relURL) }}
+    {{- end }}
     {{- if $iconPath }}
         <div class="highlight-figure__image-wrapper">
             <!--    alt="" tells screen readers to skip the image, as it's purely decorative -->
