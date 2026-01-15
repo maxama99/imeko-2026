@@ -82,6 +82,11 @@
                         "ctaUrl" .Site.Params.themes.event.callToAction.other.url
                         )
                     }}
+                    {{- with .Site.Params.themes.event.contactEmail }}
+                        <a class="button button--outlined" href="mailto:{{ . }}">
+                            {{ T "cta_button.contact_us" }}
+                        </a>
+                    {{- end }}
                 </nav>
             </div>
         </header>
