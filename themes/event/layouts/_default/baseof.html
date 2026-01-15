@@ -26,6 +26,9 @@
             <link rel="stylesheet" href="{{ .RelPermalink }}" type="text/css" media="screen" integrity="{{ .Data.Integrity }}" />
         {{ end }}
 
+        <!-- 100% privacy-first analytics -->
+        <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+
     <style>
       :root {
         --color-primary-lighter: {{- .Site.Params.themes.event.colors.primaryLighter }};
