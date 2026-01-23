@@ -30,11 +30,11 @@ Accepted abstracts will be presented as oral or poster contributions during the 
 
 This format offers authors an opportunity to share ideas, gain feedback, and engage with the community without committing to a full manuscript.
 
-#### Full Paper (4–6 pages, included in Proceedings)
+#### Full Paper (4-6 pages, included in Proceedings)
 
 Full papers should present original research, significant technical developments, or innovative applications relevant to the TC4 or TC11 community.
 
-Manuscripts **must be 4–6 pages** in length and follow the provided formatting guidelines.
+Manuscripts **must be 4-6 pages** in length and follow the provided formatting guidelines.
 
 Full papers will undergo peer review by the Technical Program Committee.
 
@@ -67,7 +67,19 @@ Download the submission templates:
 
 ### Submission Process
 
-Submission details and platform information will be announced soon. Please check back regularly for updates.
+All submissions are handled through the IMEKO conference submission system.  
+[Open the submission system](https://conferences.imeko.org/event/16/)
+
+Follow these steps in the system:
+
+1. **Enter the title and abstract.**
+2. **Select authors and the speaker.** Add every author and mark the presenter (microphone icon).
+3. **Choose the contribution type:**  
+   - *Extended Abstract* (1 page, not included in the Proceedings), or  
+   - *Full Paper* (4-6 pages, included in the Proceedings).
+4. **Answer all mandatory questions** in the form.
+5. **Submit the abstract.**
+6. **Upload the final contribution** (Extended Abstract or Full Paper in PDF) after you receive the abstract acceptance email - typically within two days.
 
 ### Publication Opportunities
 
