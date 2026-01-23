@@ -13,3 +13,13 @@
     line-height: 1.375rem;
     color: white;
 }
+
+.cta-banner__link {
+    color: white;
+    text-decoration: underline;
+}
+
+.cta-banner__link:hover,
+.cta-banner__link:focus {
+    color: #f2f7ff;
+}

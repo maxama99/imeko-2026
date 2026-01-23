@@ -1,3 +1,4 @@
 <div class="cta-banner" aria-hidden="true">
-    <span>{{- T "cta_banner.message" }}</span>
+    {{ $link := relURL "submission/" }}
+    <span><a class="cta-banner__link" href="{{ $link }}">{{- T "cta_banner.message" -}}</a></span>
 </div>
