@@ -40,6 +40,11 @@ languages:
           pageRef: /submission
           parent: attend
           weight: 22
+        - identifier: accomodation
+          name: Accommodation
+          pageRef: /accomodation
+          parent: attend
+          weight: 24
         - identifier: venue
           name: Venue
           pageRef: /location
@@ -114,11 +119,15 @@ languages:
             Czech Technical University in Prague  
             Faculty of Electrical Engineering  
             Technicka 2, 160 00 Prague 6 (Dejvice campus)
+            For hotel options, see the [Accommodation](/accomodation/) page.
 
             #### Getting there
             - **Metro A – Dejvicka:** Approx. 5 minutes on foot.
             - **From the airport:** Trolleybus 59 to Veleslavin, then Metro A to Dejvicka.
             - **By car:** Paid parking available near campus.
+
+            #### Accommodation
+            - See hotel options and booking details on the [Accommodation](/accomodation/) page.
 
           aboutUs: |
             ### Hosted by the Department of Measurement
