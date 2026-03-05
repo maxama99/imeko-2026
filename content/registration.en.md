@@ -26,3 +26,5 @@ layout: "single"
 ## How to Register
 
 Registration details will be announced in future. Stay tuned for updates!
+
+See hotel options and booking details on the [Accommodation](/accomodation) page.

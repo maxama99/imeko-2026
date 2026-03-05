@@ -54,6 +54,11 @@ languages:
           name: Programme
           pageRef: /sessions
           weight: 30
+        - identifier: invited-speakers
+          name: Invited Speakers
+          pageRef: /invited-speakers
+          parent: programme
+          weight: 31
       secondary:
         - identifier: about
           pageRef: /about
@@ -199,4 +204,3 @@ params:
         primary: '#0d81be'
         primaryDarker: '#143e8b'
         track: '#15B8CA'
-
