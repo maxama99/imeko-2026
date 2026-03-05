@@ -54,6 +54,11 @@ languages:
           name: Programme
           pageRef: /sessions
           weight: 30
+        - identifier: programme-schedule
+          name: Schedule
+          pageRef: /sessions
+          parent: programme
+          weight: 30
         - identifier: invited-speakers
           name: Invited Speakers
           pageRef: /invited-speakers
