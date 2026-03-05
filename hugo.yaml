@@ -119,6 +119,11 @@ languages:
             Sincerely,
             **The Organizing Committee**
 
+
+            ### Past Conferences
+            Information about past conferences can be found on the [IMEKO TC4 Events page](https://www.imeko.org/index.php/tc4-homepage/tc4-events).
+
+
           directions: |
             #### Venue
             Czech Technical University in Prague  
@@ -150,6 +155,7 @@ languages:
             secure data infrastructures, and modern approaches to ensuring integrity and reliability
             in TIC processes.
 
+            
 params:
   images:
     - logos/medicon-512.jpg

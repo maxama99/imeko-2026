@@ -10,7 +10,7 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "spk-svatos"
+        "spk-TBD"
       ],
       "categoryItems": [
         "track-ceremony",
@@ -27,7 +27,7 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "spk-svatos"
+        "spk-TBD"
       ],
       "categoryItems": [
         "track-ceremony",
@@ -44,7 +44,7 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "spk-svatos"
+        "spk-TBD"
       ],
       "categoryItems": [
         "track-ceremony",
@@ -54,10 +54,10 @@
   ],
   "speakers": [
     {
-      "id": "spk-svatos",
-      "firstName": "Jakub",
-      "lastName": "Svatos",
-      "fullName": "Jakub Svatos",
+      "id": "spk-TBD",
+      "firstName": "TBD",
+      "lastName": "",
+      "fullName": "TBD",
       "tagLine": "Department of Measurement, CTU in Prague",
       "bio": "Focus on precision instrumentation and metrology.",
       "isTopSpeaker": false,
