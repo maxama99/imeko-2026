@@ -27,4 +27,4 @@ layout: "single"
 
 Registration details will be announced in future. Stay tuned for updates!
 
-See hotel options and booking details on the [Accommodation](/accomodation) page.
+See hotel options and booking details on the [Accommodation](../accomodation) page.
