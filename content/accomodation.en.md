@@ -41,8 +41,8 @@ A comfortable university-run hotel located in a quiet street in the heart of the
 - **Reservation contact:** [svatoja1@fel.cvut.cz](mailto:svatoja1@fel.cvut.cz)
 - **Reservation code:** *IMEKO 2026*
 - **Allocated capacity:** 3 single rooms and 3 double rooms
-- **Rates:**
-  - *approx.67 EUR* / single room per night
+- **Rates (including breakfast):**
+  - *approx.66 EUR* / single room per night
   - *approx. 78 EUR* / double room per night)
 
 
