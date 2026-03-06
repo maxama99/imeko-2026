@@ -37,12 +37,10 @@ A modern three-star hotel located directly on Vítězné náměstí, offering a 
 ### Novoměstský hotel
 A comfortable university-run hotel located in a quiet street in the heart of the New Town, offering a friendly atmosphere and excellent metro access to the conference venue.
 
-- **Website:**[suz.cvut.cz/en/hotels-hostels/novomestsky-hotel](https://suz.cvut.cz/en/hotels-hostels/novomestsky-hotel)
+- **Website:** [suz.cvut.cz/en/hotels-hostels/novomestsky-hotel](https://www.suz.cvut.cz/en/hotels-hostels/novomestsky-hotel)
 - **Reservation contact:** [svatoja1@fel.cvut.cz](mailto:svatoja1@fel.cvut.cz)
 - **Reservation code:** *IMEKO 2026*
 - **Allocated capacity:** 3 single rooms and 3 double rooms
-- **Rates:**
-  - *approx.67 EUR* / single room per night
-  - *approx. 78 EUR* / double room per night)
-
-
+- **Rates (including breakfast):**
+  - *approx.66 EUR* /  / single room per night
+  - *approx. 78 EUR* / double room per night
