@@ -6,7 +6,7 @@ layout: "single"
 
 ## Recommended Hotels
 
-The conference has arranged options with three nearby hotels. Please use the listed booking links or reservation contacts and include the conference code where noted.
+The conference has arranged options with three nearby hotels and one dormitory hotel for students. Please use the listed booking links or reservation contacts and include the conference code where noted.
 
 ### Grand Hotel International Prague
 An iconic four-star hotel and national heritage site featuring unique socialist-realism architecture and grand interiors in a quiet part of Prague 6. The hotel is two tram stops away from the conference venue, or about a 15-minute walk.  
@@ -33,5 +33,16 @@ A modern three-star hotel located directly on Vítězné náměstí, offering a 
   - *90 EUR* / double room single use per night
   - *100 EUR* / double room for two persons per night
 - **City tax not included:** *2 EUR* per person per night
+
+### Novoměstský hotel
+A comfortable university-run hotel located in a quiet street in the heart of the New Town, offering a friendly atmosphere and excellent metro access to the conference venue.
+
+- **Website:**[suz.cvut.cz/en/hotels-hostels/novomestsky-hotel](https://suz.cvut.cz/en/hotels-hostels/novomestsky-hotel)
+- **Reservation contact:** [svatoja1@fel.cvut.cz](mailto:svatoja1@fel.cvut.cz)
+- **Reservation code:** *IMEKO 2026*
+- **Allocated capacity:** 3 single rooms and 3 double rooms
+- **Rates:**
+  - *approx.67 EUR* / single room per night
+  - *approx. 78 EUR* / double room per night)
 
 
