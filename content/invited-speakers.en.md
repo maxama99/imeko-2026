@@ -22,4 +22,16 @@ Dr. Jiří Tesař serves as the Director of the Czech Metrology Institute, the n
 ### Prof. Kruno Miličević
 *Josip Juraj Strossmayer University of Osijek, Croatia*
 
-Prof. Kruno Miličević is a prominent researcher specializing in nonlinear electrical circuits, chaos theory applications, and advanced signal processing. As a long-standing and active member of the IMEKO TC4 Technical Committee, his work bridges the gap between theoretical circuit analysis and practical instrumentation. His expertise in identifying and modeling complex system behaviors is essential for the development of the next generation of robust measurement systems and smart sensors.
+Prof. Kruno Miličević is a researcher specializing in the intersection of electrical engineering, metrology, and digital technologies for measurement systems. He is actively engaged in several international metrology and standardization initiatives, including chair roles within IMEKO (IMEKO TC6 WG Software) and within other digitalisation-oriented working groups (WG Digitalization in EUROLAB and the Croatian Metrology Society). His research and professional activities connect emerging approaches such as privacy-preserving analytics and secure data processing with the development of modern digital measurement infrastructures, smart sensors, and data-driven instrumentation.
+
+<!--
+### Dr. Cristian Coman
+*NATO Communications and Information Agency (NCIA), The Hague, Netherlands*
+
+Dr. Cristian Coman is a leading expert at the NATO NCIA, focusing on advanced radar systems, signal processing, and electromagnetic sensing. With an extensive background in both academic research and strategic defense applications, he specializes in the development of resilient communication and sensing infrastructures. His participation brings a unique perspective to the conference, bridging the gap between high-end metrology and the rigorous demands of international security and aerospace technologies.
+-->
+
+### Dr. Michael Street
+*NATO Communications and Information Agency (NCIA), The Hague, Netherlands*
+
+Dr. Michael Street is a senior expert at the NATO NCIA, specializing in data science, advanced analytics, and the digital transformation of communication infrastructures. With extensive experience in leading complex international technological projects, he focuses on leveraging data-driven insights to enhance the reliability and security of large-scale systems. His contribution to the conference provides a vital link between traditional metrology and the modern challenges of big data, artificial intelligence, and cyber-resilient measurement networks.

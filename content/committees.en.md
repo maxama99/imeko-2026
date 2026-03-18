@@ -13,7 +13,6 @@ layout: "single"
 - **Dr. Dragana Popovic Renella**, SENIS AG, Switzerland
 - **Prof. Luca Callegaro**, Istituto Nazionale di Ricerca Metrologica, Italy
 - **Prof. Carlos Roberto Hall Barbosa**, Pontifícia Universidade Católica do Rio de Janeiro, Brasil
-- **Prof. Platon Sovilj**, University of Novi Sad, Serbia
 
 #### Technical Program Co-Chairs
 
