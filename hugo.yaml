@@ -191,9 +191,12 @@ params:
         titleBackground: images/prague-main.jpg
         location: images/fel.png
       sponsors:
-        - logo: logos/meas-logo.png
-          url: https://meas.fel.cvut.cz
-          name: Department of Measurement, CTU in Prague
+        - logo: logos/teste_logo.png
+          url: https://testeeurope.eu
+          name: Teste - Quality measuring and testing technology
+        - logo: logos/htest_logo.jpg
+          url: https://www.htest.cz/en/
+          name: HTEST - Distribution of measuring instruments
       partners:
         - logo: logos/meas-logo.png
           url: https://meas.fel.cvut.cz
