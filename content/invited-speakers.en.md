@@ -17,7 +17,7 @@ Prof. Paolo Carbone is a world-renowned expert in the field of instrumentation a
 ### Prof. Jiří Tesař
 *Director of the Czech Metrology Institute (CMI)*
 
-Dr. Jiří Tesař serves as the Director of the Czech Metrology Institute, the national authority ensuring the accuracy and uniformity of measurements in the Czech Republic. With deep expertise in metrological infrastructures, legal metrology, and the implementation of international standards, Dr. Tesař bridges the gap between high-level academic research and industrial application. His leadership at CMI is pivotal for maintaining the traceability and calibration excellence that underpins the European metrological landscape.
+Prof. Jiří Tesař serves as the Director of the Czech Metrology Institute, the national authority ensuring the accuracy and uniformity of measurements in the Czech Republic. With deep expertise in metrological infrastructures, legal metrology, and the implementation of international standards, Prof. Tesař bridges the gap between high-level academic research and industrial application. His leadership at CMI is pivotal for maintaining the traceability and calibration excellence that underpins the European metrological landscape.
 
 ### Prof. Kruno Miličević
 *Josip Juraj Strossmayer University of Osijek, Croatia*
