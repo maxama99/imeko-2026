@@ -13,8 +13,8 @@ layout: "single"
 
 ## Registration Information
 
-- **Registration Deadline:** TBA
-- **Early Bird Deadline:** TBA
+- **Registration Deadline:** August 1, 2026
+- **Early Bird Deadline:** July 1, 2026
 
 ### Registration Fees
 
@@ -25,6 +25,8 @@ layout: "single"
 
 ## How to Register
 
-Registration details will be announced in future. Stay tuned for updates!
+Registration is now open. Please use the details above to complete your registration.
+
+Buy your ticket on the [registration portal](https://www.happenee.com/events/4431_27th-imeko-tc4-conference-2026?page=tickets&action=ticketSelect&lang=en).
 
 See hotel options and booking details on the [Accommodation](../accomodation) page.
