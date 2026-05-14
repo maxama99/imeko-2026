@@ -60,9 +60,9 @@ Download the submission templates:
 
 ### Important Dates
 
-- **Deadline for Extended Abstract and Full Paper Submission** ~~March 31, 2026~~ <span style="color:red"> April 30, 2026</span>
-- **Papers Acceptance Notification** May 15, 2026
-- **Final Paper Submission Deadline** June 12, 2026
+- **Deadline for Extended Abstract and Full Paper Submission** ~~March 31, 2026~~ <span style="color:red"> May 18, 2026</span>
+- **Papers Acceptance Notification** ~~May 11, 2026~~ <span style="color:red"> May 29, 2026</span>
+- **Final Paper Submission Deadline** ~~June 12, 2026~~ <span style="color:red"> July 5, 2026</span>
 - **Event Date:** September 16 - 18, 2026
 
 ### Submission Process
