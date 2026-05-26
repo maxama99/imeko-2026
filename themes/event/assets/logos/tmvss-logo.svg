@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="666" viewBox="0 0 2048 666" role="img" aria-labelledby="title desc">
+  <title id="title">termovize TMV SS logo</title>
+  <desc id="desc">Stylized TMV SS sponsor logo in red and dark green.</desc>
+  <rect width="2048" height="666" fill="#ffffff"/>
+  <g fill="#ed1c24">
+    <rect x="28" y="38" width="950" height="89" rx="44"/>
+    <path d="M700 620 L820 178 Q835 140 875 140 Q910 140 930 178 L1030 430 L1135 178 Q1155 140 1190 140 Q1230 140 1245 178 L1400 620 Q1410 650 1386 660 Q1360 669 1341 639 L1190 270 L1080 560 Q1060 620 1006 620 Q950 620 930 560 L825 270 L732 620 Q720 658 684 658 Q648 658 636 626 Q625 597 640 567 Z"/>
+    <path d="M1560 90 q-60 60 -20 140 q40 80 0 140 q-45 68 -130 30 q-20 -10 -22 -34 q-2 -24 18 -37 q57 -38 66 -85 q10 -52 -23 -95 q-53 -68 -26 -151 q18 -57 76 -96 q18 -12 39 -3 q20 8 23 29 q2 20 -13 34 z"/>
+    <path d="M1840 180 q-50 52 -18 118 q34 68 2 126 q-36 64 -112 31 q-20 -9 -23 -31 q-4 -23 13 -36 q47 -36 54 -78 q7 -42 -20 -77 q-44 -58 -22 -130 q16 -52 68 -87 q17 -11 36 -2 q20 8 22 28 q1 20 -12 33 z"/>
+  </g>
+  <g fill="#0f2b2a">
+    <rect x="28" y="169" width="470" height="468" rx="95"/>
+    <rect x="67" y="227" width="324" height="342" rx="38" fill="#ffffff"/>
+    <path d="M97 533 L358 370 L358 533 Z"/>
+    <text x="1030" y="122" font-family="Arial, Helvetica, sans-serif" font-size="114" font-style="italic" font-weight="700">termovize</text>
+    <rect x="1008" y="579" width="364" height="86" rx="43"/>
+    <text x="1902" y="122" font-family="Arial, Helvetica, sans-serif" font-size="118" font-weight="700">®</text>
+  </g>
+</svg>
