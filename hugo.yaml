@@ -197,6 +197,9 @@ params:
         - logo: logos/htest_logo.jpg
           url: https://www.htest.cz/en/
           name: HTEST - Distribution of measuring instruments
+        - logo: logos/tmvss-logo.jpg
+          url: https://www.tmvss.cz
+          name: termovize TMV SS
       partners:
         - logo: logos/meas-logo.png
           url: https://meas.fel.cvut.cz
