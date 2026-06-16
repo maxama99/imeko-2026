@@ -13,8 +13,8 @@ layout: "single"
 
 ## Registration Information
 
-- **Registration Deadline:** July 10, 2026
-- **Early Bird Deadline:** July 10, 2026
+- **Registration Deadline:** ~~August 1, 2026~~ <span style="color:red"> July 10, 2026</span>
+- **Early Bird Deadline:** ~~July 1, 2026~~ <span style="color:red"> July 10, 2026</span>
 
 ### Registration Fees
 
