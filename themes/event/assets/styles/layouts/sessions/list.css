@@ -1,7 +1,35 @@
 .session-list-notice {
-    max-width: 45rem;
-    color: var(--color-primary);
-    font-size: 1.125rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 1rem;
+    max-width: 50rem;
+    padding: 1rem 1.25rem;
+    border-radius: 0.75rem;
+    border: 0.0625rem solid var(--color-primary);
+    background-color: color-mix(in srgb, var(--color-primary) 18%, white);
+}
+
+.session-list-notice__badge {
+    flex-shrink: 0;
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    background-color: var(--color-primary-darker);
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.session-list-notice__text {
+    all: unset;
+    display: block;
+    margin: 0;
+    color: var(--color-primary-darkest);
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 .session-day-section__hour-heading {
