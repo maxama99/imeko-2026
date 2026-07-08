@@ -35,6 +35,23 @@
       ]
     },
     {
+      "id": "ses-day3-start",
+      "title": "Conference Sessions",
+      "description": "Technical sessions continue (final programme to be announced).",
+      "startsAt": "2026-09-18T09:00:00+02:00",
+      "endsAt": "2026-09-18T10:00:00+02:00",
+      "roomId": "room-ciirc",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-TBD"
+      ],
+      "categoryItems": [
+        "track-session",
+        "type-session"
+      ]
+    },
+    {
       "id": "ses-closing",
       "title": "Closing Ceremony",
       "description": "Closing ceremony and farewell.",
@@ -66,6 +83,7 @@
       "sessions": [
         "ses-ceremony",
         "ses-opening",
+        "ses-day3-start",
         "ses-closing"
       ],
       "questionAnswers": []
@@ -96,6 +114,11 @@
           "id": "track-session-b",
           "name": "Session B",
           "sort": 3
+        },
+        {
+          "id": "track-session",
+          "name": "Session",
+          "sort": 4
         }
       ]
     },
@@ -109,9 +132,14 @@
           "sort": 0
         },
         {
+          "id": "type-session",
+          "name": "session",
+          "sort": 1
+        },
+        {
           "id": "type-welcome",
           "name": "welcome",
-          "sort": 1
+          "sort": 2
         }
       ]
     }
