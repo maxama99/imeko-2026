@@ -34,6 +34,7 @@
     <header class="section-container">
         <div class="section">
             <h1 class="heading heading--1">{{ T "sessions_page.heading" }}</h1>
+            <p class="session-list-notice">{{ T "sessions_page.notice" }}</p>
             <div class="session-list-filters">
                 {{- if gt ($sessionsGroupedByDay | len) 1 }}
                     <article class="session-list-filter">

@@ -1,3 +1,9 @@
+.session-list-notice {
+    max-width: 45rem;
+    color: var(--color-primary);
+    font-size: 1.125rem;
+}
+
 .session-day-section__hour-heading {
     margin: 1.875rem 0;
 }
