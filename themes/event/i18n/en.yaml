@@ -14,6 +14,8 @@ header_featured_speakers: Featured Speakers
 speakers_page.heading: Speakers
 speakers_page.social_links: '{{ . }} social media links'
 sessions_page.heading: Schedule To be Announced
+sessions_page.notice_badge: Work in progress
+sessions_page.notice: "We're finalising the full programme - expect it to be published around 22 July 2026."
 sessions_page.day: Day {{ . }}
 sessions_page.heading_day_filter: Date
 sessions_page.heading_track_filter: Track
