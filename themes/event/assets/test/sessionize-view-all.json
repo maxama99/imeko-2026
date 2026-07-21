@@ -45,7 +45,8 @@
       "categoryItems": [
         "track-keynote",
         "type-keynote"
-      ]
+      ],
+      "sessionGroup": "Session 1 - Calibration, Traceability & Metrological Standards I"
     },
     {
       "id": "ses-004",
@@ -62,7 +63,8 @@
       "categoryItems": [
         "track-calibration-standards",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 1 - Calibration, Traceability & Metrological Standards I"
     },
     {
       "id": "ses-005",
@@ -79,7 +81,8 @@
       "categoryItems": [
         "track-calibration-standards",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 1 - Calibration, Traceability & Metrological Standards I"
     },
     {
       "id": "ses-006",
@@ -96,7 +99,8 @@
       "categoryItems": [
         "track-calibration-standards",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 1 - Calibration, Traceability & Metrological Standards I"
     },
     {
       "id": "ses-007",
@@ -113,7 +117,8 @@
       "categoryItems": [
         "track-calibration-standards",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 1 - Calibration, Traceability & Metrological Standards I"
     },
     {
       "id": "ses-008",
@@ -145,7 +150,8 @@
       "categoryItems": [
         "track-keynote",
         "type-keynote"
-      ]
+      ],
+      "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II"
     },
     {
       "id": "ses-010",
@@ -162,7 +168,8 @@
       "categoryItems": [
         "track-calibration-standards",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II"
     },
     {
       "id": "ses-011",
@@ -179,7 +186,8 @@
       "categoryItems": [
         "track-calibration-standards",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II"
     },
     {
       "id": "ses-012",
@@ -196,7 +204,8 @@
       "categoryItems": [
         "track-calibration-standards",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II"
     },
     {
       "id": "ses-013",
@@ -213,7 +222,8 @@
       "categoryItems": [
         "track-calibration-standards",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II"
     },
     {
       "id": "ses-014",
@@ -230,7 +240,8 @@
       "categoryItems": [
         "track-calibration-standards",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II"
     },
     {
       "id": "ses-015",
@@ -247,7 +258,8 @@
       "categoryItems": [
         "track-calibration-standards",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II"
     },
     {
       "id": "ses-016",
@@ -279,7 +291,8 @@
       "categoryItems": [
         "track-keynote",
         "type-keynote"
-      ]
+      ],
+      "sessionGroup": "Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation"
     },
     {
       "id": "ses-018",
@@ -296,7 +309,8 @@
       "categoryItems": [
         "track-calibration-standards",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation"
     },
     {
       "id": "ses-019",
@@ -313,7 +327,8 @@
       "categoryItems": [
         "track-calibration-standards",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation"
     },
     {
       "id": "ses-020",
@@ -330,7 +345,8 @@
       "categoryItems": [
         "track-electrical-magnetic",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation"
     },
     {
       "id": "ses-021",
@@ -347,7 +363,8 @@
       "categoryItems": [
         "track-electrical-magnetic",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation"
     },
     {
       "id": "ses-022",
@@ -379,7 +396,8 @@
       "categoryItems": [
         "track-electrical-magnetic",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 4 - Electrical & Magnetic Instrumentation"
     },
     {
       "id": "ses-024",
@@ -396,7 +414,8 @@
       "categoryItems": [
         "track-electrical-magnetic",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 4 - Electrical & Magnetic Instrumentation"
     },
     {
       "id": "ses-025",
@@ -413,7 +432,8 @@
       "categoryItems": [
         "track-electrical-magnetic",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 4 - Electrical & Magnetic Instrumentation"
     },
     {
       "id": "ses-026",
@@ -430,7 +450,8 @@
       "categoryItems": [
         "track-electrical-magnetic",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 4 - Electrical & Magnetic Instrumentation"
     },
     {
       "id": "ses-027",
@@ -447,7 +468,8 @@
       "categoryItems": [
         "track-electrical-magnetic",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 4 - Electrical & Magnetic Instrumentation"
     },
     {
       "id": "ses-028",
@@ -464,7 +486,8 @@
       "categoryItems": [
         "track-electrical-magnetic",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 4 - Electrical & Magnetic Instrumentation"
     },
     {
       "id": "ses-029",
@@ -481,7 +504,8 @@
       "categoryItems": [
         "track-keynote",
         "type-keynote"
-      ]
+      ],
+      "sessionGroup": "Session 5 - ADC/DAC, Waveform & Data Conversion Metrology"
     },
     {
       "id": "ses-030",
@@ -498,7 +522,8 @@
       "categoryItems": [
         "track-adc-dac",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 5 - ADC/DAC, Waveform & Data Conversion Metrology"
     },
     {
       "id": "ses-031",
@@ -515,7 +540,8 @@
       "categoryItems": [
         "track-adc-dac",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 5 - ADC/DAC, Waveform & Data Conversion Metrology"
     },
     {
       "id": "ses-032",
@@ -532,7 +558,8 @@
       "categoryItems": [
         "track-adc-dac",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 5 - ADC/DAC, Waveform & Data Conversion Metrology"
     },
     {
       "id": "ses-033",
@@ -549,7 +576,8 @@
       "categoryItems": [
         "track-adc-dac",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 5 - ADC/DAC, Waveform & Data Conversion Metrology"
     },
     {
       "id": "ses-034",
@@ -581,7 +609,8 @@
       "categoryItems": [
         "track-keynote",
         "type-keynote"
-      ]
+      ],
+      "sessionGroup": "Session 6 - Advanced Sensors & Signal Processing I"
     },
     {
       "id": "ses-036",
@@ -598,7 +627,8 @@
       "categoryItems": [
         "track-sensors-signal-processing",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 6 - Advanced Sensors & Signal Processing I"
     },
     {
       "id": "ses-037",
@@ -615,7 +645,8 @@
       "categoryItems": [
         "track-sensors-signal-processing",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 6 - Advanced Sensors & Signal Processing I"
     },
     {
       "id": "ses-038",
@@ -632,7 +663,8 @@
       "categoryItems": [
         "track-sensors-signal-processing",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 6 - Advanced Sensors & Signal Processing I"
     },
     {
       "id": "ses-039",
@@ -649,7 +681,8 @@
       "categoryItems": [
         "track-sensors-signal-processing",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 6 - Advanced Sensors & Signal Processing I"
     },
     {
       "id": "ses-040",
@@ -666,7 +699,8 @@
       "categoryItems": [
         "track-sensors-signal-processing",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 6 - Advanced Sensors & Signal Processing I"
     },
     {
       "id": "ses-041",
@@ -698,7 +732,8 @@
       "categoryItems": [
         "track-sensors-signal-processing",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 7 - Advanced Sensors & Measurement Systems II"
     },
     {
       "id": "ses-043",
@@ -715,7 +750,8 @@
       "categoryItems": [
         "track-sensors-signal-processing",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 7 - Advanced Sensors & Measurement Systems II"
     },
     {
       "id": "ses-044",
@@ -732,7 +768,8 @@
       "categoryItems": [
         "track-sensors-signal-processing",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 7 - Advanced Sensors & Measurement Systems II"
     },
     {
       "id": "ses-045",
@@ -749,7 +786,8 @@
       "categoryItems": [
         "track-sensors-signal-processing",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 7 - Advanced Sensors & Measurement Systems II"
     },
     {
       "id": "ses-046",
@@ -766,7 +804,8 @@
       "categoryItems": [
         "track-sensors-signal-processing",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 7 - Advanced Sensors & Measurement Systems II"
     },
     {
       "id": "ses-047",
@@ -798,7 +837,8 @@
       "categoryItems": [
         "track-applications",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization"
     },
     {
       "id": "ses-049",
@@ -815,7 +855,8 @@
       "categoryItems": [
         "track-applications",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization"
     },
     {
       "id": "ses-050",
@@ -832,7 +873,8 @@
       "categoryItems": [
         "track-applications",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization"
     },
     {
       "id": "ses-051",
@@ -849,7 +891,8 @@
       "categoryItems": [
         "track-applications",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization"
     },
     {
       "id": "ses-052",
@@ -866,7 +909,8 @@
       "categoryItems": [
         "track-applications",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization"
     },
     {
       "id": "ses-053",
@@ -883,7 +927,8 @@
       "categoryItems": [
         "track-applications",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization"
     },
     {
       "id": "ses-054",
@@ -900,7 +945,8 @@
       "categoryItems": [
         "track-applications",
         "type-contributed-paper"
-      ]
+      ],
+      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization"
     },
     {
       "id": "ses-055",

@@ -33,6 +33,16 @@
 }
 
 /*
+ * Heading for a thematic session (e.g. "Session 5 - ...") shown above its
+ * block of talks.
+ */
+.session-day-section__session-heading {
+    margin: 1.75rem 0 0.5rem;
+    font-size: 1.375rem;
+    color: var(--color-primary);
+}
+
+/*
  * A block of consecutive talks. Rows are packed tightly and sit inside a
  * subtly tinted container so that back-to-back presentations read as one
  * coherent session.

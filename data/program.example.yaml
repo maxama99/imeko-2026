@@ -51,6 +51,7 @@ sessions:
   # Session 1 - Calibration, Traceability & Metrological Standards I
   - title: "Invited Keynote: Prof. Paolo Carbone"
     id: ses-003
+    session: Session 1 - Calibration, Traceability & Metrological Standards I
     speakers: [Prof. Paolo Carbone]
     type: keynote
     track: Keynote
@@ -60,6 +61,7 @@ sessions:
 
   - title: Development of System for Disseminating AC/DC Voltage Difference Using Ranges of Transfer Standard and Investigating Stability
     id: ses-004
+    session: Session 1 - Calibration, Traceability & Metrological Standards I
     speakers: [Valentyn Isaiev]
     type: contributed paper
     track: Calibration & Standards
@@ -69,6 +71,7 @@ sessions:
 
   - title: Establishment of the Josephson Voltage Standard at SASO-NMCC, KSA
     id: ses-005
+    session: Session 1 - Calibration, Traceability & Metrological Standards I
     speakers: [Mohammed AlTkroni]
     type: contributed paper
     track: Calibration & Standards
@@ -78,6 +81,7 @@ sessions:
 
   - title: Franco Cabiati, electrical impedance metrology, and IMEKO
     id: ses-006
+    session: Session 1 - Calibration, Traceability & Metrological Standards I
     speakers: [Luca Callegaro]
     type: contributed paper
     track: Calibration & Standards
@@ -87,6 +91,7 @@ sessions:
 
   - title: Exploring calibration schemes for electric impedance measurements beyond the short-open-load
     id: ses-007
+    session: Session 1 - Calibration, Traceability & Metrological Standards I
     speakers: [Alessandro Cultrera]
     type: contributed paper
     track: Calibration & Standards
@@ -106,6 +111,7 @@ sessions:
   # Session 2 - Calibration, Traceability & Metrological Standards II
   - title: "Invited Keynote: Prof. Jiri Tesar"
     id: ses-009
+    session: Session 2 - Calibration, Traceability & Metrological Standards II
     speakers: [Prof. Jiri Tesar]
     type: keynote
     track: Keynote
@@ -115,6 +121,7 @@ sessions:
 
   - title: Study of the influence of microwave polarization on high-temperature superconductor Josephson junction arrays
     id: ses-010
+    session: Session 2 - Calibration, Traceability & Metrological Standards II
     speakers: [Changhao Zhao]
     type: contributed paper
     track: Calibration & Standards
@@ -124,6 +131,7 @@ sessions:
 
   - title: MEMS-based Long-haul Optical Link Asymmetry Estimation for Atomic Clock Comparison
     id: ses-011
+    session: Session 2 - Calibration, Traceability & Metrological Standards II
     speakers: [Michal Spacek]
     type: contributed paper
     track: Calibration & Standards
@@ -133,6 +141,7 @@ sessions:
 
   - title: A Model for Secure Exchange of Digital Calibration Certificates
     id: ses-012
+    session: Session 2 - Calibration, Traceability & Metrological Standards II
     speakers: [Ahmed Khan Leghari]
     type: contributed paper
     track: Calibration & Standards
@@ -142,6 +151,7 @@ sessions:
 
   - title: "Metrological Traceability in IoT Sensor Networks: A Microservice-based Framework for Automated Calibration Management"
     id: ses-013
+    session: Session 2 - Calibration, Traceability & Metrological Standards II
     speakers: [Marco Sento]
     type: contributed paper
     track: Calibration & Standards
@@ -151,6 +161,7 @@ sessions:
 
   - title: A Hierarchical Bayesian Framework for Drift Estimation and Forecasting of Standard Resistors with Informative Priors from International Comparisons
     id: ses-014
+    session: Session 2 - Calibration, Traceability & Metrological Standards II
     speakers: [Othman Alshamrani]
     type: contributed paper
     track: Calibration & Standards
@@ -160,6 +171,7 @@ sessions:
 
   - title: Implementation of Monte Carlo Simulation for measurement uncertainty estimation in electrical power and energy reference standards calibration
     id: ses-015
+    session: Session 2 - Calibration, Traceability & Metrological Standards II
     speakers: [Kiril Demerdziev]
     type: contributed paper
     track: Calibration & Standards
@@ -179,6 +191,7 @@ sessions:
   # Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation
   - title: "Invited Keynote: Dr. Cristian Coman"
     id: ses-017
+    session: Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation
     speakers: [Dr. Cristian Coman]
     type: keynote
     track: Keynote
@@ -188,6 +201,7 @@ sessions:
 
   - title: GUM-compliant uncertainty evaluation in measurements based on ML regression or classification models
     id: ses-018
+    session: Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation
     speakers: [Leopoldo Angrisani]
     type: contributed paper
     track: Calibration & Standards
@@ -197,6 +211,7 @@ sessions:
 
   - title: Quality Infrastructure for Resilient Electrical Sector - Ensuring Confident Measurement Results in Calibration of High Currents Instruments
     id: ses-019
+    session: Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation
     speakers: [Marija Cundeva-Blajer]
     type: contributed paper
     track: Calibration & Standards
@@ -206,6 +221,7 @@ sessions:
 
   - title: Development of the Digital Twin for a Digital Impedance Ratio Bridge
     id: ses-020
+    session: Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation
     speakers: [Ana Lucia Medina Rodriguez]
     type: contributed paper
     track: Electrical & Magnetic
@@ -215,6 +231,7 @@ sessions:
 
   - title: Accuracy Analysis of THD Measurement of Power Signals by Means of a Low-cost Oscilloscope
     id: ses-021
+    session: Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation
     speakers: [Gabriel Gasparesc]
     type: contributed paper
     track: Electrical & Magnetic
@@ -234,6 +251,7 @@ sessions:
   # Session 4 - Electrical & Magnetic Instrumentation
   - title: The primary Tesla Standard at PTB
     id: ses-023
+    session: Session 4 - Electrical & Magnetic Instrumentation
     speakers: [Franziska Weickert]
     type: contributed paper
     track: Electrical & Magnetic
@@ -243,6 +261,7 @@ sessions:
 
   - title: A traceable calibration of low-field magnetic coil systems in noisy industrial environments
     id: ses-024
+    session: Session 4 - Electrical & Magnetic Instrumentation
     speakers: [Michal Janosek]
     type: contributed paper
     track: Electrical & Magnetic
@@ -252,6 +271,7 @@ sessions:
 
   - title: Model-based magnetization measurement in Fluxgate sensors
     id: ses-025
+    session: Session 4 - Electrical & Magnetic Instrumentation
     speakers: [Jiri Maier]
     type: contributed paper
     track: Electrical & Magnetic
@@ -261,6 +281,7 @@ sessions:
 
   - title: Estimation of torquer rod magnetic moment with fluxmetric method and compact sensing coils
     id: ses-026
+    session: Session 4 - Electrical & Magnetic Instrumentation
     speakers: [Michal Janosek]
     type: contributed paper
     track: Electrical & Magnetic
@@ -270,6 +291,7 @@ sessions:
 
   - title: Frequency-Dependent Vibration Sensitivity of VNA S-Parameter Repeatability
     id: ses-027
+    session: Session 4 - Electrical & Magnetic Instrumentation
     speakers: [Ibrahim ALBoraih]
     type: contributed paper
     track: Electrical & Magnetic
@@ -279,6 +301,7 @@ sessions:
 
   - title: Compact modular cryogenic dielectric resonator for surface impedance measurements in high magnetic fields
     id: ses-028
+    session: Session 4 - Electrical & Magnetic Instrumentation
     speakers: [Kostiantyn Torokhtii]
     type: contributed paper
     track: Electrical & Magnetic
@@ -290,6 +313,7 @@ sessions:
   # Session 5 - ADC/DAC, Waveform & Data Conversion Metrology
   - title: "Invited Keynote: Dr. Michael Street"
     id: ses-029
+    session: Session 5 - ADC/DAC, Waveform & Data Conversion Metrology
     speakers: [Dr. Michael Street]
     type: keynote
     track: Keynote
@@ -299,6 +323,7 @@ sessions:
 
   - title: A systematic aliasing suppression architecture for real-time FI-DAC based on linear-phase complementary filter and oversampling
     id: ses-030
+    session: Session 5 - ADC/DAC, Waveform & Data Conversion Metrology
     speakers: [Yang Shen]
     type: contributed paper
     track: ADC/DAC
@@ -308,6 +333,7 @@ sessions:
 
   - title: Parameter estimation of complex-valued sinewaves by a frequency-domain linearized sine-fit algorithm
     id: ses-031
+    session: Session 5 - ADC/DAC, Waveform & Data Conversion Metrology
     speakers: [Dominique Dallet]
     type: contributed paper
     track: ADC/DAC
@@ -317,6 +343,7 @@ sessions:
 
   - title: Benchmarks for IIR Model Identification Based on Binary Measurements
     id: ses-032
+    session: Session 5 - ADC/DAC, Waveform & Data Conversion Metrology
     speakers: [Paolo Carbone]
     type: contributed paper
     track: ADC/DAC
@@ -326,6 +353,7 @@ sessions:
 
   - title: A Digital Voltage Ramp Generator with Integrating Compensation
     id: ses-033
+    session: Session 5 - ADC/DAC, Waveform & Data Conversion Metrology
     speakers: [Jianting Zhao]
     type: contributed paper
     track: ADC/DAC
@@ -345,6 +373,7 @@ sessions:
   # Session 6 - Advanced Sensors & Signal Processing I
   - title: "Invited Keynote: Prof. Kruno Milicevic"
     id: ses-035
+    session: Session 6 - Advanced Sensors & Signal Processing I
     speakers: [Prof. Kruno Milicevic]
     type: keynote
     track: Keynote
@@ -354,6 +383,7 @@ sessions:
 
   - title: Acoustic-Based Detection, Classification, and Localization of Impulsive Sounds
     id: ses-036
+    session: Session 6 - Advanced Sensors & Signal Processing I
     speakers: [Martin Maxa]
     type: contributed paper
     track: Sensors & Signal Processing
@@ -363,6 +393,7 @@ sessions:
 
   - title: Lock-in detection algorithm for signals modulated with irregular intervals
     id: ses-037
+    session: Session 6 - Advanced Sensors & Signal Processing I
     speakers: [Shingo Tamaru]
     type: contributed paper
     track: Sensors & Signal Processing
@@ -372,6 +403,7 @@ sessions:
 
   - title: A Wireless Acoustic Monitoring System for Drone Localization Based on MEMS Microphones and LoRa Communication
     id: ses-038
+    session: Session 6 - Advanced Sensors & Signal Processing I
     speakers: [Kamil Herman]
     type: contributed paper
     track: Sensors & Signal Processing
@@ -381,6 +413,7 @@ sessions:
 
   - title: Comparative Analysis of Search Algorithms for Automatic L-type Matching Network
     id: ses-039
+    session: Session 6 - Advanced Sensors & Signal Processing I
     speakers: [Joao Pedro Torres S. Andrade]
     type: contributed paper
     track: Sensors & Signal Processing
@@ -390,6 +423,7 @@ sessions:
 
   - title: Airborne Navigation During GNSS Outages Using Tightly Coupled IMU/DVB-T2 Fusion
     id: ses-040
+    session: Session 6 - Advanced Sensors & Signal Processing I
     speakers: [Michal Koldinsky]
     type: contributed paper
     track: Sensors & Signal Processing
@@ -409,6 +443,7 @@ sessions:
   # Session 7 - Advanced Sensors & Measurement Systems II
   - title: Microcontroller Based Software Defined Instruments as an Economical Substitute of Virtual Measurement Instruments
     id: ses-042
+    session: Session 7 - Advanced Sensors & Measurement Systems II
     speakers: [Jakub Svatos]
     type: contributed paper
     track: Sensors & Signal Processing
@@ -418,6 +453,7 @@ sessions:
 
   - title: Exploring a new indirect approach to latency measurement
     id: ses-043
+    session: Session 7 - Advanced Sensors & Measurement Systems II
     speakers: [Jakub Turinsky]
     type: contributed paper
     track: Sensors & Signal Processing
@@ -427,6 +463,7 @@ sessions:
 
   - title: Detection of Mercury Ion in Water Samples Using a Low-Tech EPS-Coated Interdigitated Capacitive Sensor through S-Parameter Analysis
     id: ses-044
+    session: Session 7 - Advanced Sensors & Measurement Systems II
     speakers: [Henrique Dantas Silva]
     type: contributed paper
     track: Sensors & Signal Processing
@@ -436,6 +473,7 @@ sessions:
 
   - title: Development and Experimental Evaluation of a Three-Lead ECG Holter System
     id: ses-045
+    session: Session 7 - Advanced Sensors & Measurement Systems II
     speakers: [Ondrej Kovac]
     type: contributed paper
     track: Sensors & Signal Processing
@@ -445,6 +483,7 @@ sessions:
 
   - title: Multiparametric metrological characterization of an inductive sensing element for mechanical wear estimation
     id: ses-046
+    session: Session 7 - Advanced Sensors & Measurement Systems II
     speakers: [Davide Ceschini]
     type: contributed paper
     track: Sensors & Signal Processing
@@ -464,6 +503,7 @@ sessions:
   # Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization
   - title: Detection of Physical Layer Anomalies and Eavesdropping in Real World Data Cables
     id: ses-048
+    session: Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization
     speakers: [Amit Duwal]
     type: contributed paper
     track: Applications
@@ -473,6 +513,7 @@ sessions:
 
   - title: Sustainability-oriented optimization of a sensing board for applications as a cyber-physical measurement system (CPMS)
     id: ses-049
+    session: Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization
     speakers: [Leopoldo Angrisani]
     type: contributed paper
     track: Applications
@@ -482,6 +523,7 @@ sessions:
 
   - title: "Testing and conformity assessment in Brazil's expanding photovoltaic sector: implementation challenges for quality infrastructure"
     id: ses-050
+    session: Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization
     speakers: [Leonardo Batista Paiva]
     type: contributed paper
     track: Applications
@@ -491,6 +533,7 @@ sessions:
 
   - title: Vector Fitting-Based Feature Extraction from Electrochemical Impedance Spectroscopy for SOC and SOH Estimation
     id: ses-051
+    session: Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization
     speakers: [Pedro Ramos]
     type: contributed paper
     track: Applications
@@ -500,6 +543,7 @@ sessions:
 
   - title: Measurement of the characteristics of EDL and hybrid supercapacitors versus temperature
     id: ses-052
+    session: Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization
     speakers: [Ornella Conti]
     type: contributed paper
     track: Applications
@@ -509,6 +553,7 @@ sessions:
 
   - title: Non-Destructive Microwave Dielectric Characterization of Leather for Automotive Applications
     id: ses-053
+    session: Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization
     speakers: [Kostiantyn Torokhtii]
     type: contributed paper
     track: Applications
@@ -518,6 +563,7 @@ sessions:
 
   - title: Measurements of Wetsuits Thermal Properties from 100 to 600 kPa Absolute Pressure
     id: ses-054
+    session: Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization
     speakers: [Cesare Svelto]
     type: contributed paper
     track: Applications

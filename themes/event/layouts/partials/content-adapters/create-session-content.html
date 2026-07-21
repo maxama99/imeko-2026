@@ -45,6 +45,7 @@
         "track" $sessionTrack.name
         "isScheduled" $isScheduled
         "categories" $sessionCategoryNames
+        "sessionGroup" .sessionGroup
     }}
     {{ $path := (printf "%s %s" .title $sessionId) }}
     {{ $page := dict

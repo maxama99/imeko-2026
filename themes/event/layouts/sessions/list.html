@@ -86,27 +86,37 @@
                     {{ .Key | time.Format ":date_long" }}
                 </h2>
                 {{- /*
-                    Group consecutive talks into visual blocks that are broken
-                    apart by service sessions (breaks, ceremonies). This keeps
+                    Group consecutive talks into visual blocks. A new block
+                    starts whenever a service session (break, ceremony) is
+                    reached or the thematic session changes, so each block maps
+                    to one session and can carry its heading. This keeps
                     back-to-back presentations tightly together and lets the
                     breaks act as separators between them.
                 */ -}}
                 {{- $dayPages := sort .Pages "Params.startsAt" }}
                 {{- $blocks := slice }}
                 {{- $currentTalks := slice }}
+                {{- $currentGroup := "" }}
                 {{- range $dayPages }}
                     {{- if .Params.isServiceSession }}
                         {{- if gt (len $currentTalks) 0 }}
-                            {{- $blocks = $blocks | append (dict "kind" "talks" "pages" $currentTalks) }}
+                            {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "pages" $currentTalks) }}
                             {{- $currentTalks = slice }}
+                            {{- $currentGroup = "" }}
                         {{- end }}
                         {{- $blocks = $blocks | append (dict "kind" "service" "page" .) }}
                     {{- else }}
+                        {{- $pageGroup := or .Params.sessionGroup "" }}
+                        {{- if and (gt (len $currentTalks) 0) (ne $pageGroup $currentGroup) }}
+                            {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "pages" $currentTalks) }}
+                            {{- $currentTalks = slice }}
+                        {{- end }}
+                        {{- $currentGroup = $pageGroup }}
                         {{- $currentTalks = $currentTalks | append . }}
                     {{- end }}
                 {{- end }}
                 {{- if gt (len $currentTalks) 0 }}
-                    {{- $blocks = $blocks | append (dict "kind" "talks" "pages" $currentTalks) }}
+                    {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "pages" $currentTalks) }}
                 {{- end }}
 
                 {{- range $blocks }}
@@ -121,6 +131,11 @@
                             }}
                         </menu>
                     {{- else }}
+                        {{- with .group }}
+                            <h3 class="heading heading--3 session-day-section__session-heading">
+                                {{- . -}}
+                            </h3>
+                        {{- end }}
                         <menu class="session-day-section__group">
                             {{- range .pages }}
                                 {{- partial "session-schedule-row.html" (
