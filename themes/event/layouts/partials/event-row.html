@@ -1,11 +1,19 @@
 {{ $input := . }}
 
+{{- /*
+    A row is only clickable when it links to a detail page worth opening.
+    Contributed papers have no extra info or photos yet, so they render as
+    static rows; only invited keynotes (and never service sessions) link out.
+*/ -}}
+{{- $clickable := and (not $input.isServiceSession) $input.linkable $input.link }}
 
 <a
     {{- if $input.isServiceSession }}
         class="event-row event-row--service-session"
-    {{- else }}
+    {{- else if $clickable }}
         class="event-row" href="{{- $input.link }}"
+    {{- else }}
+        class="event-row event-row--static"
     {{- end }}>
     <div class="event-row__left">
         {{- if and $input.startsAt (not $input.startsAt.IsZero) }}
@@ -29,40 +37,38 @@
                 <span>{{- .name -}}</span>
             {{- end }}
         </h3>
-        <h3 class="event-row__room">
-            {{- T "sessions_page.room" }}:
-            {{ $input.room -}}
-        </h3>
     </div>
     <div class="event-row__right">
-        <ul class="event-row__avatars">
-            {{- range $input.speakers }}
-                {{- $speaker := . }}
-                {{- with $speaker.avatarResource }}
-                    {{- with images.Filter (images.Process "resize 128x") . }}
-                        <li>
-                            <img
-                                class="event-row__avatar-img"
-                                src="{{ .RelPermalink }}"
-                                alt="{{ $speaker.name }}"
-                                width="{{ .Width }}"
-                                height="{{ .Height }}" />
-                        </li>
-                    {{- end }}
-                {{- else }}
-                    {{- with resources.Get "images/avatar-image-fallback.webp" }}
-                        <li>
-                            <img
-                                class="event-row__avatar-img"
-                                src="{{ .RelPermalink }}"
-                                alt="{{ $speaker.name }}"
-                                width="{{ .Width }}"
-                                height="{{ .Height }}" />
-                        </li>
+        {{- if $clickable }}
+            <ul class="event-row__avatars">
+                {{- range $input.speakers }}
+                    {{- $speaker := . }}
+                    {{- with $speaker.avatarResource }}
+                        {{- with images.Filter (images.Process "resize 128x") . }}
+                            <li>
+                                <img
+                                    class="event-row__avatar-img"
+                                    src="{{ .RelPermalink }}"
+                                    alt="{{ $speaker.name }}"
+                                    width="{{ .Width }}"
+                                    height="{{ .Height }}" />
+                            </li>
+                        {{- end }}
+                    {{- else }}
+                        {{- with resources.Get "images/avatar-image-fallback.webp" }}
+                            <li>
+                                <img
+                                    class="event-row__avatar-img"
+                                    src="{{ .RelPermalink }}"
+                                    alt="{{ $speaker.name }}"
+                                    width="{{ .Width }}"
+                                    height="{{ .Height }}" />
+                            </li>
+                        {{- end }}
                     {{- end }}
                 {{- end }}
-            {{- end }}
-        </ul>
+            </ul>
+        {{- end }}
 
         {{- partial "session-categories.html" (
             dict

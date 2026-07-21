@@ -8,6 +8,8 @@
 {{- $page := .page }}
 {{- $sectionResources := .sectionResources }}
 {{- $trackIndices := .trackIndices }}
+{{- /* Only invited keynotes have a detail page worth linking to. */ -}}
+{{- $linkable := eq $page.Params.track "Keynote" }}
 {{- $transformedSpeakers := slice }}
 {{- range $page.Params.speakers }}
     {{- $speakerAvatarResource := ($sectionResources.GetMatch (printf "avatar-%s-%s.*" $page.Params.sessionId .id)) }}
@@ -34,6 +36,7 @@
         "categories" $page.Params.categories
         "startsAt" $page.Params.startsAt
         "endsAt" $page.Params.endsAt
+        "linkable" $linkable
         )
     }}
 </li>

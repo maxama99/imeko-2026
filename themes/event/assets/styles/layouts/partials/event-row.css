@@ -19,6 +19,16 @@
     box-shadow: 0 0.0625rem 0.1875rem 0 var(--color-shadow);
 }
 
+/* Non-clickable rows (contributed papers without a detail page). */
+.event-row--static {
+    cursor: default;
+}
+
+.event-row--static:hover {
+    outline: 0 solid transparent;
+    box-shadow: none;
+}
+
 @media (width <= 576px) {
     .event-row {
         flex-direction: column;
@@ -33,7 +43,6 @@
     border-style: dashed;
     background-color: color-mix(in srgb, var(--color-primary) 4%, transparent);
 
-    .event-row__room,
     .event-row__speakers,
     .event-row__avatars,
     .event-row__track,
@@ -105,7 +114,6 @@
     font-weight: 600;
 }
 
-.event-row__room,
 .event-row__speakers {
     all: unset;
     font-size: 1rem;
