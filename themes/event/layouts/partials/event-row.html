@@ -8,6 +8,14 @@
         class="event-row" href="{{- $input.link }}"
     {{- end }}>
     <div class="event-row__left">
+        {{- if and $input.startsAt (not $input.startsAt.IsZero) }}
+            <p class="event-row__time">
+                {{- $input.startsAt | time.Format "15:04" -}}
+                {{- if and $input.endsAt (not $input.endsAt.IsZero) }}
+                    &nbsp;&ndash;&nbsp;{{ $input.endsAt | time.Format "15:04" -}}
+                {{- end }}
+            </p>
+        {{- end }}
         {{- if $input.track }}
             <h1 class="event-row__track">
                 #{{- $input.track | upper -}}
