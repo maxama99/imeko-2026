@@ -490,6 +490,21 @@
       "sessionGroup": "Session 4 - Electrical & Magnetic Instrumentation"
     },
     {
+      "id": "ses-gala-dinner",
+      "title": "Gala Dinner",
+      "description": "TODO: details to be announced (venue, dress code, programme).",
+      "startsAt": "2026-09-17T19:00:00+02:00",
+      "endsAt": "2026-09-17T21:00:00+02:00",
+      "roomId": "room-tba",
+      "isServiceSession": true,
+      "isPlenumSession": false,
+      "speakers": [],
+      "categoryItems": [
+        "track-ceremony",
+        "type-ceremony"
+      ]
+    },
+    {
       "id": "ses-029",
       "title": "Invited Keynote: Dr. Michael Street",
       "description": "",
@@ -1693,6 +1708,10 @@
     {
       "id": "room-main-hall",
       "name": "Main Hall"
+    },
+    {
+      "id": "room-tba",
+      "name": "TBA"
     }
   ]
 }
