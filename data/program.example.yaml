@@ -3,52 +3,533 @@ timezone: Europe/Prague
 tracks:
   - Ceremony
   - Keynote
-  - Session A
-  - Session B
+  - Calibration & Standards
+  - Electrical & Magnetic
+  - ADC/DAC
+  - Sensors & Signal Processing
+  - Applications
+  - Break
 
 speakers:
-  - name: TBD
-    id: spk-TBD
-    tagline: Department of Measurement, CTU in Prague
-    bio: Focus on precision instrumentation and metrology.
+  - name: Prof. Paolo Carbone
+    id: spk-keynote-carbone
+    tagline: University of Perugia, Italy
+  - name: Prof. Jiri Tesar
+    id: spk-keynote-tesar
+    tagline: Czech Metrology Institute (CMI), Czech Republic
+  - name: Dr. Cristian Coman
+    id: spk-keynote-coman
+    tagline: NATO Communications and Information Agency (NCIA), The Hague
+  - name: Dr. Michael Street
+    id: spk-keynote-street
+    tagline: NATO Communications and Information Agency (NCIA), The Hague
+  - name: Prof. Kruno Milicevic
+    id: spk-keynote-milicevic
+    tagline: J. J. Strossmayer University of Osijek, Croatia
 
 sessions:
-  - title: Welcome Ceremony
-    id: ses-ceremony
-    description: Welcome and conference overview.
-    speakers: [spk-TBD]
-    type: welcome
+  # ----- DAY 1 - Wednesday, 16 September 2026 -----
+  - title: Welcome Ceremony & Get-Together Reception
+    id: ses-001
+    type: ceremony
     track: Ceremony
-    room: CIIRC
+    room: Main Hall
+    isServiceSession: true
     start: 2026-09-16 17:00
-    end: 2026-09-16 22:00
+    end: 2026-09-16 19:00
 
-  - title: Opening Ceremony
-    id: ses-opening
-    description: Welcome and conference overview.
-    speakers: [spk-TBD]
-    type: welcome
+  # ----- DAY 2 - Thursday, 17 September 2026 -----
+  - title: Conference Opening & Welcome Address
+    id: ses-002
+    type: ceremony
     track: Ceremony
-    room: CIIRC
-    start: 2026-09-17 09:00
+    room: Main Hall
+    isServiceSession: true
+    start: 2026-09-17 08:30
+    end: 2026-09-17 08:55
+
+  # Session 1 - Calibration, Traceability & Metrological Standards I
+  - title: "Invited Keynote: Prof. Paolo Carbone"
+    id: ses-003
+    speakers: [Prof. Paolo Carbone]
+    type: keynote
+    track: Keynote
+    room: Main Hall
+    start: 2026-09-17 08:55
+    end: 2026-09-17 09:30
+
+  - title: Development of System for Disseminating AC/DC Voltage Difference Using Ranges of Transfer Standard and Investigating Stability
+    id: ses-004
+    speakers: [Valentyn Isaiev]
+    type: contributed paper
+    track: Calibration & Standards
+    room: Main Hall
+    start: 2026-09-17 09:30
+    end: 2026-09-17 09:45
+
+  - title: Establishment of the Josephson Voltage Standard at SASO-NMCC, KSA
+    id: ses-005
+    speakers: [Mohammed AlTkroni]
+    type: contributed paper
+    track: Calibration & Standards
+    room: Main Hall
+    start: 2026-09-17 09:45
     end: 2026-09-17 10:00
 
-  - title: Conference Sessions
-    id: ses-day3-start
-    description: Technical sessions continue (final programme to be announced).
-    speakers: [spk-TBD]
-    type: session
-    track: Session
-    room: CIIRC
+  - title: Franco Cabiati, electrical impedance metrology, and IMEKO
+    id: ses-006
+    speakers: [Luca Callegaro]
+    type: contributed paper
+    track: Calibration & Standards
+    room: Main Hall
+    start: 2026-09-17 10:00
+    end: 2026-09-17 10:15
+
+  - title: Exploring calibration schemes for electric impedance measurements beyond the short-open-load
+    id: ses-007
+    speakers: [Alessandro Cultrera]
+    type: contributed paper
+    track: Calibration & Standards
+    room: Main Hall
+    start: 2026-09-17 10:15
+    end: 2026-09-17 10:30
+
+  - title: Coffee Break
+    id: ses-008
+    type: break
+    track: Break
+    room: Main Hall
+    isServiceSession: true
+    start: 2026-09-17 10:30
+    end: 2026-09-17 11:00
+
+  # Session 2 - Calibration, Traceability & Metrological Standards II
+  - title: "Invited Keynote: Prof. Jiri Tesar"
+    id: ses-009
+    speakers: [Prof. Jiri Tesar]
+    type: keynote
+    track: Keynote
+    room: Main Hall
+    start: 2026-09-17 11:00
+    end: 2026-09-17 11:30
+
+  - title: Study of the influence of microwave polarization on high-temperature superconductor Josephson junction arrays
+    id: ses-010
+    speakers: [Changhao Zhao]
+    type: contributed paper
+    track: Calibration & Standards
+    room: Main Hall
+    start: 2026-09-17 11:30
+    end: 2026-09-17 11:45
+
+  - title: MEMS-based Long-haul Optical Link Asymmetry Estimation for Atomic Clock Comparison
+    id: ses-011
+    speakers: [Michal Spacek]
+    type: contributed paper
+    track: Calibration & Standards
+    room: Main Hall
+    start: 2026-09-17 11:45
+    end: 2026-09-17 12:00
+
+  - title: A Model for Secure Exchange of Digital Calibration Certificates
+    id: ses-012
+    speakers: [Ahmed Khan Leghari]
+    type: contributed paper
+    track: Calibration & Standards
+    room: Main Hall
+    start: 2026-09-17 12:00
+    end: 2026-09-17 12:15
+
+  - title: "Metrological Traceability in IoT Sensor Networks: A Microservice-based Framework for Automated Calibration Management"
+    id: ses-013
+    speakers: [Marco Sento]
+    type: contributed paper
+    track: Calibration & Standards
+    room: Main Hall
+    start: 2026-09-17 12:15
+    end: 2026-09-17 12:30
+
+  - title: A Hierarchical Bayesian Framework for Drift Estimation and Forecasting of Standard Resistors with Informative Priors from International Comparisons
+    id: ses-014
+    speakers: [Othman Alshamrani]
+    type: contributed paper
+    track: Calibration & Standards
+    room: Main Hall
+    start: 2026-09-17 12:30
+    end: 2026-09-17 12:45
+
+  - title: Implementation of Monte Carlo Simulation for measurement uncertainty estimation in electrical power and energy reference standards calibration
+    id: ses-015
+    speakers: [Kiril Demerdziev]
+    type: contributed paper
+    track: Calibration & Standards
+    room: Main Hall
+    start: 2026-09-17 12:45
+    end: 2026-09-17 13:00
+
+  - title: Lunch Break
+    id: ses-016
+    type: break
+    track: Break
+    room: Main Hall
+    isServiceSession: true
+    start: 2026-09-17 13:00
+    end: 2026-09-17 14:00
+
+  # Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation
+  - title: "Invited Keynote: Dr. Cristian Coman"
+    id: ses-017
+    speakers: [Dr. Cristian Coman]
+    type: keynote
+    track: Keynote
+    room: Main Hall
+    start: 2026-09-17 14:00
+    end: 2026-09-17 14:30
+
+  - title: GUM-compliant uncertainty evaluation in measurements based on ML regression or classification models
+    id: ses-018
+    speakers: [Leopoldo Angrisani]
+    type: contributed paper
+    track: Calibration & Standards
+    room: Main Hall
+    start: 2026-09-17 14:30
+    end: 2026-09-17 14:45
+
+  - title: Quality Infrastructure for Resilient Electrical Sector - Ensuring Confident Measurement Results in Calibration of High Currents Instruments
+    id: ses-019
+    speakers: [Marija Cundeva-Blajer]
+    type: contributed paper
+    track: Calibration & Standards
+    room: Main Hall
+    start: 2026-09-17 14:45
+    end: 2026-09-17 15:00
+
+  - title: Development of the Digital Twin for a Digital Impedance Ratio Bridge
+    id: ses-020
+    speakers: [Ana Lucia Medina Rodriguez]
+    type: contributed paper
+    track: Electrical & Magnetic
+    room: Main Hall
+    start: 2026-09-17 15:00
+    end: 2026-09-17 15:15
+
+  - title: Accuracy Analysis of THD Measurement of Power Signals by Means of a Low-cost Oscilloscope
+    id: ses-021
+    speakers: [Gabriel Gasparesc]
+    type: contributed paper
+    track: Electrical & Magnetic
+    room: Main Hall
+    start: 2026-09-17 15:15
+    end: 2026-09-17 15:30
+
+  - title: Coffee Break
+    id: ses-022
+    type: break
+    track: Break
+    room: Main Hall
+    isServiceSession: true
+    start: 2026-09-17 15:30
+    end: 2026-09-17 16:00
+
+  # Session 4 - Electrical & Magnetic Instrumentation
+  - title: The primary Tesla Standard at PTB
+    id: ses-023
+    speakers: [Franziska Weickert]
+    type: contributed paper
+    track: Electrical & Magnetic
+    room: Main Hall
+    start: 2026-09-17 16:00
+    end: 2026-09-17 16:15
+
+  - title: A traceable calibration of low-field magnetic coil systems in noisy industrial environments
+    id: ses-024
+    speakers: [Michal Janosek]
+    type: contributed paper
+    track: Electrical & Magnetic
+    room: Main Hall
+    start: 2026-09-17 16:15
+    end: 2026-09-17 16:30
+
+  - title: Model-based magnetization measurement in Fluxgate sensors
+    id: ses-025
+    speakers: [Jiri Maier]
+    type: contributed paper
+    track: Electrical & Magnetic
+    room: Main Hall
+    start: 2026-09-17 16:30
+    end: 2026-09-17 16:45
+
+  - title: Estimation of torquer rod magnetic moment with fluxmetric method and compact sensing coils
+    id: ses-026
+    speakers: [Michal Janosek]
+    type: contributed paper
+    track: Electrical & Magnetic
+    room: Main Hall
+    start: 2026-09-17 16:45
+    end: 2026-09-17 17:00
+
+  - title: Frequency-Dependent Vibration Sensitivity of VNA S-Parameter Repeatability
+    id: ses-027
+    speakers: [Ibrahim ALBoraih]
+    type: contributed paper
+    track: Electrical & Magnetic
+    room: Main Hall
+    start: 2026-09-17 17:00
+    end: 2026-09-17 17:15
+
+  - title: Compact modular cryogenic dielectric resonator for surface impedance measurements in high magnetic fields
+    id: ses-028
+    speakers: [Kostiantyn Torokhtii]
+    type: contributed paper
+    track: Electrical & Magnetic
+    room: Main Hall
+    start: 2026-09-17 17:15
+    end: 2026-09-17 17:30
+
+  # ----- DAY 3 - Friday, 18 September 2026 -----
+  # Session 5 - ADC/DAC, Waveform & Data Conversion Metrology
+  - title: "Invited Keynote: Dr. Michael Street"
+    id: ses-029
+    speakers: [Dr. Michael Street]
+    type: keynote
+    track: Keynote
+    room: Main Hall
+    start: 2026-09-18 08:30
+    end: 2026-09-18 09:00
+
+  - title: A systematic aliasing suppression architecture for real-time FI-DAC based on linear-phase complementary filter and oversampling
+    id: ses-030
+    speakers: [Yang Shen]
+    type: contributed paper
+    track: ADC/DAC
+    room: Main Hall
     start: 2026-09-18 09:00
+    end: 2026-09-18 09:15
+
+  - title: Parameter estimation of complex-valued sinewaves by a frequency-domain linearized sine-fit algorithm
+    id: ses-031
+    speakers: [Dominique Dallet]
+    type: contributed paper
+    track: ADC/DAC
+    room: Main Hall
+    start: 2026-09-18 09:15
+    end: 2026-09-18 09:30
+
+  - title: Benchmarks for IIR Model Identification Based on Binary Measurements
+    id: ses-032
+    speakers: [Paolo Carbone]
+    type: contributed paper
+    track: ADC/DAC
+    room: Main Hall
+    start: 2026-09-18 09:30
+    end: 2026-09-18 09:45
+
+  - title: A Digital Voltage Ramp Generator with Integrating Compensation
+    id: ses-033
+    speakers: [Jianting Zhao]
+    type: contributed paper
+    track: ADC/DAC
+    room: Main Hall
+    start: 2026-09-18 09:45
     end: 2026-09-18 10:00
 
-  - title: Closing Ceremony
-    id: ses-closing
-    description: Closing ceremony and farewell.
-    speakers: [spk-TBD]
-    type: end
-    track: Ceremony
-    room: CIIRC
+  - title: Coffee Break
+    id: ses-034
+    type: break
+    track: Break
+    room: Main Hall
+    isServiceSession: true
+    start: 2026-09-18 10:00
+    end: 2026-09-18 10:30
+
+  # Session 6 - Advanced Sensors & Signal Processing I
+  - title: "Invited Keynote: Prof. Kruno Milicevic"
+    id: ses-035
+    speakers: [Prof. Kruno Milicevic]
+    type: keynote
+    track: Keynote
+    room: Main Hall
+    start: 2026-09-18 10:30
+    end: 2026-09-18 11:00
+
+  - title: Acoustic-Based Detection, Classification, and Localization of Impulsive Sounds
+    id: ses-036
+    speakers: [Martin Maxa]
+    type: contributed paper
+    track: Sensors & Signal Processing
+    room: Main Hall
+    start: 2026-09-18 11:00
+    end: 2026-09-18 11:15
+
+  - title: Lock-in detection algorithm for signals modulated with irregular intervals
+    id: ses-037
+    speakers: [Shingo Tamaru]
+    type: contributed paper
+    track: Sensors & Signal Processing
+    room: Main Hall
+    start: 2026-09-18 11:15
+    end: 2026-09-18 11:30
+
+  - title: A Wireless Acoustic Monitoring System for Drone Localization Based on MEMS Microphones and LoRa Communication
+    id: ses-038
+    speakers: [Kamil Herman]
+    type: contributed paper
+    track: Sensors & Signal Processing
+    room: Main Hall
+    start: 2026-09-18 11:30
+    end: 2026-09-18 11:45
+
+  - title: Comparative Analysis of Search Algorithms for Automatic L-type Matching Network
+    id: ses-039
+    speakers: [Joao Pedro Torres S. Andrade]
+    type: contributed paper
+    track: Sensors & Signal Processing
+    room: Main Hall
+    start: 2026-09-18 11:45
+    end: 2026-09-18 12:00
+
+  - title: Airborne Navigation During GNSS Outages Using Tightly Coupled IMU/DVB-T2 Fusion
+    id: ses-040
+    speakers: [Michal Koldinsky]
+    type: contributed paper
+    track: Sensors & Signal Processing
+    room: Main Hall
+    start: 2026-09-18 12:00
+    end: 2026-09-18 12:15
+
+  - title: Lunch Break
+    id: ses-041
+    type: break
+    track: Break
+    room: Main Hall
+    isServiceSession: true
+    start: 2026-09-18 12:15
+    end: 2026-09-18 13:15
+
+  # Session 7 - Advanced Sensors & Measurement Systems II
+  - title: Microcontroller Based Software Defined Instruments as an Economical Substitute of Virtual Measurement Instruments
+    id: ses-042
+    speakers: [Jakub Svatos]
+    type: contributed paper
+    track: Sensors & Signal Processing
+    room: Main Hall
+    start: 2026-09-18 13:15
+    end: 2026-09-18 13:30
+
+  - title: Exploring a new indirect approach to latency measurement
+    id: ses-043
+    speakers: [Jakub Turinsky]
+    type: contributed paper
+    track: Sensors & Signal Processing
+    room: Main Hall
+    start: 2026-09-18 13:30
+    end: 2026-09-18 13:45
+
+  - title: Detection of Mercury Ion in Water Samples Using a Low-Tech EPS-Coated Interdigitated Capacitive Sensor through S-Parameter Analysis
+    id: ses-044
+    speakers: [Henrique Dantas Silva]
+    type: contributed paper
+    track: Sensors & Signal Processing
+    room: Main Hall
+    start: 2026-09-18 13:45
+    end: 2026-09-18 14:00
+
+  - title: Development and Experimental Evaluation of a Three-Lead ECG Holter System
+    id: ses-045
+    speakers: [Ondrej Kovac]
+    type: contributed paper
+    track: Sensors & Signal Processing
+    room: Main Hall
+    start: 2026-09-18 14:00
+    end: 2026-09-18 14:15
+
+  - title: Multiparametric metrological characterization of an inductive sensing element for mechanical wear estimation
+    id: ses-046
+    speakers: [Davide Ceschini]
+    type: contributed paper
+    track: Sensors & Signal Processing
+    room: Main Hall
+    start: 2026-09-18 14:15
+    end: 2026-09-18 14:30
+
+  - title: Coffee Break
+    id: ses-047
+    type: break
+    track: Break
+    room: Main Hall
+    isServiceSession: true
+    start: 2026-09-18 14:30
+    end: 2026-09-18 15:00
+
+  # Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization
+  - title: Detection of Physical Layer Anomalies and Eavesdropping in Real World Data Cables
+    id: ses-048
+    speakers: [Amit Duwal]
+    type: contributed paper
+    track: Applications
+    room: Main Hall
+    start: 2026-09-18 15:00
+    end: 2026-09-18 15:15
+
+  - title: Sustainability-oriented optimization of a sensing board for applications as a cyber-physical measurement system (CPMS)
+    id: ses-049
+    speakers: [Leopoldo Angrisani]
+    type: contributed paper
+    track: Applications
+    room: Main Hall
+    start: 2026-09-18 15:15
+    end: 2026-09-18 15:30
+
+  - title: "Testing and conformity assessment in Brazil's expanding photovoltaic sector: implementation challenges for quality infrastructure"
+    id: ses-050
+    speakers: [Leonardo Batista Paiva]
+    type: contributed paper
+    track: Applications
+    room: Main Hall
+    start: 2026-09-18 15:30
+    end: 2026-09-18 15:45
+
+  - title: Vector Fitting-Based Feature Extraction from Electrochemical Impedance Spectroscopy for SOC and SOH Estimation
+    id: ses-051
+    speakers: [Pedro Ramos]
+    type: contributed paper
+    track: Applications
+    room: Main Hall
+    start: 2026-09-18 15:45
+    end: 2026-09-18 16:00
+
+  - title: Measurement of the characteristics of EDL and hybrid supercapacitors versus temperature
+    id: ses-052
+    speakers: [Ornella Conti]
+    type: contributed paper
+    track: Applications
+    room: Main Hall
     start: 2026-09-18 16:00
+    end: 2026-09-18 16:15
+
+  - title: Non-Destructive Microwave Dielectric Characterization of Leather for Automotive Applications
+    id: ses-053
+    speakers: [Kostiantyn Torokhtii]
+    type: contributed paper
+    track: Applications
+    room: Main Hall
+    start: 2026-09-18 16:15
+    end: 2026-09-18 16:30
+
+  - title: Measurements of Wetsuits Thermal Properties from 100 to 600 kPa Absolute Pressure
+    id: ses-054
+    speakers: [Cesare Svelto]
+    type: contributed paper
+    track: Applications
+    room: Main Hall
+    start: 2026-09-18 16:30
+    end: 2026-09-18 16:45
+
+  - title: Closing Remarks & Best Paper Awards
+    id: ses-055
+    type: ceremony
+    track: Ceremony
+    room: Main Hall
+    isServiceSession: true
+    start: 2026-09-18 16:45
     end: 2026-09-18 17:00
