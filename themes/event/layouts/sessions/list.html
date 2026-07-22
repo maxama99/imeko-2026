@@ -34,10 +34,6 @@
     <header class="section-container">
         <div class="section">
             <h1 class="heading heading--1">{{ T "sessions_page.heading" }}</h1>
-            <div class="session-list-notice">
-                <span class="session-list-notice__badge">{{ T "sessions_page.notice_badge" }}</span>
-                <p class="session-list-notice__text">{{ T "sessions_page.notice" }}</p>
-            </div>
             <div class="session-list-filters">
                 {{- if gt ($sessionsGroupedByDay | len) 1 }}
                     <article class="session-list-filter">
@@ -85,42 +81,69 @@
                 <h2 class="heading heading--2">
                     {{ .Key | time.Format ":date_long" }}
                 </h2>
-                {{- range .Pages.GroupByParamDate "startsAt" "2006-01-02T15:04:00" "asc" }}
-                    <h3 class="heading heading--3 session-day-section__hour-heading">
-                        {{ .Key | time.Format ":time_short" }}
-                    </h3>
-                    <menu class="session-day-section__session-menu">
-                        {{- range .Pages }}
-                            {{- $page := . }}
-                            <li
-                                role="presentation"
-                                {{- if .Params.track }}
-                                    data-track="{{ (index $sessionTrackIndices .Params.track) }}"
-                                {{- end }}>
-                                {{- $transformedSpeakers := slice }}
-                                {{- range .Params.speakers }}
-                                    {{- $speakerAvatarResource := ($sectionResources.GetMatch (printf "avatar-%s-%s.*" $page.Params.sessionId .id)) }}
-                                    {{- $transformedSpeakers = $transformedSpeakers | append (
-                                        dict
-                                        "name" .fullName
-                                        "avatarResource" $speakerAvatarResource
-                                        )
-                                    }}
-                                {{- end }}
-                                {{- partial "event-row.html" (
+                {{- /*
+                    Group consecutive talks into visual blocks. A new block
+                    starts whenever a service session (break, ceremony) is
+                    reached or the thematic session changes, so each block maps
+                    to one session and can carry its heading. This keeps
+                    back-to-back presentations tightly together and lets the
+                    breaks act as separators between them.
+                */ -}}
+                {{- $dayPages := sort .Pages "Params.startsAt" }}
+                {{- $blocks := slice }}
+                {{- $currentTalks := slice }}
+                {{- $currentGroup := "" }}
+                {{- range $dayPages }}
+                    {{- if .Params.isServiceSession }}
+                        {{- if gt (len $currentTalks) 0 }}
+                            {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "pages" $currentTalks) }}
+                            {{- $currentTalks = slice }}
+                            {{- $currentGroup = "" }}
+                        {{- end }}
+                        {{- $blocks = $blocks | append (dict "kind" "service" "page" .) }}
+                    {{- else }}
+                        {{- $pageGroup := or .Params.sessionGroup "" }}
+                        {{- if and (gt (len $currentTalks) 0) (ne $pageGroup $currentGroup) }}
+                            {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "pages" $currentTalks) }}
+                            {{- $currentTalks = slice }}
+                        {{- end }}
+                        {{- $currentGroup = $pageGroup }}
+                        {{- $currentTalks = $currentTalks | append . }}
+                    {{- end }}
+                {{- end }}
+                {{- if gt (len $currentTalks) 0 }}
+                    {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "pages" $currentTalks) }}
+                {{- end }}
+
+                {{- range $blocks }}
+                    {{- if eq .kind "service" }}
+                        <menu class="session-day-section__break">
+                            {{- partial "session-schedule-row.html" (
+                                dict
+                                "page" .page
+                                "sectionResources" $sectionResources
+                                "trackIndices" $sessionTrackIndices
+                                )
+                            }}
+                        </menu>
+                    {{- else }}
+                        {{- with .group }}
+                            <h3 class="heading heading--3 session-day-section__session-heading">
+                                {{- . -}}
+                            </h3>
+                        {{- end }}
+                        <menu class="session-day-section__group">
+                            {{- range .pages }}
+                                {{- partial "session-schedule-row.html" (
                                     dict
-                                    "track" .Params.track
-                                    "title" .Title
-                                    "link" .RelPermalink
-                                    "speakers" $transformedSpeakers
-                                    "isServiceSession" .Params.isServiceSession
-                                    "room" .Params.room.name
-                                    "categories" .Params.categories
+                                    "page" .
+                                    "sectionResources" $sectionResources
+                                    "trackIndices" $sessionTrackIndices
                                     )
                                 }}
-                            </li>
-                        {{- end }}
-                    </menu>
+                            {{- end }}
+                        </menu>
+                    {{- end }}
                 {{- end }}
             </section>
         {{ else }}

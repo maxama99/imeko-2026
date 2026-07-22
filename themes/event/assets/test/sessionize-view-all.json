@@ -1,90 +1,1630 @@
 {
   "sessions": [
     {
-      "id": "ses-ceremony",
-      "title": "Welcome Ceremony",
-      "description": "Welcome and conference overview.",
+      "id": "ses-001",
+      "title": "Welcome Ceremony & Get-Together Reception",
+      "description": "",
       "startsAt": "2026-09-16T17:00:00+02:00",
-      "endsAt": "2026-09-16T22:00:00+02:00",
-      "roomId": "room-ciirc",
-      "isServiceSession": false,
+      "endsAt": "2026-09-16T19:00:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": true,
       "isPlenumSession": false,
-      "speakers": [
-        "spk-TBD"
-      ],
+      "speakers": [],
       "categoryItems": [
         "track-ceremony",
-        "type-welcome"
+        "type-ceremony"
       ]
     },
     {
-      "id": "ses-opening",
-      "title": "Opening Ceremony",
-      "description": "Welcome and conference overview.",
-      "startsAt": "2026-09-17T09:00:00+02:00",
+      "id": "ses-002",
+      "title": "Conference Opening & Welcome Address",
+      "description": "",
+      "startsAt": "2026-09-17T08:30:00+02:00",
+      "endsAt": "2026-09-17T08:55:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": true,
+      "isPlenumSession": false,
+      "speakers": [],
+      "categoryItems": [
+        "track-ceremony",
+        "type-ceremony"
+      ]
+    },
+    {
+      "id": "ses-003",
+      "title": "Invited Keynote: Prof. Paolo Carbone",
+      "description": "",
+      "startsAt": "2026-09-17T08:55:00+02:00",
+      "endsAt": "2026-09-17T09:30:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-keynote-carbone"
+      ],
+      "categoryItems": [
+        "track-keynote",
+        "type-keynote"
+      ],
+      "sessionGroup": "Session 1 - Calibration, Traceability & Metrological Standards I"
+    },
+    {
+      "id": "ses-004",
+      "title": "Development of System for Disseminating AC/DC Voltage Difference Using Ranges of Transfer Standard and Investigating Stability",
+      "description": "",
+      "startsAt": "2026-09-17T09:30:00+02:00",
+      "endsAt": "2026-09-17T09:45:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-valentyn-isaiev"
+      ],
+      "categoryItems": [
+        "track-calibration-standards",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 1 - Calibration, Traceability & Metrological Standards I"
+    },
+    {
+      "id": "ses-005",
+      "title": "Establishment of the Josephson Voltage Standard at SASO-NMCC, KSA",
+      "description": "",
+      "startsAt": "2026-09-17T09:45:00+02:00",
       "endsAt": "2026-09-17T10:00:00+02:00",
-      "roomId": "room-ciirc",
+      "roomId": "room-main-hall",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "spk-TBD"
+        "spk-mohammed-altkroni"
       ],
       "categoryItems": [
-        "track-ceremony",
-        "type-welcome"
+        "track-calibration-standards",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 1 - Calibration, Traceability & Metrological Standards I"
+    },
+    {
+      "id": "ses-006",
+      "title": "Franco Cabiati, electrical impedance metrology, and IMEKO",
+      "description": "",
+      "startsAt": "2026-09-17T10:00:00+02:00",
+      "endsAt": "2026-09-17T10:15:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-luca-callegaro"
+      ],
+      "categoryItems": [
+        "track-calibration-standards",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 1 - Calibration, Traceability & Metrological Standards I"
+    },
+    {
+      "id": "ses-007",
+      "title": "Exploring calibration schemes for electric impedance measurements beyond the short-open-load",
+      "description": "",
+      "startsAt": "2026-09-17T10:15:00+02:00",
+      "endsAt": "2026-09-17T10:30:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-alessandro-cultrera"
+      ],
+      "categoryItems": [
+        "track-calibration-standards",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 1 - Calibration, Traceability & Metrological Standards I"
+    },
+    {
+      "id": "ses-008",
+      "title": "Coffee Break",
+      "description": "",
+      "startsAt": "2026-09-17T10:30:00+02:00",
+      "endsAt": "2026-09-17T11:00:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": true,
+      "isPlenumSession": false,
+      "speakers": [],
+      "categoryItems": [
+        "track-break",
+        "type-break"
       ]
     },
     {
-      "id": "ses-day3-start",
-      "title": "Conference Sessions",
-      "description": "Technical sessions continue (final programme to be announced).",
+      "id": "ses-009",
+      "title": "Invited Keynote: Prof. Jiri Tesar",
+      "description": "",
+      "startsAt": "2026-09-17T11:00:00+02:00",
+      "endsAt": "2026-09-17T11:30:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-keynote-tesar"
+      ],
+      "categoryItems": [
+        "track-keynote",
+        "type-keynote"
+      ],
+      "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II"
+    },
+    {
+      "id": "ses-010",
+      "title": "Study of the influence of microwave polarization on high-temperature superconductor Josephson junction arrays",
+      "description": "",
+      "startsAt": "2026-09-17T11:30:00+02:00",
+      "endsAt": "2026-09-17T11:45:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-changhao-zhao"
+      ],
+      "categoryItems": [
+        "track-calibration-standards",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II"
+    },
+    {
+      "id": "ses-011",
+      "title": "MEMS-based Long-haul Optical Link Asymmetry Estimation for Atomic Clock Comparison",
+      "description": "",
+      "startsAt": "2026-09-17T11:45:00+02:00",
+      "endsAt": "2026-09-17T12:00:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-michal-spacek"
+      ],
+      "categoryItems": [
+        "track-calibration-standards",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II"
+    },
+    {
+      "id": "ses-012",
+      "title": "A Model for Secure Exchange of Digital Calibration Certificates",
+      "description": "",
+      "startsAt": "2026-09-17T12:00:00+02:00",
+      "endsAt": "2026-09-17T12:15:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-ahmed-khan-leghari"
+      ],
+      "categoryItems": [
+        "track-calibration-standards",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II"
+    },
+    {
+      "id": "ses-013",
+      "title": "Metrological Traceability in IoT Sensor Networks: A Microservice-based Framework for Automated Calibration Management",
+      "description": "",
+      "startsAt": "2026-09-17T12:15:00+02:00",
+      "endsAt": "2026-09-17T12:30:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-marco-sento"
+      ],
+      "categoryItems": [
+        "track-calibration-standards",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II"
+    },
+    {
+      "id": "ses-014",
+      "title": "A Hierarchical Bayesian Framework for Drift Estimation and Forecasting of Standard Resistors with Informative Priors from International Comparisons",
+      "description": "",
+      "startsAt": "2026-09-17T12:30:00+02:00",
+      "endsAt": "2026-09-17T12:45:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-othman-alshamrani"
+      ],
+      "categoryItems": [
+        "track-calibration-standards",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II"
+    },
+    {
+      "id": "ses-015",
+      "title": "Implementation of Monte Carlo Simulation for measurement uncertainty estimation in electrical power and energy reference standards calibration",
+      "description": "",
+      "startsAt": "2026-09-17T12:45:00+02:00",
+      "endsAt": "2026-09-17T13:00:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-kiril-demerdziev"
+      ],
+      "categoryItems": [
+        "track-calibration-standards",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II"
+    },
+    {
+      "id": "ses-016",
+      "title": "Lunch Break",
+      "description": "",
+      "startsAt": "2026-09-17T13:00:00+02:00",
+      "endsAt": "2026-09-17T14:00:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": true,
+      "isPlenumSession": false,
+      "speakers": [],
+      "categoryItems": [
+        "track-break",
+        "type-break"
+      ]
+    },
+    {
+      "id": "ses-017",
+      "title": "Invited Keynote: Dr. Cristian Coman",
+      "description": "",
+      "startsAt": "2026-09-17T14:00:00+02:00",
+      "endsAt": "2026-09-17T14:30:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-keynote-coman"
+      ],
+      "categoryItems": [
+        "track-keynote",
+        "type-keynote"
+      ],
+      "sessionGroup": "Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation"
+    },
+    {
+      "id": "ses-018",
+      "title": "GUM-compliant uncertainty evaluation in measurements based on ML regression or classification models",
+      "description": "",
+      "startsAt": "2026-09-17T14:30:00+02:00",
+      "endsAt": "2026-09-17T14:45:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-leopoldo-angrisani"
+      ],
+      "categoryItems": [
+        "track-calibration-standards",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation"
+    },
+    {
+      "id": "ses-019",
+      "title": "Quality Infrastructure for Resilient Electrical Sector - Ensuring Confident Measurement Results in Calibration of High Currents Instruments",
+      "description": "",
+      "startsAt": "2026-09-17T14:45:00+02:00",
+      "endsAt": "2026-09-17T15:00:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-marija-cundeva-blajer"
+      ],
+      "categoryItems": [
+        "track-calibration-standards",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation"
+    },
+    {
+      "id": "ses-020",
+      "title": "Development of the Digital Twin for a Digital Impedance Ratio Bridge",
+      "description": "",
+      "startsAt": "2026-09-17T15:00:00+02:00",
+      "endsAt": "2026-09-17T15:15:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-ana-lucia-medina-rodriguez"
+      ],
+      "categoryItems": [
+        "track-electrical-magnetic",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation"
+    },
+    {
+      "id": "ses-021",
+      "title": "Accuracy Analysis of THD Measurement of Power Signals by Means of a Low-cost Oscilloscope",
+      "description": "",
+      "startsAt": "2026-09-17T15:15:00+02:00",
+      "endsAt": "2026-09-17T15:30:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-gabriel-gasparesc"
+      ],
+      "categoryItems": [
+        "track-electrical-magnetic",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation"
+    },
+    {
+      "id": "ses-022",
+      "title": "Coffee Break",
+      "description": "",
+      "startsAt": "2026-09-17T15:30:00+02:00",
+      "endsAt": "2026-09-17T16:00:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": true,
+      "isPlenumSession": false,
+      "speakers": [],
+      "categoryItems": [
+        "track-break",
+        "type-break"
+      ]
+    },
+    {
+      "id": "ses-023",
+      "title": "The primary Tesla Standard at PTB",
+      "description": "",
+      "startsAt": "2026-09-17T16:00:00+02:00",
+      "endsAt": "2026-09-17T16:15:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-franziska-weickert"
+      ],
+      "categoryItems": [
+        "track-electrical-magnetic",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 4 - Electrical & Magnetic Instrumentation"
+    },
+    {
+      "id": "ses-024",
+      "title": "A traceable calibration of low-field magnetic coil systems in noisy industrial environments",
+      "description": "",
+      "startsAt": "2026-09-17T16:15:00+02:00",
+      "endsAt": "2026-09-17T16:30:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-michal-janosek"
+      ],
+      "categoryItems": [
+        "track-electrical-magnetic",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 4 - Electrical & Magnetic Instrumentation"
+    },
+    {
+      "id": "ses-025",
+      "title": "Model-based magnetization measurement in Fluxgate sensors",
+      "description": "",
+      "startsAt": "2026-09-17T16:30:00+02:00",
+      "endsAt": "2026-09-17T16:45:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-jiri-maier"
+      ],
+      "categoryItems": [
+        "track-electrical-magnetic",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 4 - Electrical & Magnetic Instrumentation"
+    },
+    {
+      "id": "ses-026",
+      "title": "Estimation of torquer rod magnetic moment with fluxmetric method and compact sensing coils",
+      "description": "",
+      "startsAt": "2026-09-17T16:45:00+02:00",
+      "endsAt": "2026-09-17T17:00:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-michal-janosek"
+      ],
+      "categoryItems": [
+        "track-electrical-magnetic",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 4 - Electrical & Magnetic Instrumentation"
+    },
+    {
+      "id": "ses-027",
+      "title": "Frequency-Dependent Vibration Sensitivity of VNA S-Parameter Repeatability",
+      "description": "",
+      "startsAt": "2026-09-17T17:00:00+02:00",
+      "endsAt": "2026-09-17T17:15:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-ibrahim-alboraih"
+      ],
+      "categoryItems": [
+        "track-electrical-magnetic",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 4 - Electrical & Magnetic Instrumentation"
+    },
+    {
+      "id": "ses-028",
+      "title": "Compact modular cryogenic dielectric resonator for surface impedance measurements in high magnetic fields",
+      "description": "",
+      "startsAt": "2026-09-17T17:15:00+02:00",
+      "endsAt": "2026-09-17T17:30:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-kostiantyn-torokhtii"
+      ],
+      "categoryItems": [
+        "track-electrical-magnetic",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 4 - Electrical & Magnetic Instrumentation"
+    },
+    {
+      "id": "ses-gala-dinner",
+      "title": "Gala Dinner",
+      "description": "TODO: details to be announced (venue, dress code, programme).",
+      "startsAt": "2026-09-17T19:00:00+02:00",
+      "endsAt": "2026-09-17T21:00:00+02:00",
+      "roomId": "room-tba",
+      "isServiceSession": true,
+      "isPlenumSession": false,
+      "speakers": [],
+      "categoryItems": [
+        "track-ceremony",
+        "type-ceremony"
+      ]
+    },
+    {
+      "id": "ses-029",
+      "title": "Invited Keynote: Dr. Michael Street",
+      "description": "",
+      "startsAt": "2026-09-18T08:30:00+02:00",
+      "endsAt": "2026-09-18T09:00:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-keynote-street"
+      ],
+      "categoryItems": [
+        "track-keynote",
+        "type-keynote"
+      ],
+      "sessionGroup": "Session 5 - ADC/DAC, Waveform & Data Conversion Metrology"
+    },
+    {
+      "id": "ses-030",
+      "title": "A systematic aliasing suppression architecture for real-time FI-DAC based on linear-phase complementary filter and oversampling",
+      "description": "",
       "startsAt": "2026-09-18T09:00:00+02:00",
-      "endsAt": "2026-09-18T10:00:00+02:00",
-      "roomId": "room-ciirc",
+      "endsAt": "2026-09-18T09:15:00+02:00",
+      "roomId": "room-main-hall",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "spk-TBD"
+        "spk-yang-shen"
       ],
       "categoryItems": [
-        "track-session",
-        "type-session"
+        "track-adc-dac",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 5 - ADC/DAC, Waveform & Data Conversion Metrology"
+    },
+    {
+      "id": "ses-031",
+      "title": "Parameter estimation of complex-valued sinewaves by a frequency-domain linearized sine-fit algorithm",
+      "description": "",
+      "startsAt": "2026-09-18T09:15:00+02:00",
+      "endsAt": "2026-09-18T09:30:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-dominique-dallet"
+      ],
+      "categoryItems": [
+        "track-adc-dac",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 5 - ADC/DAC, Waveform & Data Conversion Metrology"
+    },
+    {
+      "id": "ses-032",
+      "title": "Benchmarks for IIR Model Identification Based on Binary Measurements",
+      "description": "",
+      "startsAt": "2026-09-18T09:30:00+02:00",
+      "endsAt": "2026-09-18T09:45:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-paolo-carbone"
+      ],
+      "categoryItems": [
+        "track-adc-dac",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 5 - ADC/DAC, Waveform & Data Conversion Metrology"
+    },
+    {
+      "id": "ses-033",
+      "title": "A Digital Voltage Ramp Generator with Integrating Compensation",
+      "description": "",
+      "startsAt": "2026-09-18T09:45:00+02:00",
+      "endsAt": "2026-09-18T10:00:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-jianting-zhao"
+      ],
+      "categoryItems": [
+        "track-adc-dac",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 5 - ADC/DAC, Waveform & Data Conversion Metrology"
+    },
+    {
+      "id": "ses-034",
+      "title": "Coffee Break",
+      "description": "",
+      "startsAt": "2026-09-18T10:00:00+02:00",
+      "endsAt": "2026-09-18T10:30:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": true,
+      "isPlenumSession": false,
+      "speakers": [],
+      "categoryItems": [
+        "track-break",
+        "type-break"
       ]
     },
     {
-      "id": "ses-closing",
-      "title": "Closing Ceremony",
-      "description": "Closing ceremony and farewell.",
-      "startsAt": "2026-09-18T16:00:00+02:00",
-      "endsAt": "2026-09-18T17:00:00+02:00",
-      "roomId": "room-ciirc",
+      "id": "ses-035",
+      "title": "Invited Keynote: Prof. Kruno Milicevic",
+      "description": "",
+      "startsAt": "2026-09-18T10:30:00+02:00",
+      "endsAt": "2026-09-18T11:00:00+02:00",
+      "roomId": "room-main-hall",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "spk-TBD"
+        "spk-keynote-milicevic"
       ],
       "categoryItems": [
+        "track-keynote",
+        "type-keynote"
+      ],
+      "sessionGroup": "Session 6 - Advanced Sensors & Signal Processing I"
+    },
+    {
+      "id": "ses-036",
+      "title": "Acoustic-Based Detection, Classification, and Localization of Impulsive Sounds",
+      "description": "",
+      "startsAt": "2026-09-18T11:00:00+02:00",
+      "endsAt": "2026-09-18T11:15:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-martin-maxa"
+      ],
+      "categoryItems": [
+        "track-sensors-signal-processing",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 6 - Advanced Sensors & Signal Processing I"
+    },
+    {
+      "id": "ses-037",
+      "title": "Lock-in detection algorithm for signals modulated with irregular intervals",
+      "description": "",
+      "startsAt": "2026-09-18T11:15:00+02:00",
+      "endsAt": "2026-09-18T11:30:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-shingo-tamaru"
+      ],
+      "categoryItems": [
+        "track-sensors-signal-processing",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 6 - Advanced Sensors & Signal Processing I"
+    },
+    {
+      "id": "ses-038",
+      "title": "A Wireless Acoustic Monitoring System for Drone Localization Based on MEMS Microphones and LoRa Communication",
+      "description": "",
+      "startsAt": "2026-09-18T11:30:00+02:00",
+      "endsAt": "2026-09-18T11:45:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-kamil-herman"
+      ],
+      "categoryItems": [
+        "track-sensors-signal-processing",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 6 - Advanced Sensors & Signal Processing I"
+    },
+    {
+      "id": "ses-039",
+      "title": "Comparative Analysis of Search Algorithms for Automatic L-type Matching Network",
+      "description": "",
+      "startsAt": "2026-09-18T11:45:00+02:00",
+      "endsAt": "2026-09-18T12:00:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-joao-pedro-torres-s-andrade"
+      ],
+      "categoryItems": [
+        "track-sensors-signal-processing",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 6 - Advanced Sensors & Signal Processing I"
+    },
+    {
+      "id": "ses-040",
+      "title": "Airborne Navigation During GNSS Outages Using Tightly Coupled IMU/DVB-T2 Fusion",
+      "description": "",
+      "startsAt": "2026-09-18T12:00:00+02:00",
+      "endsAt": "2026-09-18T12:15:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-michal-koldinsky"
+      ],
+      "categoryItems": [
+        "track-sensors-signal-processing",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 6 - Advanced Sensors & Signal Processing I"
+    },
+    {
+      "id": "ses-041",
+      "title": "Lunch Break",
+      "description": "",
+      "startsAt": "2026-09-18T12:15:00+02:00",
+      "endsAt": "2026-09-18T13:15:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": true,
+      "isPlenumSession": false,
+      "speakers": [],
+      "categoryItems": [
+        "track-break",
+        "type-break"
+      ]
+    },
+    {
+      "id": "ses-042",
+      "title": "Microcontroller Based Software Defined Instruments as an Economical Substitute of Virtual Measurement Instruments",
+      "description": "",
+      "startsAt": "2026-09-18T13:15:00+02:00",
+      "endsAt": "2026-09-18T13:30:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-jakub-svatos"
+      ],
+      "categoryItems": [
+        "track-sensors-signal-processing",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 7 - Advanced Sensors & Measurement Systems II"
+    },
+    {
+      "id": "ses-043",
+      "title": "Exploring a new indirect approach to latency measurement",
+      "description": "",
+      "startsAt": "2026-09-18T13:30:00+02:00",
+      "endsAt": "2026-09-18T13:45:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-jakub-turinsky"
+      ],
+      "categoryItems": [
+        "track-sensors-signal-processing",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 7 - Advanced Sensors & Measurement Systems II"
+    },
+    {
+      "id": "ses-044",
+      "title": "Detection of Mercury Ion in Water Samples Using a Low-Tech EPS-Coated Interdigitated Capacitive Sensor through S-Parameter Analysis",
+      "description": "",
+      "startsAt": "2026-09-18T13:45:00+02:00",
+      "endsAt": "2026-09-18T14:00:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-henrique-dantas-silva"
+      ],
+      "categoryItems": [
+        "track-sensors-signal-processing",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 7 - Advanced Sensors & Measurement Systems II"
+    },
+    {
+      "id": "ses-045",
+      "title": "Development and Experimental Evaluation of a Three-Lead ECG Holter System",
+      "description": "",
+      "startsAt": "2026-09-18T14:00:00+02:00",
+      "endsAt": "2026-09-18T14:15:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-ondrej-kovac"
+      ],
+      "categoryItems": [
+        "track-sensors-signal-processing",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 7 - Advanced Sensors & Measurement Systems II"
+    },
+    {
+      "id": "ses-046",
+      "title": "Multiparametric metrological characterization of an inductive sensing element for mechanical wear estimation",
+      "description": "",
+      "startsAt": "2026-09-18T14:15:00+02:00",
+      "endsAt": "2026-09-18T14:30:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-davide-ceschini"
+      ],
+      "categoryItems": [
+        "track-sensors-signal-processing",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 7 - Advanced Sensors & Measurement Systems II"
+    },
+    {
+      "id": "ses-047",
+      "title": "Coffee Break",
+      "description": "",
+      "startsAt": "2026-09-18T14:30:00+02:00",
+      "endsAt": "2026-09-18T15:00:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": true,
+      "isPlenumSession": false,
+      "speakers": [],
+      "categoryItems": [
+        "track-break",
+        "type-break"
+      ]
+    },
+    {
+      "id": "ses-048",
+      "title": "Detection of Physical Layer Anomalies and Eavesdropping in Real World Data Cables",
+      "description": "",
+      "startsAt": "2026-09-18T15:00:00+02:00",
+      "endsAt": "2026-09-18T15:15:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-amit-duwal"
+      ],
+      "categoryItems": [
+        "track-applications",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization"
+    },
+    {
+      "id": "ses-049",
+      "title": "Sustainability-oriented optimization of a sensing board for applications as a cyber-physical measurement system (CPMS)",
+      "description": "",
+      "startsAt": "2026-09-18T15:15:00+02:00",
+      "endsAt": "2026-09-18T15:30:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-leopoldo-angrisani"
+      ],
+      "categoryItems": [
+        "track-applications",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization"
+    },
+    {
+      "id": "ses-050",
+      "title": "Testing and conformity assessment in Brazil's expanding photovoltaic sector: implementation challenges for quality infrastructure",
+      "description": "",
+      "startsAt": "2026-09-18T15:30:00+02:00",
+      "endsAt": "2026-09-18T15:45:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-leonardo-batista-paiva"
+      ],
+      "categoryItems": [
+        "track-applications",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization"
+    },
+    {
+      "id": "ses-051",
+      "title": "Vector Fitting-Based Feature Extraction from Electrochemical Impedance Spectroscopy for SOC and SOH Estimation",
+      "description": "",
+      "startsAt": "2026-09-18T15:45:00+02:00",
+      "endsAt": "2026-09-18T16:00:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-pedro-ramos"
+      ],
+      "categoryItems": [
+        "track-applications",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization"
+    },
+    {
+      "id": "ses-052",
+      "title": "Measurement of the characteristics of EDL and hybrid supercapacitors versus temperature",
+      "description": "",
+      "startsAt": "2026-09-18T16:00:00+02:00",
+      "endsAt": "2026-09-18T16:15:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-ornella-conti"
+      ],
+      "categoryItems": [
+        "track-applications",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization"
+    },
+    {
+      "id": "ses-053",
+      "title": "Non-Destructive Microwave Dielectric Characterization of Leather for Automotive Applications",
+      "description": "",
+      "startsAt": "2026-09-18T16:15:00+02:00",
+      "endsAt": "2026-09-18T16:30:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-kostiantyn-torokhtii"
+      ],
+      "categoryItems": [
+        "track-applications",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization"
+    },
+    {
+      "id": "ses-054",
+      "title": "Measurements of Wetsuits Thermal Properties from 100 to 600 kPa Absolute Pressure",
+      "description": "",
+      "startsAt": "2026-09-18T16:30:00+02:00",
+      "endsAt": "2026-09-18T16:45:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-cesare-svelto"
+      ],
+      "categoryItems": [
+        "track-applications",
+        "type-contributed-paper"
+      ],
+      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization"
+    },
+    {
+      "id": "ses-055",
+      "title": "Closing Remarks & Best Paper Awards",
+      "description": "",
+      "startsAt": "2026-09-18T16:45:00+02:00",
+      "endsAt": "2026-09-18T17:00:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": true,
+      "isPlenumSession": false,
+      "speakers": [],
+      "categoryItems": [
         "track-ceremony",
-        "type-end"
+        "type-ceremony"
       ]
     }
   ],
   "speakers": [
     {
-      "id": "spk-TBD",
-      "firstName": "TBD",
-      "lastName": "",
-      "fullName": "TBD",
-      "tagLine": "Department of Measurement, CTU in Prague",
-      "bio": "Focus on precision instrumentation and metrology.",
+      "id": "spk-keynote-carbone",
+      "firstName": "Prof.",
+      "lastName": "Paolo Carbone",
+      "fullName": "Prof. Paolo Carbone",
+      "tagLine": "University of Perugia, Italy",
+      "bio": "",
       "isTopSpeaker": false,
       "profilePicture": "",
       "links": [],
       "sessions": [
-        "ses-ceremony",
-        "ses-opening",
-        "ses-day3-start",
-        "ses-closing"
+        "ses-003"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-keynote-tesar",
+      "firstName": "Prof.",
+      "lastName": "Jiri Tesar",
+      "fullName": "Prof. Jiri Tesar",
+      "tagLine": "Czech Metrology Institute (CMI), Czech Republic",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-009"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-keynote-coman",
+      "firstName": "Dr.",
+      "lastName": "Cristian Coman",
+      "fullName": "Dr. Cristian Coman",
+      "tagLine": "NATO Communications and Information Agency (NCIA), The Hague",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-017"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-keynote-street",
+      "firstName": "Dr.",
+      "lastName": "Michael Street",
+      "fullName": "Dr. Michael Street",
+      "tagLine": "NATO Communications and Information Agency (NCIA), The Hague",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-029"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-keynote-milicevic",
+      "firstName": "Prof.",
+      "lastName": "Kruno Milicevic",
+      "fullName": "Prof. Kruno Milicevic",
+      "tagLine": "J. J. Strossmayer University of Osijek, Croatia",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-035"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-valentyn-isaiev",
+      "firstName": "Valentyn",
+      "lastName": "Isaiev",
+      "fullName": "Valentyn Isaiev",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-004"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-mohammed-altkroni",
+      "firstName": "Mohammed",
+      "lastName": "AlTkroni",
+      "fullName": "Mohammed AlTkroni",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-005"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-luca-callegaro",
+      "firstName": "Luca",
+      "lastName": "Callegaro",
+      "fullName": "Luca Callegaro",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-006"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-alessandro-cultrera",
+      "firstName": "Alessandro",
+      "lastName": "Cultrera",
+      "fullName": "Alessandro Cultrera",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-007"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-changhao-zhao",
+      "firstName": "Changhao",
+      "lastName": "Zhao",
+      "fullName": "Changhao Zhao",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-010"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-michal-spacek",
+      "firstName": "Michal",
+      "lastName": "Spacek",
+      "fullName": "Michal Spacek",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-011"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-ahmed-khan-leghari",
+      "firstName": "Ahmed",
+      "lastName": "Khan Leghari",
+      "fullName": "Ahmed Khan Leghari",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-012"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-marco-sento",
+      "firstName": "Marco",
+      "lastName": "Sento",
+      "fullName": "Marco Sento",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-013"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-othman-alshamrani",
+      "firstName": "Othman",
+      "lastName": "Alshamrani",
+      "fullName": "Othman Alshamrani",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-014"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-kiril-demerdziev",
+      "firstName": "Kiril",
+      "lastName": "Demerdziev",
+      "fullName": "Kiril Demerdziev",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-015"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-leopoldo-angrisani",
+      "firstName": "Leopoldo",
+      "lastName": "Angrisani",
+      "fullName": "Leopoldo Angrisani",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-018",
+        "ses-049"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-marija-cundeva-blajer",
+      "firstName": "Marija",
+      "lastName": "Cundeva-Blajer",
+      "fullName": "Marija Cundeva-Blajer",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-019"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-ana-lucia-medina-rodriguez",
+      "firstName": "Ana",
+      "lastName": "Lucia Medina Rodriguez",
+      "fullName": "Ana Lucia Medina Rodriguez",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-020"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-gabriel-gasparesc",
+      "firstName": "Gabriel",
+      "lastName": "Gasparesc",
+      "fullName": "Gabriel Gasparesc",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-021"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-franziska-weickert",
+      "firstName": "Franziska",
+      "lastName": "Weickert",
+      "fullName": "Franziska Weickert",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-023"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-michal-janosek",
+      "firstName": "Michal",
+      "lastName": "Janosek",
+      "fullName": "Michal Janosek",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-024",
+        "ses-026"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-jiri-maier",
+      "firstName": "Jiri",
+      "lastName": "Maier",
+      "fullName": "Jiri Maier",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-025"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-ibrahim-alboraih",
+      "firstName": "Ibrahim",
+      "lastName": "ALBoraih",
+      "fullName": "Ibrahim ALBoraih",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-027"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-kostiantyn-torokhtii",
+      "firstName": "Kostiantyn",
+      "lastName": "Torokhtii",
+      "fullName": "Kostiantyn Torokhtii",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-028",
+        "ses-053"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-yang-shen",
+      "firstName": "Yang",
+      "lastName": "Shen",
+      "fullName": "Yang Shen",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-030"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-dominique-dallet",
+      "firstName": "Dominique",
+      "lastName": "Dallet",
+      "fullName": "Dominique Dallet",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-031"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-paolo-carbone",
+      "firstName": "Paolo",
+      "lastName": "Carbone",
+      "fullName": "Paolo Carbone",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-032"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-jianting-zhao",
+      "firstName": "Jianting",
+      "lastName": "Zhao",
+      "fullName": "Jianting Zhao",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-033"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-martin-maxa",
+      "firstName": "Martin",
+      "lastName": "Maxa",
+      "fullName": "Martin Maxa",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-036"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-shingo-tamaru",
+      "firstName": "Shingo",
+      "lastName": "Tamaru",
+      "fullName": "Shingo Tamaru",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-037"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-kamil-herman",
+      "firstName": "Kamil",
+      "lastName": "Herman",
+      "fullName": "Kamil Herman",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-038"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-joao-pedro-torres-s-andrade",
+      "firstName": "Joao",
+      "lastName": "Pedro Torres S. Andrade",
+      "fullName": "Joao Pedro Torres S. Andrade",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-039"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-michal-koldinsky",
+      "firstName": "Michal",
+      "lastName": "Koldinsky",
+      "fullName": "Michal Koldinsky",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-040"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-jakub-svatos",
+      "firstName": "Jakub",
+      "lastName": "Svatos",
+      "fullName": "Jakub Svatos",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-042"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-jakub-turinsky",
+      "firstName": "Jakub",
+      "lastName": "Turinsky",
+      "fullName": "Jakub Turinsky",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-043"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-henrique-dantas-silva",
+      "firstName": "Henrique",
+      "lastName": "Dantas Silva",
+      "fullName": "Henrique Dantas Silva",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-044"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-ondrej-kovac",
+      "firstName": "Ondrej",
+      "lastName": "Kovac",
+      "fullName": "Ondrej Kovac",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-045"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-davide-ceschini",
+      "firstName": "Davide",
+      "lastName": "Ceschini",
+      "fullName": "Davide Ceschini",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-046"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-amit-duwal",
+      "firstName": "Amit",
+      "lastName": "Duwal",
+      "fullName": "Amit Duwal",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-048"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-leonardo-batista-paiva",
+      "firstName": "Leonardo",
+      "lastName": "Batista Paiva",
+      "fullName": "Leonardo Batista Paiva",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-050"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-pedro-ramos",
+      "firstName": "Pedro",
+      "lastName": "Ramos",
+      "fullName": "Pedro Ramos",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-051"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-ornella-conti",
+      "firstName": "Ornella",
+      "lastName": "Conti",
+      "fullName": "Ornella Conti",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-052"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-cesare-svelto",
+      "firstName": "Cesare",
+      "lastName": "Svelto",
+      "fullName": "Cesare Svelto",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-054"
       ],
       "questionAnswers": []
     }
@@ -106,19 +1646,34 @@
           "sort": 1
         },
         {
-          "id": "track-session-a",
-          "name": "Session A",
+          "id": "track-calibration-standards",
+          "name": "Calibration & Standards",
           "sort": 2
         },
         {
-          "id": "track-session-b",
-          "name": "Session B",
+          "id": "track-electrical-magnetic",
+          "name": "Electrical & Magnetic",
           "sort": 3
         },
         {
-          "id": "track-session",
-          "name": "Session",
+          "id": "track-adc-dac",
+          "name": "ADC/DAC",
           "sort": 4
+        },
+        {
+          "id": "track-sensors-signal-processing",
+          "name": "Sensors & Signal Processing",
+          "sort": 5
+        },
+        {
+          "id": "track-applications",
+          "name": "Applications",
+          "sort": 6
+        },
+        {
+          "id": "track-break",
+          "name": "Break",
+          "sort": 7
         }
       ]
     },
@@ -127,27 +1682,36 @@
       "title": "Session Type",
       "items": [
         {
-          "id": "type-end",
-          "name": "end",
+          "id": "type-break",
+          "name": "break",
           "sort": 0
         },
         {
-          "id": "type-session",
-          "name": "session",
+          "id": "type-ceremony",
+          "name": "ceremony",
           "sort": 1
         },
         {
-          "id": "type-welcome",
-          "name": "welcome",
+          "id": "type-contributed-paper",
+          "name": "contributed paper",
           "sort": 2
+        },
+        {
+          "id": "type-keynote",
+          "name": "keynote",
+          "sort": 3
         }
       ]
     }
   ],
   "rooms": [
     {
-      "id": "room-ciirc",
-      "name": "CIIRC"
+      "id": "room-main-hall",
+      "name": "Main Hall"
+    },
+    {
+      "id": "room-tba",
+      "name": "TBA"
     }
   ]
 }

@@ -215,20 +215,27 @@ def main(argv: list[str] | None = None) -> int:
         starts_at = parse_time(sess.get("start"), timezone)
         ends_at = parse_time(sess.get("end"), timezone)
 
-        sessions.append(
-            {
-                "id": session_id,
-                "title": title,
-                "description": sess.get("description", ""),
-                "startsAt": starts_at,
-                "endsAt": ends_at,
-                "roomId": room_id,
-                "isServiceSession": bool(sess.get("isServiceSession", False)),
-                "isPlenumSession": False,
-                "speakers": speaker_ids,
-                "categoryItems": [track_id, type_id],
-            }
-        )
+        session_obj = {
+            "id": session_id,
+            "title": title,
+            "description": sess.get("description", ""),
+            "startsAt": starts_at,
+            "endsAt": ends_at,
+            "roomId": room_id,
+            "isServiceSession": bool(sess.get("isServiceSession", False)),
+            "isPlenumSession": False,
+            "speakers": speaker_ids,
+            "categoryItems": [track_id, type_id],
+        }
+
+        # Optional thematic grouping (e.g. "Session 5 - ...") used to render a
+        # heading above the block of talks belonging to the same session. This
+        # is an extra field ignored by the real Sessionize API path.
+        group = sess.get("session") or sess.get("group")
+        if group:
+            session_obj["sessionGroup"] = group
+
+        sessions.append(session_obj)
 
         categories = []
     if track_items:

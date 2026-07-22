@@ -19,6 +19,16 @@
     box-shadow: 0 0.0625rem 0.1875rem 0 var(--color-shadow);
 }
 
+/* Non-clickable rows (contributed papers without a detail page). */
+.event-row--static {
+    cursor: default;
+}
+
+.event-row--static:hover {
+    outline: 0 solid transparent;
+    box-shadow: none;
+}
+
 @media (width <= 576px) {
     .event-row {
         flex-direction: column;
@@ -27,17 +37,46 @@
 
 .event-row--service-session {
     cursor: unset;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75rem 1.25rem;
+    border-style: dashed;
+    background-color: color-mix(in srgb, var(--color-primary) 4%, transparent);
 
-    .event-row__room,
     .event-row__speakers,
-    .event-row__avatars {
+    .event-row__avatars,
+    .event-row__track,
+    .event-row__right {
         display: none;
+    }
+
+    .event-row__left {
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+    }
+
+    .event-row__title {
+        font-weight: 500;
+        color: var(--color-secondary-darker);
     }
 }
 
 .event-row--service-session:hover {
     outline: 0 solid transparent;
     box-shadow: none;
+}
+
+.event-row__time {
+    all: unset;
+    display: block;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    letter-spacing: 0.02em;
+    font-variant-numeric: tabular-nums;
 }
 
 .event-row__track {
@@ -75,7 +114,6 @@
     font-weight: 600;
 }
 
-.event-row__room,
 .event-row__speakers {
     all: unset;
     font-size: 1rem;

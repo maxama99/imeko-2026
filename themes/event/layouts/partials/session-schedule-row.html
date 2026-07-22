@@ -1,0 +1,42 @@
+{{- /*
+    Renders a single schedule row (one session/talk) as a list item.
+    Expects a dict with:
+      "page"             the session page
+      "sectionResources" the sessions section resources (for speaker avatars)
+      "trackIndices"     map of track name -> filter index
+*/ -}}
+{{- $page := .page }}
+{{- $sectionResources := .sectionResources }}
+{{- $trackIndices := .trackIndices }}
+{{- /* Only invited keynotes have a detail page worth linking to. */ -}}
+{{- $linkable := eq $page.Params.track "Keynote" }}
+{{- $transformedSpeakers := slice }}
+{{- range $page.Params.speakers }}
+    {{- $speakerAvatarResource := ($sectionResources.GetMatch (printf "avatar-%s-%s.*" $page.Params.sessionId .id)) }}
+    {{- $transformedSpeakers = $transformedSpeakers | append (
+        dict
+        "name" .fullName
+        "avatarResource" $speakerAvatarResource
+        )
+    }}
+{{- end }}
+<li
+    role="presentation"
+    {{- if $page.Params.track }}
+        data-track="{{ (index $trackIndices $page.Params.track) }}"
+    {{- end }}>
+    {{- partial "event-row.html" (
+        dict
+        "track" $page.Params.track
+        "title" $page.Title
+        "link" $page.RelPermalink
+        "speakers" $transformedSpeakers
+        "isServiceSession" $page.Params.isServiceSession
+        "room" $page.Params.room.name
+        "categories" $page.Params.categories
+        "startsAt" $page.Params.startsAt
+        "endsAt" $page.Params.endsAt
+        "linkable" $linkable
+        )
+    }}
+</li>
