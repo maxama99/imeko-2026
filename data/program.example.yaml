@@ -49,7 +49,7 @@ sessions:
     end: 2026-09-17 08:55
 
   # Session 1 - Calibration, Traceability & Metrological Standards I
-  - title: "Invited Keynote: Prof. Paolo Carbone"
+  - title: "Invited Keynote: One Bit to Useful Knowledge: Rethinking Data Acquisition for Low-Power and High-Speed Measurement Systems"
     id: ses-003
     session: Session 1 - Calibration, Traceability & Metrological Standards I
     speakers: [Prof. Paolo Carbone]
@@ -383,7 +383,7 @@ sessions:
     end: 2026-09-18 10:30
 
   # Session 6 - Advanced Sensors & Signal Processing I
-  - title: "Invited Keynote: Prof. Kruno Milicevic"
+  - title: "Invited Keynote: Trust by Design in Digital Metrology: From Machine-Readable Documents to Privacy-Preserving Computation"
     id: ses-035
     session: Session 6 - Advanced Sensors & Signal Processing I
     speakers: [Prof. Kruno Milicevic]
