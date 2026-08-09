@@ -323,7 +323,7 @@ sessions:
 
   # ----- DAY 3 - Friday, 18 September 2026 -----
   # Session 5 - ADC/DAC, Waveform & Data Conversion Metrology
-  - title: "Invited Keynote: Dr. Michael Street"
+  - title: "Invited Keynote: Artificially indeterminate: measuring quantity, cost and impact of Artificial Intelligence"
     id: ses-029
     session: Session 5 - ADC/DAC, Waveform & Data Conversion Metrology
     speakers: [Dr. Michael Street]

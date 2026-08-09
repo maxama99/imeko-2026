@@ -1,0 +1,4 @@
+interface:
+  display_name: "Update Conference Program"
+  short_description: "Update and regenerate the local conference schedule"
+  default_prompt: "Update the IMEKO conference program and regenerate its Sessionize-compatible data."
