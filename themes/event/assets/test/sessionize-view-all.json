@@ -856,6 +856,24 @@
       "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization"
     },
     {
+      "id": "ses-056",
+      "title": "Invited Keynote: EUROLAB: Empowering Digital and Sustainable Labs and other CABs",
+      "description": "",
+      "startsAt": "2026-09-18T15:00:00+02:00",
+      "endsAt": "2026-09-18T15:30:00+02:00",
+      "roomId": "room-main-hall",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "spk-laura-martin"
+      ],
+      "categoryItems": [
+        "track-keynote",
+        "type-keynote"
+      ],
+      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization"
+    },
+    {
       "id": "ses-049",
       "title": "Sustainability-oriented optimization of a sensing board for applications as a cyber-physical measurement system (CPMS)",
       "description": "",
@@ -1052,6 +1070,21 @@
       "links": [],
       "sessions": [
         "ses-035"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-laura-martin",
+      "firstName": "Laura",
+      "lastName": "Martin",
+      "fullName": "Laura Martin",
+      "tagLine": "EUROLAB",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-056"
       ],
       "questionAnswers": []
     },
