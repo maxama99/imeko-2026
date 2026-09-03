@@ -409,7 +409,7 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "spk-michal-janosek"
+        "spk-michal-ulvr"
       ],
       "categoryItems": [
         "track-electrical-magnetic",
@@ -1315,18 +1315,17 @@
       "questionAnswers": []
     },
     {
-      "id": "spk-michal-janosek",
+      "id": "spk-michal-ulvr",
       "firstName": "Michal",
-      "lastName": "Janosek",
-      "fullName": "Michal Janosek",
+      "lastName": "Ulvr",
+      "fullName": "Michal Ulvr",
       "tagLine": "",
       "bio": "",
       "isTopSpeaker": false,
       "profilePicture": "",
       "links": [],
       "sessions": [
-        "ses-024",
-        "ses-026"
+        "ses-024"
       ],
       "questionAnswers": []
     },
@@ -1342,6 +1341,21 @@
       "links": [],
       "sessions": [
         "ses-025"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-michal-janosek",
+      "firstName": "Michal",
+      "lastName": "Janosek",
+      "fullName": "Michal Janosek",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-026"
       ],
       "questionAnswers": []
     },
