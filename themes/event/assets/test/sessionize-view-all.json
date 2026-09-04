@@ -883,7 +883,7 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "spk-leopoldo-angrisani"
+        "spk-annarita-tedesco"
       ],
       "categoryItems": [
         "track-applications",
@@ -1249,8 +1249,7 @@
       "profilePicture": "",
       "links": [],
       "sessions": [
-        "ses-018",
-        "ses-049"
+        "ses-018"
       ],
       "questionAnswers": []
     },
@@ -1612,6 +1611,21 @@
       "links": [],
       "sessions": [
         "ses-048"
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "spk-annarita-tedesco",
+      "firstName": "Annarita",
+      "lastName": "Tedesco",
+      "fullName": "Annarita Tedesco",
+      "tagLine": "",
+      "bio": "",
+      "isTopSpeaker": false,
+      "profilePicture": "",
+      "links": [],
+      "sessions": [
+        "ses-049"
       ],
       "questionAnswers": []
     },
