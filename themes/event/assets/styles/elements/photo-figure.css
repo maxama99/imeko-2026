@@ -1,0 +1,17 @@
+.photo-figure {
+    margin: 2.5rem 0;
+}
+
+.photo-figure__image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0.75rem;
+}
+
+.photo-figure__caption {
+    margin-top: 0.75rem;
+    color: var(--color-secondary-darker);
+    font-size: 1rem;
+    line-height: 1.5rem;
+}

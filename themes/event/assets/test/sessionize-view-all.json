@@ -6,14 +6,17 @@
       "description": "",
       "startsAt": "2026-09-16T17:00:00+02:00",
       "endsAt": "2026-09-16T19:00:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-ciirc-ctu-penthouse",
       "isServiceSession": true,
       "isPlenumSession": false,
       "speakers": [],
       "categoryItems": [
         "track-ceremony",
         "type-ceremony"
-      ]
+      ],
+      "detailPage": "/get-together",
+      "teaser": "Penthouse on the 10th floor of CIIRC CTU, with its own terrace and rooftop views towards Prague Castle",
+      "image": "images/social-events/ciirc-1.jpg"
     },
     {
       "id": "ses-002",
@@ -70,7 +73,7 @@
     },
     {
       "id": "ses-005",
-      "title": "Establishment of the Josephson Voltage Standard at SASO-NMCC, KSA",
+      "title": "MetroMag: a European infrastructure for low magnetic field metrology",
       "description": "",
       "startsAt": "2026-09-17T09:45:00+02:00",
       "endsAt": "2026-09-17T10:00:00+02:00",
@@ -78,7 +81,7 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "spk-mohammed-altkroni"
+        "spk-marco-cosson"
       ],
       "categoryItems": [
         "track-calibration-standards",
@@ -237,7 +240,7 @@
     },
     {
       "id": "ses-014",
-      "title": "A Hierarchical Bayesian Framework for Drift Estimation and Forecasting of Standard Resistors with Informative Priors from International Comparisons",
+      "title": "Implementation of Monte Carlo Simulation for measurement uncertainty estimation in electrical power and energy reference standards calibration",
       "description": "",
       "startsAt": "2026-09-17T12:30:00+02:00",
       "endsAt": "2026-09-17T12:45:00+02:00",
@@ -245,7 +248,7 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "spk-othman-alshamrani"
+        "spk-kiril-demerdziev"
       ],
       "categoryItems": [
         "track-calibration-standards",
@@ -256,7 +259,7 @@
     },
     {
       "id": "ses-015",
-      "title": "Implementation of Monte Carlo Simulation for measurement uncertainty estimation in electrical power and energy reference standards calibration",
+      "title": "The Use of Thermography for Non-Destructive Testing",
       "description": "",
       "startsAt": "2026-09-17T12:45:00+02:00",
       "endsAt": "2026-09-17T13:00:00+02:00",
@@ -264,11 +267,11 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "spk-kiril-demerdziev"
+        "spk-antonn-kroul"
       ],
       "categoryItems": [
         "track-calibration-standards",
-        "type-contributed-paper"
+        "type-session"
       ],
       "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II",
       "sessionChair": "Luca Callegaro"
@@ -475,30 +478,11 @@
       "sessionChair": "Cesare Svelto"
     },
     {
-      "id": "ses-027",
-      "title": "Frequency-Dependent Vibration Sensitivity of VNA S-Parameter Repeatability",
-      "description": "",
-      "startsAt": "2026-09-17T17:00:00+02:00",
-      "endsAt": "2026-09-17T17:15:00+02:00",
-      "roomId": "room-main-hall",
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "spk-ibrahim-alboraih"
-      ],
-      "categoryItems": [
-        "track-electrical-magnetic",
-        "type-contributed-paper"
-      ],
-      "sessionGroup": "Session 4 - Electrical & Magnetic Instrumentation",
-      "sessionChair": "Cesare Svelto"
-    },
-    {
       "id": "ses-028",
       "title": "Compact modular cryogenic dielectric resonator for surface impedance measurements in high magnetic fields",
       "description": "",
-      "startsAt": "2026-09-17T17:15:00+02:00",
-      "endsAt": "2026-09-17T17:30:00+02:00",
+      "startsAt": "2026-09-17T17:00:00+02:00",
+      "endsAt": "2026-09-17T17:15:00+02:00",
       "roomId": "room-main-hall",
       "isServiceSession": false,
       "isPlenumSession": false,
@@ -515,17 +499,20 @@
     {
       "id": "ses-gala-dinner",
       "title": "Gala Dinner",
-      "description": "TODO: details to be announced (venue, dress code, programme).",
+      "description": "",
       "startsAt": "2026-09-17T19:00:00+02:00",
       "endsAt": "2026-09-17T21:00:00+02:00",
-      "roomId": "room-tba",
+      "roomId": "room-restaurace-mlnec",
       "isServiceSession": true,
       "isPlenumSession": false,
       "speakers": [],
       "categoryItems": [
         "track-ceremony",
         "type-ceremony"
-      ]
+      ],
+      "detailPage": "/gala-dinner",
+      "teaser": "Restaurace Mlýnec on Novotného lávka, with its terrace directly beneath Charles Bridge",
+      "image": "images/social-events/mlynec-2.jpg"
     },
     {
       "id": "ses-029",
@@ -871,30 +858,11 @@
       ]
     },
     {
-      "id": "ses-048",
-      "title": "Detection of Physical Layer Anomalies and Eavesdropping in Real World Data Cables",
-      "description": "",
-      "startsAt": "2026-09-18T15:00:00+02:00",
-      "endsAt": "2026-09-18T15:15:00+02:00",
-      "roomId": "room-main-hall",
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "spk-amit-duwal"
-      ],
-      "categoryItems": [
-        "track-applications",
-        "type-contributed-paper"
-      ],
-      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization",
-      "sessionChair": "Gabriel Gasparesc"
-    },
-    {
       "id": "ses-056",
       "title": "Invited Keynote: EUROLAB: Empowering Digital and Sustainable Labs and other CABs",
       "description": "",
       "startsAt": "2026-09-18T15:00:00+02:00",
-      "endsAt": "2026-09-18T15:30:00+02:00",
+      "endsAt": "2026-09-18T15:15:00+02:00",
       "roomId": "room-main-hall",
       "isServiceSession": false,
       "isPlenumSession": false,
@@ -909,8 +877,8 @@
       "sessionChair": "Gabriel Gasparesc"
     },
     {
-      "id": "ses-049",
-      "title": "Sustainability-oriented optimization of a sensing board for applications as a cyber-physical measurement system (CPMS)",
+      "id": "ses-048",
+      "title": "Detection of Physical Layer Anomalies and Eavesdropping in Real World Data Cables",
       "description": "",
       "startsAt": "2026-09-18T15:15:00+02:00",
       "endsAt": "2026-09-18T15:30:00+02:00",
@@ -918,7 +886,7 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "spk-leopoldo-angrisani"
+        "spk-amit-duwal"
       ],
       "categoryItems": [
         "track-applications",
@@ -928,8 +896,8 @@
       "sessionChair": "Gabriel Gasparesc"
     },
     {
-      "id": "ses-050",
-      "title": "Testing and conformity assessment in Brazil's expanding photovoltaic sector: implementation challenges for quality infrastructure",
+      "id": "ses-049",
+      "title": "Sustainability-oriented optimization of a sensing board for applications as a cyber-physical measurement system (CPMS)",
       "description": "",
       "startsAt": "2026-09-18T15:30:00+02:00",
       "endsAt": "2026-09-18T15:45:00+02:00",
@@ -937,7 +905,7 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "spk-leonardo-batista-paiva"
+        "spk-leopoldo-angrisani"
       ],
       "categoryItems": [
         "track-applications",
@@ -1005,7 +973,7 @@
     },
     {
       "id": "ses-054",
-      "title": "Measurements of Wetsuits Thermal Properties from 100 to 600 kPa Absolute Pressure",
+      "title": "Measurements of Wetsuits Thermal Properties at 100 kPa and 600 kPa Absolute Pressure",
       "description": "",
       "startsAt": "2026-09-18T16:30:00+02:00",
       "endsAt": "2026-09-18T16:45:00+02:00",
@@ -1145,10 +1113,10 @@
       "questionAnswers": []
     },
     {
-      "id": "spk-mohammed-altkroni",
-      "firstName": "Mohammed",
-      "lastName": "AlTkroni",
-      "fullName": "Mohammed AlTkroni",
+      "id": "spk-marco-cosson",
+      "firstName": "Marco",
+      "lastName": "Coïsson",
+      "fullName": "Marco Coïsson",
       "tagLine": "",
       "bio": "",
       "isTopSpeaker": false,
@@ -1250,10 +1218,10 @@
       "questionAnswers": []
     },
     {
-      "id": "spk-othman-alshamrani",
-      "firstName": "Othman",
-      "lastName": "Alshamrani",
-      "fullName": "Othman Alshamrani",
+      "id": "spk-kiril-demerdziev",
+      "firstName": "Kiril",
+      "lastName": "Demerdziev",
+      "fullName": "Kiril Demerdziev",
       "tagLine": "",
       "bio": "",
       "isTopSpeaker": false,
@@ -1265,10 +1233,10 @@
       "questionAnswers": []
     },
     {
-      "id": "spk-kiril-demerdziev",
-      "firstName": "Kiril",
-      "lastName": "Demerdziev",
-      "fullName": "Kiril Demerdziev",
+      "id": "spk-antonn-kroul",
+      "firstName": "Antonín",
+      "lastName": "Krňoul",
+      "fullName": "Antonín Krňoul",
       "tagLine": "",
       "bio": "",
       "isTopSpeaker": false,
@@ -1397,21 +1365,6 @@
       "links": [],
       "sessions": [
         "ses-026"
-      ],
-      "questionAnswers": []
-    },
-    {
-      "id": "spk-ibrahim-alboraih",
-      "firstName": "Ibrahim",
-      "lastName": "ALBoraih",
-      "fullName": "Ibrahim ALBoraih",
-      "tagLine": "",
-      "bio": "",
-      "isTopSpeaker": false,
-      "profilePicture": "",
-      "links": [],
-      "sessions": [
-        "ses-027"
       ],
       "questionAnswers": []
     },
@@ -1657,21 +1610,6 @@
       "questionAnswers": []
     },
     {
-      "id": "spk-leonardo-batista-paiva",
-      "firstName": "Leonardo",
-      "lastName": "Batista Paiva",
-      "fullName": "Leonardo Batista Paiva",
-      "tagLine": "",
-      "bio": "",
-      "isTopSpeaker": false,
-      "profilePicture": "",
-      "links": [],
-      "sessions": [
-        "ses-050"
-      ],
-      "questionAnswers": []
-    },
-    {
       "id": "spk-pedro-ramos",
       "firstName": "Pedro",
       "lastName": "Ramos",
@@ -1788,18 +1726,27 @@
           "id": "type-keynote",
           "name": "keynote",
           "sort": 3
+        },
+        {
+          "id": "type-session",
+          "name": "session",
+          "sort": 4
         }
       ]
     }
   ],
   "rooms": [
     {
+      "id": "room-ciirc-ctu-penthouse",
+      "name": "CIIRC CTU Penthouse"
+    },
+    {
       "id": "room-main-hall",
       "name": "Main Hall"
     },
     {
-      "id": "room-tba",
-      "name": "TBA"
+      "id": "room-restaurace-mlnec",
+      "name": "Restaurace Mlýnec"
     }
   ]
 }

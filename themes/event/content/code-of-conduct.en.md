@@ -56,7 +56,7 @@ If you feel you have been falsely or unfairly accused of violating this Code of 
 
 ## Scope
 
-We expect all community participants (contributors, paid or otherwise; sponsors; and other guests) to abide by this Code of Conduct in all community venues—online and in-person—as well as in all one-on-one communications pertaining to community business.
+We expect all community participants (contributors, paid or otherwise; sponsors; and other guests) to abide by this Code of Conduct in all community venues, both online and in-person, as well as in all one-on-one communications pertaining to community business.
 
 ## License and attribution
 

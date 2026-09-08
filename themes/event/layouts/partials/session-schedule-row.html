@@ -1,15 +1,31 @@
 {{- /*
     Renders a single schedule row (one session/talk) as a list item.
     Expects a dict with:
-      "page"             the session page
-      "sectionResources" the sessions section resources (for speaker avatars)
-      "trackIndices"     map of track name -> filter index
-*/ -}}
+    "page"             the session page
+    "sectionResources" the sessions section resources (for speaker avatars)
+    "trackIndices"     map of track name -> filter index
+    */
+-}}
 {{- $page := .page }}
 {{- $sectionResources := .sectionResources }}
 {{- $trackIndices := .trackIndices }}
-{{- /* Only invited keynotes have a detail page worth linking to. */ -}}
+{{- /* Keynotes use their generated detail page; selected service sessions can point to editorial pages. */ -}}
+{{- $link := $page.RelPermalink }}
 {{- $linkable := eq $page.Params.track "Keynote" }}
+{{- with $page.Params.detailPage }}
+    {{- with site.GetPage . }}
+        {{- $link = .RelPermalink }}
+        {{- $linkable = true }}
+    {{- end }}
+{{- end }}
+{{- /* Optional photo previewing the linked detail page. */ -}}
+{{- $imageResource := "" }}
+{{- with $page.Params.image }}
+    {{- $imageResource = resources.Get . }}
+    {{- if not $imageResource }}
+        {{- errorf "session %q references the missing image asset %q" $page.Title . }}
+    {{- end }}
+{{- end }}
 {{- $transformedSpeakers := slice }}
 {{- range $page.Params.speakers }}
     {{- $speakerAvatarResource := ($sectionResources.GetMatch (printf "avatar-%s-%s.*" $page.Params.sessionId .id)) }}
@@ -29,7 +45,7 @@
         dict
         "track" $page.Params.track
         "title" $page.Title
-        "link" $page.RelPermalink
+        "link" $link
         "speakers" $transformedSpeakers
         "isServiceSession" $page.Params.isServiceSession
         "room" $page.Params.room.name
@@ -37,6 +53,8 @@
         "startsAt" $page.Params.startsAt
         "endsAt" $page.Params.endsAt
         "linkable" $linkable
+        "teaser" $page.Params.teaser
+        "imageResource" $imageResource
         )
     }}
 </li>

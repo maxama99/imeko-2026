@@ -1,0 +1,49 @@
+{{- /*
+    Renders a photograph from the asset pipeline as a captioned figure.
+
+    Parameters:
+    src     asset path, e.g. "images/social-events/mlynec-2.jpg"
+    alt     alternative text describing the photograph
+    caption optional caption rendered below the image (inline markdown)
+    */
+-}}
+{{- $src := .Get "src" }}
+{{- $alt := or (.Get "alt") "" }}
+{{- $caption := .Get "caption" }}
+{{- $image := resources.Get $src }}
+{{- if not $image }}
+    {{- errorf "photo shortcode: asset %q not found (%s)" $src .Position }}
+{{- end }}
+{{- /* Never upscale: the widest rendition is the smaller of 1280px and the original. */ -}}
+{{- $maxWidth := 1280 }}
+{{- $targetWidth := cond (lt $image.Width $maxWidth) $image.Width $maxWidth }}
+{{- $widths := slice }}
+{{- range slice 640 960 }}
+    {{- if lt . $targetWidth }}
+        {{- $widths = $widths | append . }}
+    {{- end }}
+{{- end }}
+{{- $widths = $widths | append $targetWidth }}
+{{- $srcset := slice }}
+{{- $rendition := "" }}
+{{- range $widths }}
+    {{- with $image.Process (printf "resize %dx webp q82" .) }}
+        {{- $srcset = $srcset | append (printf "%s %dw" .RelPermalink .Width) }}
+        {{- $rendition = . }}
+    {{- end }}
+{{- end }}
+<figure class="photo-figure">
+    <img
+        class="photo-figure__image"
+        src="{{ $rendition.RelPermalink }}"
+        srcset="{{ delimit $srcset ", " }}"
+        sizes="(width <= 48rem) 100vw, 48rem"
+        alt="{{ $alt }}"
+        width="{{ $rendition.Width }}"
+        height="{{ $rendition.Height }}"
+        loading="lazy"
+        decoding="async" />
+    {{- with $caption }}
+        <figcaption class="photo-figure__caption">{{ . | markdownify }}</figcaption>
+    {{- end }}
+</figure>
