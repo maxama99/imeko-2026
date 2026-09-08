@@ -127,17 +127,19 @@
                             }}
                         </menu>
                     {{- else }}
-                        {{- with .group }}
-                            <h3 class="heading heading--3 session-day-section__session-heading">
-                                {{- . -}}
-                            </h3>
-                        {{- end }}
-                        {{- with .chair }}
-                            <p class="session-day-section__session-chair">
-                                <strong>Chair:</strong>
-                                {{ . }}
-                            </p>
-                        {{- end }}
+                        <header class="session-day-section__session-header">
+                            {{- with .group }}
+                                <h3 class="heading heading--3 session-day-section__session-heading">
+                                    {{- . -}}
+                                </h3>
+                            {{- end }}
+                            {{- with .chair }}
+                                <p class="session-day-section__session-chair">
+                                    <span class="session-day-section__session-chair-label">Chair</span>
+                                    <span>{{ . }}</span>
+                                </p>
+                            {{- end }}
+                        </header>
                         <menu class="session-day-section__group">
                             {{- range .pages }}
                                 {{- partial "session-schedule-row.html" (
