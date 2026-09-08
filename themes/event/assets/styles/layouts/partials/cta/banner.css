@@ -3,7 +3,10 @@
     align-items: center;
     justify-content: center;
 
-    height: 2.8125rem;
+    min-height: 2.8125rem;
+    padding: 0.375rem 1rem;
+    box-sizing: border-box;
+    text-align: center;
     background: linear-gradient(90deg, var(--color-primary) 0%, var(--color-primary-darker) 100%);
 }
 

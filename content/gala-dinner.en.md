@@ -11,7 +11,7 @@ On the evening of the first full conference day, delegates are invited to the **
 {{< photo
     src="images/social-events/mlynec-2.jpg"
     alt="The dining room of Restaurace Mlýnec at dusk, with Charles Bridge and the Vltava beyond the windows"
-    caption="Dusk at Mlýnec — the arches of Charles Bridge begin just past the terrace." >}}
+    caption="Dusk at Mlýnec, with the arches of Charles Bridge just past the terrace." >}}
 
 Part of the Zátiší Group and recognised by the Michelin Guide, Mlýnec combines a contemporary, water-inspired interior with a kitchen rooted in traditional Czech techniques and seasonal local ingredients. It is a fitting place to celebrate a conference themed _Measuring the Future_ in one of Europe's oldest university cities.
 
