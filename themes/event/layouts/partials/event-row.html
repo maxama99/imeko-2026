@@ -3,18 +3,26 @@
 {{- /*
     A row is only clickable when it links to a detail page worth opening.
     Contributed papers have no extra info or photos yet, so they render as
-    static rows; only invited keynotes (and never service sessions) link out.
-*/ -}}
-{{- $clickable := and (not $input.isServiceSession) $input.linkable $input.link }}
+    static rows. Keynotes and selected service sessions link to detail pages.
+    */
+-}}
+{{- $clickable := and $input.linkable $input.link }}
+{{- $classes := slice "event-row" }}
+{{- if $input.isServiceSession }}
+    {{- $classes = $classes | append "event-row--service-session" }}
+{{- end }}
+{{- if not $clickable }}
+    {{- $classes = $classes | append "event-row--static" }}
+{{- else if $input.isServiceSession }}
+    {{- $classes = $classes | append "event-row--service-session-linkable" }}
+{{- end }}
+{{- $hrefAttribute := "" }}
+{{- if $clickable }}
+    {{- $hrefAttribute = printf "href=%q" $input.link | safeHTMLAttr }}
+{{- end }}
 
-<a
-    {{- if $input.isServiceSession }}
-        class="event-row event-row--service-session"
-    {{- else if $clickable }}
-        class="event-row" href="{{- $input.link }}"
-    {{- else }}
-        class="event-row event-row--static"
-    {{- end }}>
+
+<a class="{{ delimit $classes " " }}" {{ $hrefAttribute }}>
     <div class="event-row__left">
         {{- if and $input.startsAt (not $input.startsAt.IsZero) }}
             <p class="event-row__time">

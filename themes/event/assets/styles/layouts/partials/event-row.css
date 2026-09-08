@@ -69,6 +69,15 @@
     box-shadow: none;
 }
 
+.event-row--service-session-linkable {
+    cursor: pointer;
+}
+
+.event-row--service-session-linkable:hover {
+    outline: 0.0625rem solid var(--color-primary);
+    box-shadow: 0 0.0625rem 0.1875rem 0 var(--color-shadow);
+}
+
 .event-row__time {
     all: unset;
     display: block;

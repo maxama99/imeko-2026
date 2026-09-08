@@ -13,7 +13,8 @@
       "categoryItems": [
         "track-ceremony",
         "type-ceremony"
-      ]
+      ],
+      "detailPage": "/get-together"
     },
     {
       "id": "ses-002",
@@ -506,7 +507,8 @@
       "categoryItems": [
         "track-ceremony",
         "type-ceremony"
-      ]
+      ],
+      "detailPage": "/gala-dinner"
     },
     {
       "id": "ses-029",

@@ -18,6 +18,7 @@ sessions:
     type: keynote                # becomes a category "Session Type"
     track: instrumentation       # becomes a category "Track"
     room: Aula                   # any string; rooms are derived automatically
+    detailPage: /opening         # optional Hugo page linked from the schedule
     start: 2026-09-10 09:00      # parsed with timezone if provided
     end: 2026-09-10 09:45
 session_chairs:                 # optional, keyed by the session/group title
@@ -232,6 +233,9 @@ def main(argv: list[str] | None = None) -> int:
             "speakers": speaker_ids,
             "categoryItems": [track_id, type_id],
         }
+
+        if detail_page := sess.get("detailPage"):
+            session_obj["detailPage"] = detail_page
 
         # Optional thematic grouping (e.g. "Session 5 - ...") used to render a
         # heading above the block of talks belonging to the same session. This

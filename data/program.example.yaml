@@ -43,6 +43,7 @@ sessions:
   # ----- DAY 1 - Wednesday, 16 September 2026 -----
   - title: Welcome Ceremony & Get-Together Reception
     id: ses-001
+    detailPage: /get-together
     type: ceremony
     track: Ceremony
     room: Main Hall
@@ -314,6 +315,7 @@ sessions:
   # (venue/room, address, dress code, programme, ticketing).
   - title: Gala Dinner
     id: ses-gala-dinner
+    detailPage: /gala-dinner
     description: "TODO: details to be announced (venue, dress code, programme)."
     type: ceremony
     track: Ceremony
