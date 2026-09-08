@@ -88,7 +88,8 @@
                     to one session and can carry its heading. This keeps
                     back-to-back presentations tightly together and lets the
                     breaks act as separators between them.
-                */ -}}
+                    */
+                -}}
                 {{- $dayPages := sort .Pages "Params.startsAt" }}
                 {{- $blocks := slice }}
                 {{- $currentTalks := slice }}
@@ -96,7 +97,7 @@
                 {{- range $dayPages }}
                     {{- if .Params.isServiceSession }}
                         {{- if gt (len $currentTalks) 0 }}
-                            {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "pages" $currentTalks) }}
+                            {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "chair" (index $currentTalks 0).Params.sessionChair "pages" $currentTalks) }}
                             {{- $currentTalks = slice }}
                             {{- $currentGroup = "" }}
                         {{- end }}
@@ -104,7 +105,7 @@
                     {{- else }}
                         {{- $pageGroup := or .Params.sessionGroup "" }}
                         {{- if and (gt (len $currentTalks) 0) (ne $pageGroup $currentGroup) }}
-                            {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "pages" $currentTalks) }}
+                            {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "chair" (index $currentTalks 0).Params.sessionChair "pages" $currentTalks) }}
                             {{- $currentTalks = slice }}
                         {{- end }}
                         {{- $currentGroup = $pageGroup }}
@@ -112,7 +113,7 @@
                     {{- end }}
                 {{- end }}
                 {{- if gt (len $currentTalks) 0 }}
-                    {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "pages" $currentTalks) }}
+                    {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "chair" (index $currentTalks 0).Params.sessionChair "pages" $currentTalks) }}
                 {{- end }}
 
                 {{- range $blocks }}
@@ -131,6 +132,12 @@
                             <h3 class="heading heading--3 session-day-section__session-heading">
                                 {{- . -}}
                             </h3>
+                        {{- end }}
+                        {{- with .chair }}
+                            <p class="session-day-section__session-chair">
+                                <strong>Chair:</strong>
+                                {{ . }}
+                            </p>
                         {{- end }}
                         <menu class="session-day-section__group">
                             {{- range .pages }}

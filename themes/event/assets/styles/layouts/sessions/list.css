@@ -3,9 +3,14 @@
  * block of talks.
  */
 .session-day-section__session-heading {
-    margin: 1.75rem 0 0.5rem;
+    margin: 1.75rem 0 0.25rem;
     font-size: 1.375rem;
     color: var(--color-primary);
+}
+
+.session-day-section__session-chair {
+    margin: 0 0 0.5rem;
+    color: var(--color-secondary);
 }
 
 /*

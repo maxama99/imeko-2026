@@ -46,7 +46,8 @@
         "track-keynote",
         "type-keynote"
       ],
-      "sessionGroup": "Session 1 - Calibration, Traceability & Metrological Standards I"
+      "sessionGroup": "Session 1 - Calibration, Traceability & Metrological Standards I",
+      "sessionChair": "Marija Cundeva-Blajer"
     },
     {
       "id": "ses-004",
@@ -64,7 +65,8 @@
         "track-calibration-standards",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 1 - Calibration, Traceability & Metrological Standards I"
+      "sessionGroup": "Session 1 - Calibration, Traceability & Metrological Standards I",
+      "sessionChair": "Marija Cundeva-Blajer"
     },
     {
       "id": "ses-005",
@@ -82,7 +84,8 @@
         "track-calibration-standards",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 1 - Calibration, Traceability & Metrological Standards I"
+      "sessionGroup": "Session 1 - Calibration, Traceability & Metrological Standards I",
+      "sessionChair": "Marija Cundeva-Blajer"
     },
     {
       "id": "ses-006",
@@ -100,7 +103,8 @@
         "track-calibration-standards",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 1 - Calibration, Traceability & Metrological Standards I"
+      "sessionGroup": "Session 1 - Calibration, Traceability & Metrological Standards I",
+      "sessionChair": "Marija Cundeva-Blajer"
     },
     {
       "id": "ses-007",
@@ -118,7 +122,8 @@
         "track-calibration-standards",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 1 - Calibration, Traceability & Metrological Standards I"
+      "sessionGroup": "Session 1 - Calibration, Traceability & Metrological Standards I",
+      "sessionChair": "Marija Cundeva-Blajer"
     },
     {
       "id": "ses-008",
@@ -151,7 +156,8 @@
         "track-keynote",
         "type-keynote"
       ],
-      "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II"
+      "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II",
+      "sessionChair": "Luca Callegaro"
     },
     {
       "id": "ses-010",
@@ -169,7 +175,8 @@
         "track-calibration-standards",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II"
+      "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II",
+      "sessionChair": "Luca Callegaro"
     },
     {
       "id": "ses-011",
@@ -187,7 +194,8 @@
         "track-calibration-standards",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II"
+      "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II",
+      "sessionChair": "Luca Callegaro"
     },
     {
       "id": "ses-012",
@@ -205,7 +213,8 @@
         "track-calibration-standards",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II"
+      "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II",
+      "sessionChair": "Luca Callegaro"
     },
     {
       "id": "ses-013",
@@ -223,7 +232,8 @@
         "track-calibration-standards",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II"
+      "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II",
+      "sessionChair": "Luca Callegaro"
     },
     {
       "id": "ses-014",
@@ -241,7 +251,8 @@
         "track-calibration-standards",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II"
+      "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II",
+      "sessionChair": "Luca Callegaro"
     },
     {
       "id": "ses-015",
@@ -259,7 +270,8 @@
         "track-calibration-standards",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II"
+      "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II",
+      "sessionChair": "Luca Callegaro"
     },
     {
       "id": "ses-016",
@@ -292,7 +304,8 @@
         "track-keynote",
         "type-keynote"
       ],
-      "sessionGroup": "Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation"
+      "sessionGroup": "Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation",
+      "sessionChair": "Paolo Carbone"
     },
     {
       "id": "ses-018",
@@ -310,7 +323,8 @@
         "track-calibration-standards",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation"
+      "sessionGroup": "Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation",
+      "sessionChair": "Paolo Carbone"
     },
     {
       "id": "ses-019",
@@ -328,7 +342,8 @@
         "track-calibration-standards",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation"
+      "sessionGroup": "Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation",
+      "sessionChair": "Paolo Carbone"
     },
     {
       "id": "ses-020",
@@ -346,7 +361,8 @@
         "track-electrical-magnetic",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation"
+      "sessionGroup": "Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation",
+      "sessionChair": "Paolo Carbone"
     },
     {
       "id": "ses-021",
@@ -364,7 +380,8 @@
         "track-electrical-magnetic",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation"
+      "sessionGroup": "Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation",
+      "sessionChair": "Paolo Carbone"
     },
     {
       "id": "ses-022",
@@ -397,7 +414,8 @@
         "track-electrical-magnetic",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 4 - Electrical & Magnetic Instrumentation"
+      "sessionGroup": "Session 4 - Electrical & Magnetic Instrumentation",
+      "sessionChair": "Cesare Svelto"
     },
     {
       "id": "ses-024",
@@ -415,7 +433,8 @@
         "track-electrical-magnetic",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 4 - Electrical & Magnetic Instrumentation"
+      "sessionGroup": "Session 4 - Electrical & Magnetic Instrumentation",
+      "sessionChair": "Cesare Svelto"
     },
     {
       "id": "ses-025",
@@ -433,7 +452,8 @@
         "track-electrical-magnetic",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 4 - Electrical & Magnetic Instrumentation"
+      "sessionGroup": "Session 4 - Electrical & Magnetic Instrumentation",
+      "sessionChair": "Cesare Svelto"
     },
     {
       "id": "ses-026",
@@ -451,7 +471,8 @@
         "track-electrical-magnetic",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 4 - Electrical & Magnetic Instrumentation"
+      "sessionGroup": "Session 4 - Electrical & Magnetic Instrumentation",
+      "sessionChair": "Cesare Svelto"
     },
     {
       "id": "ses-027",
@@ -469,7 +490,8 @@
         "track-electrical-magnetic",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 4 - Electrical & Magnetic Instrumentation"
+      "sessionGroup": "Session 4 - Electrical & Magnetic Instrumentation",
+      "sessionChair": "Cesare Svelto"
     },
     {
       "id": "ses-028",
@@ -487,7 +509,8 @@
         "track-electrical-magnetic",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 4 - Electrical & Magnetic Instrumentation"
+      "sessionGroup": "Session 4 - Electrical & Magnetic Instrumentation",
+      "sessionChair": "Cesare Svelto"
     },
     {
       "id": "ses-gala-dinner",
@@ -520,7 +543,8 @@
         "track-keynote",
         "type-keynote"
       ],
-      "sessionGroup": "Session 5 - ADC/DAC, Waveform & Data Conversion Metrology"
+      "sessionGroup": "Session 5 - ADC/DAC, Waveform & Data Conversion Metrology",
+      "sessionChair": "Pedro M. Ramos"
     },
     {
       "id": "ses-030",
@@ -538,7 +562,8 @@
         "track-adc-dac",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 5 - ADC/DAC, Waveform & Data Conversion Metrology"
+      "sessionGroup": "Session 5 - ADC/DAC, Waveform & Data Conversion Metrology",
+      "sessionChair": "Pedro M. Ramos"
     },
     {
       "id": "ses-031",
@@ -556,7 +581,8 @@
         "track-adc-dac",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 5 - ADC/DAC, Waveform & Data Conversion Metrology"
+      "sessionGroup": "Session 5 - ADC/DAC, Waveform & Data Conversion Metrology",
+      "sessionChair": "Pedro M. Ramos"
     },
     {
       "id": "ses-032",
@@ -574,7 +600,8 @@
         "track-adc-dac",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 5 - ADC/DAC, Waveform & Data Conversion Metrology"
+      "sessionGroup": "Session 5 - ADC/DAC, Waveform & Data Conversion Metrology",
+      "sessionChair": "Pedro M. Ramos"
     },
     {
       "id": "ses-033",
@@ -592,7 +619,8 @@
         "track-adc-dac",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 5 - ADC/DAC, Waveform & Data Conversion Metrology"
+      "sessionGroup": "Session 5 - ADC/DAC, Waveform & Data Conversion Metrology",
+      "sessionChair": "Pedro M. Ramos"
     },
     {
       "id": "ses-034",
@@ -748,7 +776,8 @@
         "track-sensors-signal-processing",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 7 - Advanced Sensors & Measurement Systems II"
+      "sessionGroup": "Session 7 - Advanced Sensors & Measurement Systems II",
+      "sessionChair": "Luca De Vito"
     },
     {
       "id": "ses-043",
@@ -766,7 +795,8 @@
         "track-sensors-signal-processing",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 7 - Advanced Sensors & Measurement Systems II"
+      "sessionGroup": "Session 7 - Advanced Sensors & Measurement Systems II",
+      "sessionChair": "Luca De Vito"
     },
     {
       "id": "ses-044",
@@ -784,7 +814,8 @@
         "track-sensors-signal-processing",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 7 - Advanced Sensors & Measurement Systems II"
+      "sessionGroup": "Session 7 - Advanced Sensors & Measurement Systems II",
+      "sessionChair": "Luca De Vito"
     },
     {
       "id": "ses-045",
@@ -802,7 +833,8 @@
         "track-sensors-signal-processing",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 7 - Advanced Sensors & Measurement Systems II"
+      "sessionGroup": "Session 7 - Advanced Sensors & Measurement Systems II",
+      "sessionChair": "Luca De Vito"
     },
     {
       "id": "ses-046",
@@ -820,7 +852,8 @@
         "track-sensors-signal-processing",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 7 - Advanced Sensors & Measurement Systems II"
+      "sessionGroup": "Session 7 - Advanced Sensors & Measurement Systems II",
+      "sessionChair": "Luca De Vito"
     },
     {
       "id": "ses-047",
@@ -853,7 +886,8 @@
         "track-applications",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization"
+      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization",
+      "sessionChair": "Gabriel Gasparesc"
     },
     {
       "id": "ses-056",
@@ -871,7 +905,8 @@
         "track-keynote",
         "type-keynote"
       ],
-      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization"
+      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization",
+      "sessionChair": "Gabriel Gasparesc"
     },
     {
       "id": "ses-049",
@@ -889,7 +924,8 @@
         "track-applications",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization"
+      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization",
+      "sessionChair": "Gabriel Gasparesc"
     },
     {
       "id": "ses-050",
@@ -907,7 +943,8 @@
         "track-applications",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization"
+      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization",
+      "sessionChair": "Gabriel Gasparesc"
     },
     {
       "id": "ses-051",
@@ -925,7 +962,8 @@
         "track-applications",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization"
+      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization",
+      "sessionChair": "Gabriel Gasparesc"
     },
     {
       "id": "ses-052",
@@ -943,7 +981,8 @@
         "track-applications",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization"
+      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization",
+      "sessionChair": "Gabriel Gasparesc"
     },
     {
       "id": "ses-053",
@@ -961,7 +1000,8 @@
         "track-applications",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization"
+      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization",
+      "sessionChair": "Gabriel Gasparesc"
     },
     {
       "id": "ses-054",
@@ -979,7 +1019,8 @@
         "track-applications",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization"
+      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization",
+      "sessionChair": "Gabriel Gasparesc"
     },
     {
       "id": "ses-055",
