@@ -81,10 +81,10 @@ sessions:
     start: 2026-09-17 09:30
     end: 2026-09-17 09:45
 
-  - title: Establishment of the Josephson Voltage Standard at SASO-NMCC, KSA
+  - title: "MetroMag: a European infrastructure for low magnetic field metrology"
     id: ses-005
     session: Session 1 - Calibration, Traceability & Metrological Standards I
-    speakers: [Mohammed AlTkroni]
+    speakers: [Marco Coïsson]
     type: contributed paper
     track: Calibration & Standards
     room: Main Hall
@@ -171,20 +171,20 @@ sessions:
     start: 2026-09-17 12:15
     end: 2026-09-17 12:30
 
-  - title: A Hierarchical Bayesian Framework for Drift Estimation and Forecasting of Standard Resistors with Informative Priors from International Comparisons
+  - title: Implementation of Monte Carlo Simulation for measurement uncertainty estimation in electrical power and energy reference standards calibration
     id: ses-014
     session: Session 2 - Calibration, Traceability & Metrological Standards II
-    speakers: [Othman Alshamrani]
+    speakers: [Kiril Demerdziev]
     type: contributed paper
     track: Calibration & Standards
     room: Main Hall
     start: 2026-09-17 12:30
     end: 2026-09-17 12:45
 
-  - title: Implementation of Monte Carlo Simulation for measurement uncertainty estimation in electrical power and energy reference standards calibration
+  - title: "Applications of Thermal Imaging Cameras (title to be confirmed)"
     id: ses-015
     session: Session 2 - Calibration, Traceability & Metrological Standards II
-    speakers: [Kiril Demerdziev]
+    speakers: [Antonín Krňoul]
     type: contributed paper
     track: Calibration & Standards
     room: Main Hall
@@ -301,16 +301,6 @@ sessions:
     start: 2026-09-17 16:45
     end: 2026-09-17 17:00
 
-  - title: Frequency-Dependent Vibration Sensitivity of VNA S-Parameter Repeatability
-    id: ses-027
-    session: Session 4 - Electrical & Magnetic Instrumentation
-    speakers: [Ibrahim ALBoraih]
-    type: contributed paper
-    track: Electrical & Magnetic
-    room: Main Hall
-    start: 2026-09-17 17:00
-    end: 2026-09-17 17:15
-
   - title: Compact modular cryogenic dielectric resonator for surface impedance measurements in high magnetic fields
     id: ses-028
     session: Session 4 - Electrical & Magnetic Instrumentation
@@ -318,8 +308,8 @@ sessions:
     type: contributed paper
     track: Electrical & Magnetic
     room: Main Hall
-    start: 2026-09-17 17:15
-    end: 2026-09-17 17:30
+    start: 2026-09-17 17:00
+    end: 2026-09-17 17:15
 
   # TODO: Gala Dinner – placeholder only. Add real details once known
   # (venue/room, address, dress code, programme, ticketing).
@@ -525,16 +515,6 @@ sessions:
     end: 2026-09-18 15:00
 
   # Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization
-  - title: Detection of Physical Layer Anomalies and Eavesdropping in Real World Data Cables
-    id: ses-048
-    session: Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization
-    speakers: [Amit Duwal]
-    type: contributed paper
-    track: Applications
-    room: Main Hall
-    start: 2026-09-18 15:00
-    end: 2026-09-18 15:15
-
   - title: "Invited Keynote: EUROLAB: Empowering Digital and Sustainable Labs and other CABs"
     id: ses-056
     session: Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization
@@ -543,22 +523,22 @@ sessions:
     track: Keynote
     room: Main Hall
     start: 2026-09-18 15:00
-    end: 2026-09-18 15:30
+    end: 2026-09-18 15:15
 
-  - title: Sustainability-oriented optimization of a sensing board for applications as a cyber-physical measurement system (CPMS)
-    id: ses-049
+  - title: Detection of Physical Layer Anomalies and Eavesdropping in Real World Data Cables
+    id: ses-048
     session: Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization
-    speakers: [Leopoldo Angrisani]
+    speakers: [Amit Duwal]
     type: contributed paper
     track: Applications
     room: Main Hall
     start: 2026-09-18 15:15
     end: 2026-09-18 15:30
 
-  - title: "Testing and conformity assessment in Brazil's expanding photovoltaic sector: implementation challenges for quality infrastructure"
-    id: ses-050
+  - title: Sustainability-oriented optimization of a sensing board for applications as a cyber-physical measurement system (CPMS)
+    id: ses-049
     session: Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization
-    speakers: [Leonardo Batista Paiva]
+    speakers: [Leopoldo Angrisani]
     type: contributed paper
     track: Applications
     room: Main Hall

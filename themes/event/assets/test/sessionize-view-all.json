@@ -70,7 +70,7 @@
     },
     {
       "id": "ses-005",
-      "title": "Establishment of the Josephson Voltage Standard at SASO-NMCC, KSA",
+      "title": "MetroMag: a European infrastructure for low magnetic field metrology",
       "description": "",
       "startsAt": "2026-09-17T09:45:00+02:00",
       "endsAt": "2026-09-17T10:00:00+02:00",
@@ -78,7 +78,7 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "spk-mohammed-altkroni"
+        "spk-marco-cosson"
       ],
       "categoryItems": [
         "track-calibration-standards",
@@ -237,7 +237,7 @@
     },
     {
       "id": "ses-014",
-      "title": "A Hierarchical Bayesian Framework for Drift Estimation and Forecasting of Standard Resistors with Informative Priors from International Comparisons",
+      "title": "Implementation of Monte Carlo Simulation for measurement uncertainty estimation in electrical power and energy reference standards calibration",
       "description": "",
       "startsAt": "2026-09-17T12:30:00+02:00",
       "endsAt": "2026-09-17T12:45:00+02:00",
@@ -245,7 +245,7 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "spk-othman-alshamrani"
+        "spk-kiril-demerdziev"
       ],
       "categoryItems": [
         "track-calibration-standards",
@@ -256,7 +256,7 @@
     },
     {
       "id": "ses-015",
-      "title": "Implementation of Monte Carlo Simulation for measurement uncertainty estimation in electrical power and energy reference standards calibration",
+      "title": "Applications of Thermal Imaging Cameras (title to be confirmed)",
       "description": "",
       "startsAt": "2026-09-17T12:45:00+02:00",
       "endsAt": "2026-09-17T13:00:00+02:00",
@@ -264,7 +264,7 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "spk-kiril-demerdziev"
+        "spk-antonn-kroul"
       ],
       "categoryItems": [
         "track-calibration-standards",
@@ -475,30 +475,11 @@
       "sessionChair": "Cesare Svelto"
     },
     {
-      "id": "ses-027",
-      "title": "Frequency-Dependent Vibration Sensitivity of VNA S-Parameter Repeatability",
-      "description": "",
-      "startsAt": "2026-09-17T17:00:00+02:00",
-      "endsAt": "2026-09-17T17:15:00+02:00",
-      "roomId": "room-main-hall",
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "spk-ibrahim-alboraih"
-      ],
-      "categoryItems": [
-        "track-electrical-magnetic",
-        "type-contributed-paper"
-      ],
-      "sessionGroup": "Session 4 - Electrical & Magnetic Instrumentation",
-      "sessionChair": "Cesare Svelto"
-    },
-    {
       "id": "ses-028",
       "title": "Compact modular cryogenic dielectric resonator for surface impedance measurements in high magnetic fields",
       "description": "",
-      "startsAt": "2026-09-17T17:15:00+02:00",
-      "endsAt": "2026-09-17T17:30:00+02:00",
+      "startsAt": "2026-09-17T17:00:00+02:00",
+      "endsAt": "2026-09-17T17:15:00+02:00",
       "roomId": "room-main-hall",
       "isServiceSession": false,
       "isPlenumSession": false,
@@ -871,30 +852,11 @@
       ]
     },
     {
-      "id": "ses-048",
-      "title": "Detection of Physical Layer Anomalies and Eavesdropping in Real World Data Cables",
-      "description": "",
-      "startsAt": "2026-09-18T15:00:00+02:00",
-      "endsAt": "2026-09-18T15:15:00+02:00",
-      "roomId": "room-main-hall",
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "spk-amit-duwal"
-      ],
-      "categoryItems": [
-        "track-applications",
-        "type-contributed-paper"
-      ],
-      "sessionGroup": "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization",
-      "sessionChair": "Gabriel Gasparesc"
-    },
-    {
       "id": "ses-056",
       "title": "Invited Keynote: EUROLAB: Empowering Digital and Sustainable Labs and other CABs",
       "description": "",
       "startsAt": "2026-09-18T15:00:00+02:00",
-      "endsAt": "2026-09-18T15:30:00+02:00",
+      "endsAt": "2026-09-18T15:15:00+02:00",
       "roomId": "room-main-hall",
       "isServiceSession": false,
       "isPlenumSession": false,
@@ -909,8 +871,8 @@
       "sessionChair": "Gabriel Gasparesc"
     },
     {
-      "id": "ses-049",
-      "title": "Sustainability-oriented optimization of a sensing board for applications as a cyber-physical measurement system (CPMS)",
+      "id": "ses-048",
+      "title": "Detection of Physical Layer Anomalies and Eavesdropping in Real World Data Cables",
       "description": "",
       "startsAt": "2026-09-18T15:15:00+02:00",
       "endsAt": "2026-09-18T15:30:00+02:00",
@@ -918,7 +880,7 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "spk-leopoldo-angrisani"
+        "spk-amit-duwal"
       ],
       "categoryItems": [
         "track-applications",
@@ -928,8 +890,8 @@
       "sessionChair": "Gabriel Gasparesc"
     },
     {
-      "id": "ses-050",
-      "title": "Testing and conformity assessment in Brazil's expanding photovoltaic sector: implementation challenges for quality infrastructure",
+      "id": "ses-049",
+      "title": "Sustainability-oriented optimization of a sensing board for applications as a cyber-physical measurement system (CPMS)",
       "description": "",
       "startsAt": "2026-09-18T15:30:00+02:00",
       "endsAt": "2026-09-18T15:45:00+02:00",
@@ -937,7 +899,7 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "spk-leonardo-batista-paiva"
+        "spk-leopoldo-angrisani"
       ],
       "categoryItems": [
         "track-applications",
@@ -1145,10 +1107,10 @@
       "questionAnswers": []
     },
     {
-      "id": "spk-mohammed-altkroni",
-      "firstName": "Mohammed",
-      "lastName": "AlTkroni",
-      "fullName": "Mohammed AlTkroni",
+      "id": "spk-marco-cosson",
+      "firstName": "Marco",
+      "lastName": "Coïsson",
+      "fullName": "Marco Coïsson",
       "tagLine": "",
       "bio": "",
       "isTopSpeaker": false,
@@ -1250,10 +1212,10 @@
       "questionAnswers": []
     },
     {
-      "id": "spk-othman-alshamrani",
-      "firstName": "Othman",
-      "lastName": "Alshamrani",
-      "fullName": "Othman Alshamrani",
+      "id": "spk-kiril-demerdziev",
+      "firstName": "Kiril",
+      "lastName": "Demerdziev",
+      "fullName": "Kiril Demerdziev",
       "tagLine": "",
       "bio": "",
       "isTopSpeaker": false,
@@ -1265,10 +1227,10 @@
       "questionAnswers": []
     },
     {
-      "id": "spk-kiril-demerdziev",
-      "firstName": "Kiril",
-      "lastName": "Demerdziev",
-      "fullName": "Kiril Demerdziev",
+      "id": "spk-antonn-kroul",
+      "firstName": "Antonín",
+      "lastName": "Krňoul",
+      "fullName": "Antonín Krňoul",
       "tagLine": "",
       "bio": "",
       "isTopSpeaker": false,
@@ -1397,21 +1359,6 @@
       "links": [],
       "sessions": [
         "ses-026"
-      ],
-      "questionAnswers": []
-    },
-    {
-      "id": "spk-ibrahim-alboraih",
-      "firstName": "Ibrahim",
-      "lastName": "ALBoraih",
-      "fullName": "Ibrahim ALBoraih",
-      "tagLine": "",
-      "bio": "",
-      "isTopSpeaker": false,
-      "profilePicture": "",
-      "links": [],
-      "sessions": [
-        "ses-027"
       ],
       "questionAnswers": []
     },
@@ -1653,21 +1600,6 @@
       "links": [],
       "sessions": [
         "ses-048"
-      ],
-      "questionAnswers": []
-    },
-    {
-      "id": "spk-leonardo-batista-paiva",
-      "firstName": "Leonardo",
-      "lastName": "Batista Paiva",
-      "fullName": "Leonardo Batista Paiva",
-      "tagLine": "",
-      "bio": "",
-      "isTopSpeaker": false,
-      "profilePicture": "",
-      "links": [],
-      "sessions": [
-        "ses-050"
       ],
       "questionAnswers": []
     },
