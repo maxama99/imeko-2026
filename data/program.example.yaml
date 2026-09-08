@@ -578,7 +578,7 @@ sessions:
     start: 2026-09-18 16:15
     end: 2026-09-18 16:30
 
-  - title: Measurements of Wetsuits Thermal Properties from 100 to 600 kPa Absolute Pressure
+  - title: Measurements of Wetsuits Thermal Properties at 100 kPa and 600 kPa Absolute Pressure
     id: ses-054
     session: Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization
     speakers: [Cesare Svelto]
