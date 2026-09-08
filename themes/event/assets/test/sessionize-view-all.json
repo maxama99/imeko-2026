@@ -268,7 +268,7 @@
       ],
       "categoryItems": [
         "track-calibration-standards",
-        "type-contributed-paper"
+        "type-session"
       ],
       "sessionGroup": "Session 2 - Calibration, Traceability & Metrological Standards II",
       "sessionChair": "Luca Callegaro"
@@ -1720,6 +1720,11 @@
           "id": "type-keynote",
           "name": "keynote",
           "sort": 3
+        },
+        {
+          "id": "type-session",
+          "name": "session",
+          "sort": 4
         }
       ]
     }
