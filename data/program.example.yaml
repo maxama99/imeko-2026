@@ -10,6 +10,15 @@ tracks:
   - Applications
   - Break
 
+session_chairs:
+  "Session 1 - Calibration, Traceability & Metrological Standards I": Marija Cundeva-Blajer
+  "Session 2 - Calibration, Traceability & Metrological Standards II": Luca Callegaro
+  "Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation": Paolo Carbone
+  "Session 4 - Electrical & Magnetic Instrumentation": Cesare Svelto
+  "Session 5 - ADC/DAC, Waveform & Data Conversion Metrology": Pedro M. Ramos
+  "Session 7 - Advanced Sensors & Measurement Systems II": Luca De Vito
+  "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization": Gabriel Gasparesc
+
 speakers:
   - name: Prof. Paolo Carbone
     id: spk-keynote-carbone

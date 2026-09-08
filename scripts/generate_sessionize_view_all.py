@@ -20,6 +20,8 @@ sessions:
     room: Aula                   # any string; rooms are derived automatically
     start: 2026-09-10 09:00      # parsed with timezone if provided
     end: 2026-09-10 09:45
+session_chairs:                 # optional, keyed by the session/group title
+  "Session 1 - Opening": Jan Novak
 
 Usage:
     python scripts/generate_sessionize_view_all.py \
@@ -148,6 +150,9 @@ def main(argv: list[str] | None = None) -> int:
 
     raw = yaml.safe_load(input_path.read_text(encoding="utf-8")) or {}
     timezone = raw.get("timezone")
+    session_chairs = raw.get("session_chairs") or {}
+    if not isinstance(session_chairs, dict):
+        raise ValueError("'session_chairs' must be a mapping of session titles to chair names")
     speaker_data = normalize_speakers(raw)
     speakers_by_id = speaker_data["by_id"]
     speaker_name_lookup = speaker_data["name_lookup"]
@@ -234,6 +239,8 @@ def main(argv: list[str] | None = None) -> int:
         group = sess.get("session") or sess.get("group")
         if group:
             session_obj["sessionGroup"] = group
+            if chair := session_chairs.get(group):
+                session_obj["sessionChair"] = chair
 
         sessions.append(session_obj)
 

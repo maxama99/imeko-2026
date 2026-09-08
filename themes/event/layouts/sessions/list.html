@@ -96,7 +96,7 @@
                 {{- range $dayPages }}
                     {{- if .Params.isServiceSession }}
                         {{- if gt (len $currentTalks) 0 }}
-                            {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "pages" $currentTalks) }}
+                            {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "chair" (index $currentTalks 0).Params.sessionChair "pages" $currentTalks) }}
                             {{- $currentTalks = slice }}
                             {{- $currentGroup = "" }}
                         {{- end }}
@@ -104,7 +104,7 @@
                     {{- else }}
                         {{- $pageGroup := or .Params.sessionGroup "" }}
                         {{- if and (gt (len $currentTalks) 0) (ne $pageGroup $currentGroup) }}
-                            {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "pages" $currentTalks) }}
+                            {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "chair" (index $currentTalks 0).Params.sessionChair "pages" $currentTalks) }}
                             {{- $currentTalks = slice }}
                         {{- end }}
                         {{- $currentGroup = $pageGroup }}
@@ -112,7 +112,7 @@
                     {{- end }}
                 {{- end }}
                 {{- if gt (len $currentTalks) 0 }}
-                    {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "pages" $currentTalks) }}
+                    {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "chair" (index $currentTalks 0).Params.sessionChair "pages" $currentTalks) }}
                 {{- end }}
 
                 {{- range $blocks }}
@@ -127,11 +127,19 @@
                             }}
                         </menu>
                     {{- else }}
-                        {{- with .group }}
-                            <h3 class="heading heading--3 session-day-section__session-heading">
-                                {{- . -}}
-                            </h3>
-                        {{- end }}
+                        <header class="session-day-section__session-header">
+                            {{- with .group }}
+                                <h3 class="heading heading--3 session-day-section__session-heading">
+                                    {{- . -}}
+                                </h3>
+                            {{- end }}
+                            {{- with .chair }}
+                                <p class="session-day-section__session-chair">
+                                    <span class="session-day-section__session-chair-label">Chair</span>
+                                    <span>{{ . }}</span>
+                                </p>
+                            {{- end }}
+                        </header>
                         <menu class="session-day-section__group">
                             {{- range .pages }}
                                 {{- partial "session-schedule-row.html" (
