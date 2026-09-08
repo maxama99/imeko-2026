@@ -19,6 +19,11 @@
     box-shadow: 0 0.0625rem 0.1875rem 0 var(--color-shadow);
 }
 
+.event-row:focus-visible {
+    outline: 0.125rem solid var(--color-primary);
+    outline-offset: 0.125rem;
+}
+
 /* Non-clickable rows (contributed papers without a detail page). */
 .event-row--static {
     cursor: default;
@@ -69,13 +74,94 @@
     box-shadow: none;
 }
 
-.event-row--service-session-linkable {
-    cursor: pointer;
+/*
+ * Social events (get-together, gala dinner) are service sessions that carry a
+ * detail page. Unlike a plain break they keep the full row layout, adding a
+ * teaser, a photo of the venue and an explicit cue that there is more to read.
+ */
+.event-row--feature {
+    background-color: white;
+    box-shadow: 0 0.0625rem 0.1875rem 0 var(--color-shadow);
 }
 
-.event-row--service-session-linkable:hover {
-    outline: 0.0625rem solid var(--color-primary);
-    box-shadow: 0 0.0625rem 0.1875rem 0 var(--color-shadow);
+/* Lift the card on hover, a stronger hint than the outline the rows share. */
+.event-row--feature:hover {
+    box-shadow: 0 0.25rem 0.75rem 0 var(--color-shadow);
+}
+
+.event-row--feature .event-row__track,
+.event-row--feature .event-row__speakers {
+    display: none;
+}
+
+.event-row--feature .event-row__right {
+    flex-shrink: 0;
+}
+
+.event-row__teaser {
+    margin: 0;
+    color: var(--color-secondary-darker);
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.event-row__thumbnail {
+    width: 11rem;
+    height: auto;
+    aspect-ratio: 3 / 2;
+    flex: 0 0 auto;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.event-row__details-cue {
+    display: inline-flex;
+    align-self: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0.25rem 0 0;
+    color: var(--color-primary);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.event-row__details-cue-text {
+    text-decoration: underline;
+    text-decoration-thickness: 0.0625rem;
+    text-decoration-color: color-mix(in srgb, var(--color-primary) 45%, transparent);
+    text-underline-offset: 0.25rem;
+    transition: text-decoration-color 0.3s ease;
+}
+
+.event-row__details-cue-arrow {
+    display: inline-flex;
+    align-items: center;
+    width: 1.0625rem;
+    height: 0.9375rem;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+}
+
+.event-row--feature:hover .event-row__details-cue-text,
+.event-row--feature:focus-visible .event-row__details-cue-text {
+    text-decoration-color: currentcolor;
+}
+
+.event-row--feature:hover .event-row__details-cue-arrow,
+.event-row--feature:focus-visible .event-row__details-cue-arrow {
+    transform: translateX(0.25rem);
+}
+
+/* Stack the photo above the text so the row still reads as one card. */
+@media (width <= 576px) {
+    .event-row--feature .event-row__right {
+        order: -1;
+    }
+
+    .event-row--feature .event-row__thumbnail {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+    }
 }
 
 .event-row__time {

@@ -19,6 +19,8 @@ sessions:
     track: instrumentation       # becomes a category "Track"
     room: Aula                   # any string; rooms are derived automatically
     detailPage: /opening         # optional Hugo page linked from the schedule
+    teaser: Above the rooftops   # optional one-liner shown in the schedule row
+    image: images/opening.jpg    # optional asset path, thumbnail for that row
     start: 2026-09-10 09:00      # parsed with timezone if provided
     end: 2026-09-10 09:45
 session_chairs:                 # optional, keyed by the session/group title
@@ -236,6 +238,14 @@ def main(argv: list[str] | None = None) -> int:
 
         if detail_page := sess.get("detailPage"):
             session_obj["detailPage"] = detail_page
+
+        # Extra fields ignored by the real Sessionize API path; they let a
+        # schedule row preview the detail page it links to.
+        if teaser := sess.get("teaser"):
+            session_obj["teaser"] = teaser
+
+        if image := sess.get("image"):
+            session_obj["image"] = image
 
         # Optional thematic grouping (e.g. "Session 5 - ...") used to render a
         # heading above the block of talks belonging to the same session. This

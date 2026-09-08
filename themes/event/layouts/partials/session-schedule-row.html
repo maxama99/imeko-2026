@@ -18,6 +18,14 @@
         {{- $linkable = true }}
     {{- end }}
 {{- end }}
+{{- /* Optional photo previewing the linked detail page. */ -}}
+{{- $imageResource := "" }}
+{{- with $page.Params.image }}
+    {{- $imageResource = resources.Get . }}
+    {{- if not $imageResource }}
+        {{- errorf "session %q references the missing image asset %q" $page.Title . }}
+    {{- end }}
+{{- end }}
 {{- $transformedSpeakers := slice }}
 {{- range $page.Params.speakers }}
     {{- $speakerAvatarResource := ($sectionResources.GetMatch (printf "avatar-%s-%s.*" $page.Params.sessionId .id)) }}
@@ -45,6 +53,8 @@
         "startsAt" $page.Params.startsAt
         "endsAt" $page.Params.endsAt
         "linkable" $linkable
+        "teaser" $page.Params.teaser
+        "imageResource" $imageResource
         )
     }}
 </li>

@@ -4,17 +4,22 @@
     A row is only clickable when it links to a detail page worth opening.
     Contributed papers have no extra info or photos yet, so they render as
     static rows. Keynotes and selected service sessions link to detail pages.
+
+    A service session with a detail page is a social event rather than a mere
+    break, so it drops the compact break styling for a feature row that shows
+    a teaser, a photo and an explicit cue that there is more to read.
     */
 -}}
 {{- $clickable := and $input.linkable $input.link }}
+{{- $feature := and $clickable $input.isServiceSession }}
 {{- $classes := slice "event-row" }}
-{{- if $input.isServiceSession }}
+{{- if $feature }}
+    {{- $classes = $classes | append "event-row--feature" }}
+{{- else if $input.isServiceSession }}
     {{- $classes = $classes | append "event-row--service-session" }}
 {{- end }}
 {{- if not $clickable }}
     {{- $classes = $classes | append "event-row--static" }}
-{{- else if $input.isServiceSession }}
-    {{- $classes = $classes | append "event-row--service-session-linkable" }}
 {{- end }}
 {{- $hrefAttribute := "" }}
 {{- if $clickable }}
@@ -40,14 +45,40 @@
         <h2 class="event-row__title">
             {{- $input.title -}}
         </h2>
+        {{- with $input.teaser }}
+            <p class="event-row__teaser">{{ . }}</p>
+        {{- end }}
         <h3 class="event-row__speakers">
             {{- range $input.speakers }}
                 <span>{{- .name -}}</span>
             {{- end }}
         </h3>
+        {{- if $feature }}
+            <p class="event-row__details-cue">
+                <span class="event-row__details-cue-text">
+                    {{- T "sessions_page.event_details" -}}
+                </span>
+                <span class="event-row__details-cue-arrow" aria-hidden="true">
+                    {{- partial "graphics/arrow-right.html" }}
+                </span>
+            </p>
+        {{- end }}
     </div>
     <div class="event-row__right">
-        {{- if $clickable }}
+        {{- if $feature }}
+            {{- with $input.imageResource }}
+                {{- with .Process "resize 480x webp q80" }}
+                    <img
+                        class="event-row__thumbnail"
+                        src="{{ .RelPermalink }}"
+                        alt=""
+                        width="{{ .Width }}"
+                        height="{{ .Height }}"
+                        loading="lazy"
+                        decoding="async" />
+                {{- end }}
+            {{- end }}
+        {{- else if $clickable }}
             <ul class="event-row__avatars">
                 {{- range $input.speakers }}
                     {{- $speaker := . }}
@@ -78,12 +109,15 @@
             </ul>
         {{- end }}
 
-        {{- partial "session-categories.html" (
-            dict
-            "categories" $input.categories
-            "listClasses" "event-row__categories"
-            "listItemClasses" "event-row__category"
-            )
-        -}}
+        {{- /* A feature row leans on its photo and teaser instead of tags. */ -}}
+        {{- if not $feature }}
+            {{- partial "session-categories.html" (
+                dict
+                "categories" $input.categories
+                "listClasses" "event-row__categories"
+                "listItemClasses" "event-row__category"
+                )
+            -}}
+        {{- end }}
     </div>
 </a>

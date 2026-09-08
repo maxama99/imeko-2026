@@ -6,7 +6,7 @@
       "description": "",
       "startsAt": "2026-09-16T17:00:00+02:00",
       "endsAt": "2026-09-16T19:00:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-ciirc-ctu-penthouse",
       "isServiceSession": true,
       "isPlenumSession": false,
       "speakers": [],
@@ -14,7 +14,9 @@
         "track-ceremony",
         "type-ceremony"
       ],
-      "detailPage": "/get-together"
+      "detailPage": "/get-together",
+      "teaser": "Penthouse on the 10th floor of CIIRC CTU — own terrace and rooftop views towards Prague Castle",
+      "image": "images/social-events/ciirc-1.jpg"
     },
     {
       "id": "ses-002",
@@ -497,10 +499,10 @@
     {
       "id": "ses-gala-dinner",
       "title": "Gala Dinner",
-      "description": "TODO: details to be announced (venue, dress code, programme).",
+      "description": "",
       "startsAt": "2026-09-17T19:00:00+02:00",
       "endsAt": "2026-09-17T21:00:00+02:00",
-      "roomId": "room-tba",
+      "roomId": "room-restaurace-mlnec",
       "isServiceSession": true,
       "isPlenumSession": false,
       "speakers": [],
@@ -508,7 +510,9 @@
         "track-ceremony",
         "type-ceremony"
       ],
-      "detailPage": "/gala-dinner"
+      "detailPage": "/gala-dinner",
+      "teaser": "Restaurace Mlýnec on Novotného lávka — terrace directly beneath Charles Bridge",
+      "image": "images/social-events/mlynec-2.jpg"
     },
     {
       "id": "ses-029",
@@ -1733,12 +1737,16 @@
   ],
   "rooms": [
     {
+      "id": "room-ciirc-ctu-penthouse",
+      "name": "CIIRC CTU Penthouse"
+    },
+    {
       "id": "room-main-hall",
       "name": "Main Hall"
     },
     {
-      "id": "room-tba",
-      "name": "TBA"
+      "id": "room-restaurace-mlnec",
+      "name": "Restaurace Mlýnec"
     }
   ]
 }

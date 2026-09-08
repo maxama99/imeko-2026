@@ -44,9 +44,11 @@ sessions:
   - title: Welcome Ceremony & Get-Together Reception
     id: ses-001
     detailPage: /get-together
+    teaser: 'Penthouse on the 10th floor of CIIRC CTU — own terrace and rooftop views towards Prague Castle'
+    image: images/social-events/ciirc-1.jpg
     type: ceremony
     track: Ceremony
-    room: Main Hall
+    room: CIIRC CTU Penthouse
     isServiceSession: true
     start: 2026-09-16 17:00
     end: 2026-09-16 19:00
@@ -311,15 +313,15 @@ sessions:
     start: 2026-09-17 17:00
     end: 2026-09-17 17:15
 
-  # TODO: Gala Dinner – placeholder only. Add real details once known
-  # (venue/room, address, dress code, programme, ticketing).
+  # TODO: Gala Dinner – dress code, programme and ticketing still to be confirmed.
   - title: Gala Dinner
     id: ses-gala-dinner
     detailPage: /gala-dinner
-    description: "TODO: details to be announced (venue, dress code, programme)."
+    teaser: 'Restaurace Mlýnec on Novotného lávka — terrace directly beneath Charles Bridge'
+    image: images/social-events/mlynec-2.jpg
     type: ceremony
     track: Ceremony
-    room: TBA
+    room: Restaurace Mlýnec
     isServiceSession: true
     start: 2026-09-17 19:00
     end: 2026-09-17 21:00
