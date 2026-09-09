@@ -23,16 +23,16 @@ speakers:
   - name: Prof. Paolo Carbone
     id: spk-keynote-carbone
     tagline: University of Perugia, Italy
-  - name: Prof. Jiri Tesar
+  - name: Prof. Jiří Tesař
     id: spk-keynote-tesar
-    tagline: Czech Metrology Institute (CMI), Czech Republic
+    tagline: Director of the Czech Metrology Institute (CMI), Czechia
   - name: Dr. Cristian Coman
     id: spk-keynote-coman
-    tagline: NATO Communications and Information Agency (NCIA), The Hague
+    tagline: NATO Communications and Information Agency (NCIA), The Hague, Netherlands
   - name: Dr. Michael Street
     id: spk-keynote-street
-    tagline: NATO Communications and Information Agency (NCIA), The Hague
-  - name: Prof. Kruno Milicevic
+    tagline: NATO Communications and Information Agency (NCIA), The Hague, Netherlands
+  - name: Prof. Kruno Miličević
     id: spk-keynote-milicevic
     tagline: J. J. Strossmayer University of Osijek, Croatia
   - name: Laura Martin
@@ -124,17 +124,17 @@ sessions:
     end: 2026-09-17 11:00
 
   # Session 2 - Calibration, Traceability & Metrological Standards II
-  - title: "Invited Keynote: Prof. Jiri Tesar"
+  - title: "Invited Keynote: Major European Research Projects in Electrical Metrology"
     id: ses-009
     session: Session 2 - Calibration, Traceability & Metrological Standards II
-    speakers: [Prof. Jiri Tesar]
+    speakers: [Prof. Jiří Tesař]
     type: keynote
     track: Keynote
     room: Main Hall
     start: 2026-09-17 11:00
     end: 2026-09-17 11:30
 
-  - title: Study of the influence of microwave polarization on high-temperature superconductor Josephson junction arrays
+  - title: High-Temperature Superconductor Josephson Junction Arrays Coupled to Microwave of Different Polarizations
     id: ses-010
     session: Session 2 - Calibration, Traceability & Metrological Standards II
     speakers: [Changhao Zhao]
@@ -203,7 +203,7 @@ sessions:
     end: 2026-09-17 14:00
 
   # Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation
-  - title: "Invited Keynote: Dr. Cristian Coman"
+  - title: "Invited Keynote: Measuring the Performance of C-UAS Systems: How Hard Can It Be?"
     id: ses-017
     session: Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation
     speakers: [Dr. Cristian Coman]
@@ -391,7 +391,7 @@ sessions:
   - title: "Invited Keynote: Trust by Design in Digital Metrology: From Machine-Readable Documents to Privacy-Preserving Computation"
     id: ses-035
     session: Session 6 - Advanced Sensors & Signal Processing I
-    speakers: [Prof. Kruno Milicevic]
+    speakers: [Prof. Kruno Miličević]
     type: keynote
     track: Keynote
     room: Main Hall
