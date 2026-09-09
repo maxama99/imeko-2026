@@ -134,7 +134,7 @@ sessions:
     start: 2026-09-17 11:00
     end: 2026-09-17 11:30
 
-  - title: Study of the influence of microwave polarization on high-temperature superconductor Josephson junction arrays
+  - title: High-Temperature Superconductor Josephson Junction Arrays Coupled to Microwave of Different Polarizations
     id: ses-010
     session: Session 2 - Calibration, Traceability & Metrological Standards II
     speakers: [Changhao Zhao]
