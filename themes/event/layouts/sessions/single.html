@@ -20,61 +20,7 @@
                     {{- page.Title -}}
                 </h1>
                 <p class="single-session-section__content">{{- page.RawContent }}</p>
-                {{- partial "session-categories.html" (
-                    dict
-                    "categories" page.Params.categories
-                    "listItemClasses" "single-session-section__session_category"
-                    )
-                -}}
             </div>
-        </section>
-        <section class="section" aria-label="Speaker of the session">
-            <h1 class="heading heading--2">{{ T "sessions_page.speaker" }}</h1>
-            <ul class="carousel single-session-speaker-list" role="list">
-                {{- $sessionSpeakerPages := where (where .Site.Pages "Section" "speakers") "Params.speakerId" "in" page.Params.speakerIds }}
-                {{- range $index, $speakerPage := $sessionSpeakerPages }}
-                    {{- if (in page.Params.speakerIds .Params.speakerId) }}
-                        <li
-                            id="sessionSpeaker{{ $index }}"
-                            class="carousel__item single-session-speaker-list__list-item"
-                            role="listitem"
-                            aria-label="{{ $speakerPage.Title }}">
-                            <div class="single-session-speaker-list__avatar">
-                                {{- partial "speaker-avatar.html" (
-                                    dict
-                                    "avatarResource" ($speakerPage.Resources.GetMatch "avatar.*")
-                                    "avatarAlt" $speakerPage.Title
-                                    "linkedinUrl" $speakerPage.Params.linkedinUrl
-                                    "xUrl" $speakerPage.Params.xUrl
-                                    "companyUrl" $speakerPage.Params.company
-                                    )
-                                }}
-                            </div>
-                            <div class="single-session-speaker-list__speaker">
-                                <h2 class="heading heading--4 heading--embedded">
-                                    {{ $speakerPage.Title }}
-                                </h2>
-                                <p class="paragraph">{{ $speakerPage.Params.tagLine }}</p>
-                                <p class="paragraph single-session-speaker-list__biography">
-                                    {{ substr $speakerPage.RawContent 0 500 }}...
-                                    <a href="{{ $speakerPage.RelPermalink }}" class="link">
-                                        {{ T "sessions_page.read_more" | lower }}
-                                    </a>
-                                </p>
-                                <div class="single-session-speaker-list__carousel-buttons">
-                                    {{- partial "carousel-buttons.html" (
-                                        dict
-                                        "index" $index
-                                        "numberOfItems" (len page.Params.speakerIds)
-                                        "elementIdPrefix" "sessionSpeaker"
-                                        )
-                                    }}
-                                </div>
-                            </div>
-                        </li>
-                    {{- end }}
-                {{- end }}
-            </ul>
         </section>
     </div>
 

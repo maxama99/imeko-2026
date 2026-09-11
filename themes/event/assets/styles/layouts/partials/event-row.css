@@ -234,20 +234,6 @@
     content: ', ';
 }
 
-.event-row__avatars {
-    all: unset;
-    list-style: none;
-    display: flex;
-    align-items: flex-start;
-    gap: 1.75rem;
-}
-
-.event-row__avatar-img {
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
-}
-
 .event-row__categories {
     color: var(--color-secondary-darker);
     display: flex;

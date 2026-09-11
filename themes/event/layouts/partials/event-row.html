@@ -86,39 +86,12 @@
                         decoding="async" />
                 {{- end }}
             {{- end }}
-        {{- else if $clickable }}
-            <ul class="event-row__avatars">
-                {{- range $input.speakers }}
-                    {{- $speaker := . }}
-                    {{- with $speaker.avatarResource }}
-                        {{- with images.Filter (images.Process "resize 128x") . }}
-                            <li>
-                                <img
-                                    class="event-row__avatar-img"
-                                    src="{{ .RelPermalink }}"
-                                    alt="{{ $speaker.name }}"
-                                    width="{{ .Width }}"
-                                    height="{{ .Height }}" />
-                            </li>
-                        {{- end }}
-                    {{- else }}
-                        {{- with resources.Get "images/avatar-image-fallback.webp" }}
-                            <li>
-                                <img
-                                    class="event-row__avatar-img"
-                                    src="{{ .RelPermalink }}"
-                                    alt="{{ $speaker.name }}"
-                                    width="{{ .Width }}"
-                                    height="{{ .Height }}" />
-                            </li>
-                        {{- end }}
-                    {{- end }}
-                {{- end }}
-            </ul>
         {{- end }}
 
-        {{- /* A feature row leans on its photo and teaser instead of tags. */ -}}
-        {{- if not $feature }}
+        {{- /* Talks show no speaker icon (no real photos to show) and no
+            type tag (redundant with the #TRACK label already on the left);
+            static rows (breaks) keep their category tag. */ -}}
+        {{- if not $clickable }}
             {{- partial "session-categories.html" (
                 dict
                 "categories" $input.categories
