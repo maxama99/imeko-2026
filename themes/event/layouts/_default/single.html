@@ -1,6 +1,12 @@
 {{ define "main" }}
     <div class="section-container">
         <section class="section">
+            {{- partial "back-link.html" (
+                dict
+                "href" (site.GetPage "sessions").RelPermalink
+                "label" (T "sessions_page.back_to_program")
+                )
+            -}}
             <article class="layout-single-default">{{ .Content }}</article>
         </section>
     </div>

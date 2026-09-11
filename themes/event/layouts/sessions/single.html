@@ -3,6 +3,12 @@
         <section class="section single-session-section" aria-label="Session information">
             <div class="single-session-section__spacer"></div>
             <div class="single-session-section__session-information">
+                {{- partial "back-link.html" (
+                    dict
+                    "href" (site.GetPage "sessions").RelPermalink
+                    "label" (T "sessions_page.back_to_program")
+                    )
+                -}}
                 <h1 class="single-session-section__heading">
                     <div class="single-session-section__metadata">
                         {{- if page.Params.isScheduled }}
