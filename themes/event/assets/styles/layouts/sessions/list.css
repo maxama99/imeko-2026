@@ -65,6 +65,23 @@
 }
 
 /*
+ * Talks get a floor height so the schedule reads as evenly paced, and a
+ * keynote -- a 30 minute slot against the usual 15 -- takes twice as much
+ * room as a regular session.
+ */
+.session-day-section__group > li {
+    --session-row-height: 8rem;
+}
+
+.session-day-section__group > li[data-session-type='keynote'] {
+    --session-row-height: 16rem;
+}
+
+.session-day-section__group > li > .event-row {
+    min-height: var(--session-row-height);
+}
+
+/*
  * Breaks and ceremonies separate the talk blocks. Extra vertical breathing
  * room turns them into visual dividers between sessions.
  */

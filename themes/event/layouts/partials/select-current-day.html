@@ -1,0 +1,52 @@
+{{- /*
+    Opens the schedule on the day that is running right now, in the
+    conference's own timezone rather than the visitor's. Sits directly after
+    the day radios so the right one is checked before the day sections are
+    parsed; without JavaScript the first day simply stays selected.
+    */
+-}}
+{{- $timezone := "Europe/Prague" }}
+{{- with index hugo.Data "program.example" }}
+    {{- with .timezone }}
+        {{- $timezone = . }}
+    {{- end }}
+{{- end }}
+<script>
+  (function () {
+    const dayInputs = Array.from(
+      document.querySelectorAll('input[name="filter-day"][data-date]')
+    );
+    if (dayInputs.length === 0) {
+      return;
+    }
+
+    const conferenceDate = new Intl.DateTimeFormat("en-CA", {
+      timeZone: "{{ $timezone }}",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+    });
+
+    // "?now=2026-09-17T10:00:00+02:00" makes this testable outside the
+    // conference dates. It needs an explicit UTC offset, otherwise the browser
+    // reads it in the visitor's own timezone.
+    const override = new URLSearchParams(window.location.search).get("now");
+    const overridden = override ? new Date(override) : null;
+    const today = conferenceDate.format(
+      overridden && !Number.isNaN(overridden.getTime()) ? overridden : new Date()
+    );
+
+    let current = dayInputs.find((input) => input.dataset.date === today);
+    if (!current) {
+      // Once the conference is over, show its final day; before it starts the
+      // first day stays selected.
+      const lastInput = dayInputs[dayInputs.length - 1];
+      if (today > lastInput.dataset.date) {
+        current = lastInput;
+      }
+    }
+    if (current) {
+      current.checked = true;
+    }
+  })();
+</script>

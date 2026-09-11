@@ -47,6 +47,9 @@
 {{- end }}
 <li
     role="presentation"
+    {{- with $page.Params.categories }}
+        data-session-type="{{ index . 0 }}"
+    {{- end }}
     {{- if $page.Params.track }}
         data-track="{{ (index $trackIndices $page.Params.track) }}"
     {{- end }}>

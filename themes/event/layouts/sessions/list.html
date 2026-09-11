@@ -15,10 +15,13 @@
             class="session-filter-input"
             value="day-{{ $index }}"
             id="filter-day-{{ $index }}"
+            data-date="{{ $element.Key }}"
             {{- if eq $index 0 }}
                 checked
             {{- end }} />
     {{- end }}
+
+    {{- partial "select-current-day.html" . }}
 
     {{- range $index, $element := $sessionsGroupedByTrack }}
         <input
