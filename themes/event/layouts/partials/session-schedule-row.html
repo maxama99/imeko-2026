@@ -9,9 +9,11 @@
 {{- $page := .page }}
 {{- $sectionResources := .sectionResources }}
 {{- $trackIndices := .trackIndices }}
-{{- /* Keynotes use their generated detail page; selected service sessions can point to editorial pages. */ -}}
+{{- /* Every talk (keynote or contributed paper) links to its own generated
+    detail page, which shows the abstract; only service sessions (breaks,
+    ceremonies) stay static unless they point to an editorial page below. */ -}}
 {{- $link := $page.RelPermalink }}
-{{- $linkable := eq $page.Params.track "Keynote" }}
+{{- $linkable := not $page.Params.isServiceSession }}
 {{- with $page.Params.detailPage }}
     {{- with site.GetPage . }}
         {{- $link = .RelPermalink }}

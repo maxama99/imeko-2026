@@ -24,7 +24,7 @@
       "description": "",
       "startsAt": "2026-09-17T08:30:00+02:00",
       "endsAt": "2026-09-17T08:55:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": true,
       "isPlenumSession": false,
       "speakers": [],
@@ -39,7 +39,7 @@
       "description": "",
       "startsAt": "2026-09-17T08:55:00+02:00",
       "endsAt": "2026-09-17T09:30:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -55,10 +55,10 @@
     {
       "id": "ses-004",
       "title": "Development of System for Disseminating AC/DC Voltage Difference Using Ranges of Transfer Standard and Investigating Stability",
-      "description": "",
+      "description": "The paper describes a system for disseminating a reference value of AC/DC voltage transfer difference, starting with that attributed to a planar multi-junction thermal converter and, further, distributed across ranges of an AC/DC transfer standard. The second purpose of the developed system is to monitor the stability of the quantity under consideration. A key feature of the design is the integration of five double elements as the basis for conceptual realization, involving goals, standards, their peculiarities, and the methods used. The span between two AC/DC differences is a characteristic parameter for assessing the actual internal state and stability of the standard under study, as well as for disseminating the quantity by adding it to the initial reference value. Along with the methodology depicted, the calibration data analysis and experimental verification results are provided.",
       "startsAt": "2026-09-17T09:30:00+02:00",
       "endsAt": "2026-09-17T09:45:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -74,10 +74,10 @@
     {
       "id": "ses-005",
       "title": "MetroMag: a European infrastructure for low magnetic field metrology",
-      "description": "",
+      "description": "Measurements in the low magnetic field range [10 µT - 10 mT] are increasingly required by industry due to strong demand and recent developments in key areas such as electric mobility, the medical sector, industry, and magnetic field sensing applied to the detection and localisation of ferromagnetic and conducting objects in safety applications and prospecting for natural mineral resources. However, only very few European National Metrology Institutes have the required capabilities to perform traceable measurements in the low magnetic field range. Consequently, the adoption of novel technologies and materials is hindered by the lack of pan-European metrological expertise in this area. The 24RPT02 MetroMag project will establish standards to measure weak magnetic fields, develop a transfer standard to enable easier and faster comparisons, develop novel methods to cancel environmental magnetic fields, and establish a European infrastructure in the low magnetic field ranges to address the stakeholders' needs.",
       "startsAt": "2026-09-17T09:45:00+02:00",
       "endsAt": "2026-09-17T10:00:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -93,10 +93,10 @@
     {
       "id": "ses-006",
       "title": "Franco Cabiati, electrical impedance metrology, and IMEKO",
-      "description": "",
+      "description": "Franco Cabiati (1938-2026) was an Italian electrical metrologist. He contributed to the development of primary metrology of electrical impedance, to the revision of the International System of Units and the determination of fundamental constants of nature, as well as to the topic of measurement uncertainty expression. Several of his results were presented at the IMEKO World Congresses and IMEKO TC-4 symposia. Here we briefly recall his contributions to electrical impedance metrology, with a focus on presentations at IMEKO events.",
       "startsAt": "2026-09-17T10:00:00+02:00",
       "endsAt": "2026-09-17T10:15:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -112,10 +112,10 @@
     {
       "id": "ses-007",
       "title": "Exploring calibration schemes for electric impedance measurements beyond the short-open-load",
-      "description": "",
+      "description": "This work introduces a generalized three-load (LLL) calibration scheme for impedance meters, aimed at enhancing the measurement accuracy over the complex impedance domain. A Möbius transformation, with parameters identified from measurements of three reference impedance standards, is employed to model the meter error. The associated uncertainty is evaluated following the Supplement 2 of the Guide on Expression of Uncertainty in measurements (GUM). A practical implementation of the proposed calibration on a commercial handheld meter is presented.",
       "startsAt": "2026-09-17T10:15:00+02:00",
       "endsAt": "2026-09-17T10:30:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -134,7 +134,7 @@
       "description": "",
       "startsAt": "2026-09-17T10:30:00+02:00",
       "endsAt": "2026-09-17T11:00:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": true,
       "isPlenumSession": false,
       "speakers": [],
@@ -149,7 +149,7 @@
       "description": "",
       "startsAt": "2026-09-17T11:00:00+02:00",
       "endsAt": "2026-09-17T11:30:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -165,10 +165,10 @@
     {
       "id": "ses-010",
       "title": "High-Temperature Superconductor Josephson Junction Arrays Coupled to Microwave of Different Polarizations",
-      "description": "",
+      "description": "YBCO bicrystal Josephson junction arrays were coupled to a ~70 GHz Fabry-Pérot resonator to synthesize Shapiro steps. Electromagnetic simulations and experimental tests showed that when the electric field is polarized parallel to the bicrystal grain boundary, coupling effect is promoted compared to the case of perpendicular polarization, which can be explained by dipole antenna coupling mechanism.",
       "startsAt": "2026-09-17T11:30:00+02:00",
       "endsAt": "2026-09-17T11:45:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -184,10 +184,10 @@
     {
       "id": "ses-011",
       "title": "MEMS-based Long-haul Optical Link Asymmetry Estimation for Atomic Clock Comparison",
-      "description": "",
+      "description": "Precise atomic clock comparison over long-haul optical fibers requires rigorous compensation of link asymmetry. While White Rabbit (WR) technology provides sub-nanosecond synchronization, chromatic dispersion and physical path differences in Wavelength Division Multiplexing (WDM) systems introduce non-negligible timing offset. Classical calibration techniques typically rely on manual fiber reconnection to toggle signal direction, a process prone to human error and known to cause rapid degradation of optical connectors. This paper proposes an automated in-situ asymmetry estimation technique utilizing an auxiliary optical channel and MEMS-based switching. By replacing manual intervention with high-reliability MEMS technology, the proposed architecture ensures a more robust measurement environment and establishes a framework for future continuous, long-term monitoring of synchronization stability without physical link disturbance. The methodology was validated on a 50 km laboratory spool, demonstrating agreement within 100 ps of theoretical dispersion models. Field deployment on a 20 km urban link connecting CTU FEE and IPE CAS successfully determined the link asymmetry and compensated for an 11,248.0 ps ± 41.7 ps synchronization offset, effectively reducing link-induced synchronization errors to sub-nanosecond levels and enabling high-precision comparison of remote atomic timescales.",
       "startsAt": "2026-09-17T11:45:00+02:00",
       "endsAt": "2026-09-17T12:00:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -203,10 +203,10 @@
     {
       "id": "ses-012",
       "title": "A Model for Secure Exchange of Digital Calibration Certificates",
-      "description": "",
+      "description": "The exponential growth of IoT applications and related hardware has dramatically changed the manual way of doing things. Metrology is one such field that is witnessing widespread changes caused by digitalization and connectivity of metrological hardware. Metrological devices need calibration at regular intervals to maintain their metrological accuracy. After the calibration, each device gets a calibration certificate that documents the findings of the calibration and is valid until the next calibration. These calibration certificate are issued on a physical paper or as a PDF documents to be human readable. However, efforts are under way to come up with a globally acceptable machine readable calibration certificate called DCC (Digital Calibration Certificate). Growing demand of digitalization and connectivity of metrological devices means that the paper and PDF based calibration certificates will be soon thing of the past, and will eventually be replaced by machine readable Digital Calibration Certificates (DCCs). DCCs when transferred over the network could be exposed to security threats such as man-in-the-middle (MITM) attack. This paper presents a high level architectural model for secure DCC exchange, that is based on existing tried and tested techniques, and ensures integrity, confidentiality, non-repudiation and authenticity of DCCs, sent over network, from a calibration lab to the organization that requested for the equipment calibration.",
       "startsAt": "2026-09-17T12:00:00+02:00",
       "endsAt": "2026-09-17T12:15:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -222,10 +222,10 @@
     {
       "id": "ses-013",
       "title": "Metrological Traceability in IoT Sensor Networks: A Microservice-based Framework for Automated Calibration Management",
-      "description": "",
+      "description": "The widespread use of wireless sensor networks has made traditional calibration procedures logistically unfeasible in many contexts, thereby risking the compromise of the metrological traceability of the collected data. To address this challenge, this paper proposes a novel microservice-based framework for automated calibration management. The architecture abstracts sensor hardware into JSON-based digital models by integrating the Digital Unit System (D-SI) to ensure correct data interpretation and by establishing its interoperability on the concept of interchangeable units of measurement (MU). A field-deployed Travelling Standard executes automated in-situ calibration routines, communicating securely with a cloud backend to automatically evaluate measurement deviations and generates machine-actionable, PKI-signed Digital Calibration Certificates (DCCs). By natively integrating \"Traceability by Design,\" this framework minimizes network downtime, eliminates human transcription errors, and bridges the gap between low-cost edge sensors and robust digital quality infrastructures.",
       "startsAt": "2026-09-17T12:15:00+02:00",
       "endsAt": "2026-09-17T12:30:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -241,10 +241,10 @@
     {
       "id": "ses-014",
       "title": "Implementation of Monte Carlo Simulation for measurement uncertainty estimation in electrical power and energy reference standards calibration",
-      "description": "",
+      "description": "In the paper a step-by-step methodology for measurement uncertainty calculation, in a protocol for electrical power and energy reference standards calibration, will be presented. Initially, all predictable influencing factors that may be mathematically expressed as single uncertainty components will be identified, as well as the adopted matching probability distributions. Sequentially, two methodologies for evaluation of the measurement uncertainty, attributed to the calibration result, will be conducted. The straightforward principle of uncertainty propagation, according to the Guide to the Expression of Uncertainty in Measurement (GUM), will be complemented by the implementation of the stochastic Monte Carlo Simulation approach of distribution propagation. Both concepts' outcome will be analyzed from the perspective of real time measurements, conducted in an accredited calibration laboratory, by using reference standards of the highest accuracy class available, which are traceable to the intrinsic primary reference standards of BIPM.",
       "startsAt": "2026-09-17T12:30:00+02:00",
       "endsAt": "2026-09-17T12:45:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -263,7 +263,7 @@
       "description": "",
       "startsAt": "2026-09-17T12:45:00+02:00",
       "endsAt": "2026-09-17T13:00:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -282,7 +282,7 @@
       "description": "",
       "startsAt": "2026-09-17T13:00:00+02:00",
       "endsAt": "2026-09-17T14:00:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": true,
       "isPlenumSession": false,
       "speakers": [],
@@ -297,7 +297,7 @@
       "description": "",
       "startsAt": "2026-09-17T14:00:00+02:00",
       "endsAt": "2026-09-17T14:30:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -313,10 +313,10 @@
     {
       "id": "ses-018",
       "title": "GUM-compliant uncertainty evaluation in measurements based on ML regression or classification models",
-      "description": "",
+      "description": "The integration of Machine Learning (ML) into measurement processes requires a rigorous approach to ensure metrological traceability and compliance with international standards. This paper presents the first steps toward a unified framework for the evaluation of measurement uncertainty when ML is used within measurement processes. In such applications, ML may introduce an additional uncertainty component due to its data-driven nature, which can be non-negligible and should therefore be included in the overall uncertainty budget to properly express the final measurement result. The proposed approach applies to both continuous and ordinal output scales, thus covering regression and classification problems. Its effectiveness is shown through two case studies, namely power plant output estimation and battery State-of-Health assessment.",
       "startsAt": "2026-09-17T14:30:00+02:00",
       "endsAt": "2026-09-17T14:45:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -332,10 +332,10 @@
     {
       "id": "ses-019",
       "title": "Quality Infrastructure for Resilient Electrical Sector - Ensuring Confident Measurement Results in Calibration of High Currents Instruments",
-      "description": "",
+      "description": "The electrical power systems resilience is strongly dependent on confident measurement results from the quality infrastructure (inspection/certification bodies, testing/calibration laboratories). The reliability of the conformity assessments is deeply rooted in the results traceability, enabled by calibration of used testing equipment. One challenging metrology issue is the calibration of instruments for extreme (very high or low) electrical currents, due to the complex measurement procedures, unestablished traceability chain, and high number of uncertainty influential factors. After thorough analysis of the international CMCs in the area of very high electrical currents, the developed calibration procedure for extreme electrical currents instruments by the Laboratory for Electrical Measurements (LEM) will be presented. The uncertainty will be analyzed according to the GUM and the advanced Monte Carlo methodology. Further conformity assessment of a calibration artefact will be conducted against prescribed decision making rules, using an original software MonteCalc Uncertainty Toolkit, developed in LabVIEW by LEM.",
       "startsAt": "2026-09-17T14:45:00+02:00",
       "endsAt": "2026-09-17T15:00:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -351,10 +351,10 @@
     {
       "id": "ses-020",
       "title": "Development of the Digital Twin for a Digital Impedance Ratio Bridge",
-      "description": "",
+      "description": "A digital twin of a four-terminal-pair (4-TP) AC impedance bridge is being developed in LTspice, including dominant non-ideal effects and experimentally characterized parasitics. The model supports sensitivity analysis and error evaluation. An automated balancing algorithm implemented in Python shows stable convergence and sufficient numerical accuracy. Ongoing work focuses on model validation and refinement of convergence parameters.",
       "startsAt": "2026-09-17T15:00:00+02:00",
       "endsAt": "2026-09-17T15:15:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -370,10 +370,10 @@
     {
       "id": "ses-021",
       "title": "Accuracy Analysis of THD Measurement of Power Signals by Means of a Low-cost Oscilloscope",
-      "description": "",
+      "description": "In this paper the accuracy of the Total Harmonic Distortion ratio (THD) measurement of power grid voltages achieved by using a low-cost USB oscilloscope is investigated. The THD measurements provided by the USB oscilloscope are analyzed in the case of synthetized signals for different THD and signal frequency values. That comparison allows us to determine the accuracy of the THD measurements provided by the USB oscilloscope. Moreover, the THDs of the power grid voltages are measured by the USB oscilloscope and compared with those achieved by using a very accurate power quality logger.",
       "startsAt": "2026-09-17T15:15:00+02:00",
       "endsAt": "2026-09-17T15:30:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -392,7 +392,7 @@
       "description": "",
       "startsAt": "2026-09-17T15:30:00+02:00",
       "endsAt": "2026-09-17T16:00:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": true,
       "isPlenumSession": false,
       "speakers": [],
@@ -404,10 +404,10 @@
     {
       "id": "ses-023",
       "title": "The primary Tesla Standard at PTB",
-      "description": "",
+      "description": "The presentation gives an overview on the primary Tesla standard at the German metrology institute PTB as disseminated along traceability chains to stakeholders, industry and end-users. We present long established methods and discuss new developments. Currently, the primary Tesla standard is realized by nuclear magnetic resonance (NMR) techniques on protons with nuclear spin I = 1/2. The Larmor frequency of the spin precession ωL = γB in a magnetic field is directly proportional to the magnetic flux density B. The proton gyromagnetic ratio γ is known with one part in 10^8 precision from particle-physics experiments and it traces the unit Tesla back to the SI standard time (t). Traceable calibration services are carried out at PTB in the range of 10 µT to 0.3 T. The method of free induction decay (FID) on pure water samples is used between 10 µT and 2 mT reaching lowest measurement uncertainties (MUs) of one part in 10^6 (1 ppm) at around 1 mT. At higher fields between 1 mT and 0.3 T, a NMR absorption technique is utilized. Here, the NMR resonance frequency of an LC circuit is measured by means of a marginal oscillator. Samples of aqueous CuSO4 solution enhance NMR absorption rates for a reasonable signal to noise ratio, however, CuSO4 impurities also cause a systematic field distortion, which adds parasitic contributions to the measured magnetic field value. The accuracy of the absorption method is therefore limited to 100 ppm. Furthermore, we discuss results on NMR measurements taken on gaseous 3He samples that have an I = 1/2 nuclear spin as well but exhibit significantly enhanced relaxation times compared to proton spins. Larger relaxation times combined with smaller chemical shift and less temperature dependence reduce the level of MUs for magnetic field measurements with 3He samples. Additionally, hyperpolarization opens the road for a larger field range of the primary Tesla standard at both ends: above 0.3 T and below 10 µT.",
       "startsAt": "2026-09-17T16:00:00+02:00",
       "endsAt": "2026-09-17T16:15:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -423,10 +423,10 @@
     {
       "id": "ses-024",
       "title": "A traceable calibration of low-field magnetic coil systems in noisy industrial environments",
-      "description": "",
+      "description": "We present a procedure for calibrating low-field (≤ 100 µT) magnetic coil systems in industrial practice where the peak magnetic field noise can reach units of percents of the range. We utilize a secondary magnetic standard, together with a fast settling linear current supply and a fast fluxgate magnetometer as a transfer standard. Using our procedure, we were able to achieve about 110 ppm uncertainty even in an environment with up to 150 nT (1500 ppm) peak noise.",
       "startsAt": "2026-09-17T16:15:00+02:00",
       "endsAt": "2026-09-17T16:30:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -442,10 +442,10 @@
     {
       "id": "ses-025",
       "title": "Model-based magnetization measurement in Fluxgate sensors",
-      "description": "",
+      "description": "The magnetization curve of the fluxgate sensor core is estimated using measurements and calculations. The finite element method is used to estimate the magnetization curve from measurement data and a nonlinear magnetic analytical model. The fluxgate measurement sensitivity, measured voltage, and current are utilized in the inverse method to estimate the magnetization curve of the fluxgate sensor.",
       "startsAt": "2026-09-17T16:30:00+02:00",
       "endsAt": "2026-09-17T16:45:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -461,10 +461,10 @@
     {
       "id": "ses-026",
       "title": "Estimation of torquer rod magnetic moment with fluxmetric method and compact sensing coils",
-      "description": "",
+      "description": "We present a robust, noise-resistant method for calibrating magnetorquer rods for commercial spacecraft, utilizing a homogeneous Merritt or Lee-Whiting coil and an analog integrator. After initial calibration with a moment coil, the magnetorquer rod calibration error due to its non-zero length was as low as 1% if the Lee-Whiting coil had approximately the same length as the torquer rod. This procedure is not only space saving compared to magnetometric methods, but could be utilized in environments with high magnetic noise (in order of 100 nT pp) and still exhibit a low standard deviation of the results (<0.5%).",
       "startsAt": "2026-09-17T16:45:00+02:00",
       "endsAt": "2026-09-17T17:00:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -480,10 +480,10 @@
     {
       "id": "ses-028",
       "title": "Compact modular cryogenic dielectric resonator for surface impedance measurements in high magnetic fields",
-      "description": "",
+      "description": "We present a new dielectric-loaded resonator (DR) for cryogenic microwave measurements intended primarily for measurements of the complex surface impedance of conducting samples, including bulk, film, and additively manufactured specimens. The presented resonator is designed to work in a temperature range from 4.2 K to 300 K, to be compact, modular, non-magnetic, and to be orientable with respect to the applied external magnetic field. The prototype can operate in the TE011 and TE021 modes at 14.27 GHz and 25.15 GHz, respectively. We present the first tests and validation of the resonant cell with a superconducting YBa2Cu3O7-δ sample and compare results with those from a reference resonator. We observe a greater than 30% increase in loaded quality factor (Ql) with respect to the previous resonator and good repeatability, thus validating the concept for cryogenic operation.",
       "startsAt": "2026-09-17T17:00:00+02:00",
       "endsAt": "2026-09-17T17:15:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -520,7 +520,7 @@
       "description": "",
       "startsAt": "2026-09-18T08:30:00+02:00",
       "endsAt": "2026-09-18T09:00:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -536,10 +536,10 @@
     {
       "id": "ses-030",
       "title": "A systematic aliasing suppression architecture for real-time FI-DAC based on linear-phase complementary filter and oversampling",
-      "description": "",
+      "description": "Frequency interleaving digital-to-analog converter (FI-DAC) is a promising solution for synthesizing low-distortion, wideband signals in modern electronic measurement. While traditional offline FI-DAC is effective, advanced testing scenarios increasingly demand Real-Time FI-DAC (RTFI-DAC) architectures. However, these systems inevitably suffer from spectral aliasing caused by the non-ideal transition bands of digital and analog filters during subband decimation and reconstruction. To address this, we propose a systematic architecture combining Linear-Phase Complementary Filters (LPCF) and an oversampling-based guard band method to structurally avoid aliasing. We establish quantitative relationships among the oversampling ratio (OSR), filter characteristics, and local oscillator (LO) frequency, providing a clear design methodology. An equivalent resource-efficient structure for the LPCF is also presented. Simulation results demonstrated a 1.6 times enhancement in bandwidth, with aliasing suppressed by 70 dB at an OSR of 1.25. The trade-off between resources and performance is also discussed. This research holds positive engineering significance for the realization of real-time FI-DAC and the advancement of wideband signal source performance.",
       "startsAt": "2026-09-18T09:00:00+02:00",
       "endsAt": "2026-09-18T09:15:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -555,10 +555,10 @@
     {
       "id": "ses-031",
       "title": "Parameter estimation of complex-valued sinewaves by a frequency-domain linearized sine-fit algorithm",
-      "description": "",
+      "description": "In this paper a frequency-domain linearized three-parameter sine-fit (FL3PSF) algorithm is proposed for the estimation of the frequency, amplitude, and phase of a complex-valued noisy sinewave. The algorithm linearly interpolates a small number of Discrete Fourier Transform (DFT) samples exploiting the Gauss-Newton approach. The analytical expressions for the proposed parameter estimators are provided and their accuracies are compared with those of some Discrete-Time Fourier Transform (DTFT)-based algorithms through computer simulations.",
       "startsAt": "2026-09-18T09:15:00+02:00",
       "endsAt": "2026-09-18T09:30:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -574,10 +574,10 @@
     {
       "id": "ses-032",
       "title": "Benchmarks for IIR Model Identification Based on Binary Measurements",
-      "description": "",
+      "description": "This paper addresses the identification of IIR systems from binary measurements, a challenging problem due to the need to jointly reconstruct the continuous output and the model parameters, leading to a nonlinear optimization problem. An incremental identification algorithm is considered, where estimates obtained from the first k samples are used to initialize the update at k+1, enabling progressive refinement of the estimates. Within this framework, the role of the thresholding policy is investigated. Three strategies are analyzed: fixed, continuous, and quantized thresholds. The performance is evaluated on six benchmark IIR systems. Results show that a 3-bit quantized threshold provides the most accurate and reliable estimates, achieving reconstruction errors of about 1% and parameter convergence close to the true values, outperforming a state-of-the-art method.",
       "startsAt": "2026-09-18T09:30:00+02:00",
       "endsAt": "2026-09-18T09:45:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -593,10 +593,10 @@
     {
       "id": "ses-033",
       "title": "A Digital Voltage Ramp Generator with Integrating Compensation",
-      "description": "",
+      "description": "A digital voltage ramp generator with integrating compensation is proposed in this paper. The ramp for compensation is generated by a pair of controllable current sources, integrating capacitors and analog switches. Due to the fewer instructions that need to be sent in each compensation cycle, the slope rate can be further increased.",
       "startsAt": "2026-09-18T09:45:00+02:00",
       "endsAt": "2026-09-18T10:00:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -615,7 +615,7 @@
       "description": "",
       "startsAt": "2026-09-18T10:00:00+02:00",
       "endsAt": "2026-09-18T10:30:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": true,
       "isPlenumSession": false,
       "speakers": [],
@@ -630,7 +630,7 @@
       "description": "",
       "startsAt": "2026-09-18T10:30:00+02:00",
       "endsAt": "2026-09-18T11:00:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -645,10 +645,10 @@
     {
       "id": "ses-036",
       "title": "Acoustic-Based Detection, Classification, and Localization of Impulsive Sounds",
-      "description": "",
+      "description": "Due to the increasing frequency of shootings in public spaces and the rise in global gun ownership, there is a growing demand for enhanced autonomous security in communal areas such as campuses, hospitals, parks, and government facilities. While traditional surveillance technologies like cameras, drones, and security personnel provide some level of protection, they often fall short in high-risk situations involving active shooters. An automatic acoustic surveillance system presents a valuable addition, enabling faster and more precise detection of threats while reducing response times for security forces. Acoustic-based detection systems offer significant advantages by identifying gunfire, pinpointing its source, and tracking ongoing threats. These systems leverage the distinct acoustic signatures of firearms, using sound propagation and signal processing techniques to determine the location and caliber of a weapon. The proposed acoustic detection, localization, and classification system uses a distributed network of stand-alone sensors and a remote server. Each sensor continuously monitors its surroundings and transmits detected acoustic signals to a remote server for advanced processing. The system ensures broader coverage and adaptability to various environments by deploying multiple units. The system classifies acoustic events and triangulates their location using data from multiple sensors, enabling more precise and reliable 2D event localization. The system has been tested with various firearm calibers and ammunition.",
       "startsAt": "2026-09-18T11:00:00+02:00",
       "endsAt": "2026-09-18T11:15:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -663,10 +663,10 @@
     {
       "id": "ses-037",
       "title": "Lock-in detection algorithm for signals modulated with irregular intervals",
-      "description": "",
+      "description": "In many electrical measurements, acquired waveforms are dominated by low-frequency noise due to drifts and various fluctuations. The lock-in detection technique, which modulates the signal of interest at a frequency higher than the noise spectrum and isolates the modulation frequency component, is widely used to recover weak signals from such noisy waveforms. However, conventional lock-in detection tacitly assumes a constant modulation interval, which is not always valid. We encountered a situation in which the signal of interest was inevitably modulated with irregular intervals during the development of transformer-coupled permeameter (TC-Permeameter). In such cases, the noise rejection performance of conventional lock-in algorithms severely deteriorates, resulting in poor stability and low signal-to-noise ratio of the measurement results. This work presents a lock-in detection algorithm tailored for irregularly modulated signals. This measurement was repeated 10 times, and both the conventional and the proposed algorithms were applied to the same datasets for data analysis. The standard deviation (SD) of the results analysed by the proposed algorithm is nearly two orders of magnitude smaller than that by the conventional one. This comparison clearly demonstrates that the algorithm proposed in this work efficiently rejects low-frequency noises even when the modulation interval is irregular, while the conventional one fails to do so.",
       "startsAt": "2026-09-18T11:15:00+02:00",
       "endsAt": "2026-09-18T11:30:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -681,10 +681,10 @@
     {
       "id": "ses-038",
       "title": "A Wireless Acoustic Monitoring System for Drone Localization Based on MEMS Microphones and LoRa Communication",
-      "description": "",
+      "description": "This paper presents the design and initial development of a distributed wireless acoustic sensor network for drone detection and localization. Based on a star topology, multiple autonomous measuring nodes communicate with a central hub via LoRa technology. Each node is equipped with an STM32H5 MCU and Infineon IM67D130AXTSA2 MEMS microphones. GPS is integrated to determine the unit's geographical coordinates and verify field placement. To ensure robustness in environments with limited GPS availability, an IMU is included for auxiliary localization support. The hardware is encased in a UV-resistant ASA 3D-printed housing. The paper describes the hardware architecture and discusses the potential of the system for low-power long-term monitoring.",
       "startsAt": "2026-09-18T11:30:00+02:00",
       "endsAt": "2026-09-18T11:45:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -699,10 +699,10 @@
     {
       "id": "ses-039",
       "title": "Comparative Analysis of Search Algorithms for Automatic L-type Matching Network",
-      "description": "",
+      "description": "Impedance matching is paramount to increase the power transferred to a load. However, whenever the load impedance is unknown or non-static, impedance matching can become a laborious process that requires constant adjustment within varying environmental factors. Therefore, automation of a L-network impedance matching is proposed herein. The automated impedance matching system is composed of banks of reactive elements activated by relays and was applied to electromagnetic acoustic transducers as loads. Two algorithms were applied to obtain the network's best configuration, namely, an adapted bidimensional Golden Section search and Nelder-Mead Simplex-based search. These algorithms were compared to an exhaustive search using simulations and experimentally, with distinct transducers and frequencies. The proposed solution was able to consistently obtain optimal network configuration and experimentally achieved at least 65% of the voltage gain of an exhaustive search while taking less than 6% of its search time.",
       "startsAt": "2026-09-18T11:45:00+02:00",
       "endsAt": "2026-09-18T12:00:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -717,10 +717,10 @@
     {
       "id": "ses-040",
       "title": "Airborne Navigation During GNSS Outages Using Tightly Coupled IMU/DVB-T2 Fusion",
-      "description": "",
+      "description": "This paper presents a tightly coupled navigation system integrating a low-cost Inertial Measurement Unit (IMU), GNSS, and terrestrial Digital Video Broadcast (DVB-T2) signals to provide robust resilience during GNSS-denied scenarios. To mitigate the unbounded drift of a stand-alone IMU, the proposed Error-State Kalman Filter utilizes DVB-T2 Signals of Opportunity (SoP) as an independent source of navigation corrections. Real-world flight test results demonstrate that during simulated GNSS outages, the IMU/DVB-T2 fusion bounds the average position error to tens of meters over a 5-minute outage, and maintains it at approximately 100 meters after a 10-minute outage. In stark contrast, a stand-alone IMU yields kilometer-level errors under identical conditions. Ultimately, this research confirms that DVB-T2 signals offer a practically viable, independent fallback system for manned and unmanned aviation, ensuring safe mid-flight navigation.",
       "startsAt": "2026-09-18T12:00:00+02:00",
       "endsAt": "2026-09-18T12:15:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -738,7 +738,7 @@
       "description": "",
       "startsAt": "2026-09-18T12:15:00+02:00",
       "endsAt": "2026-09-18T13:15:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": true,
       "isPlenumSession": false,
       "speakers": [],
@@ -750,10 +750,10 @@
     {
       "id": "ses-042",
       "title": "Microcontroller Based Software Defined Instruments as an Economical Substitute of Virtual Measurement Instruments",
-      "description": "",
+      "description": "This paper presents a concept of low-cost, multifunctional Software Defined Instruments (SDIs) designed for education and rapid prototyping. Originating from the need to provide students with affordable access to measuring instruments, the SDI platform utilizes modern microcontrollers (MCUs) with suitable peripherals to implement devices such as oscilloscopes, voltmeters, counters, and function generators, entirely in software. The solution combines MCU (e.g., STM32 Nucleo) with custom firmware and a PC application, enabling hands-on experimentation in laboratories and at home. Various generations of SDIs have been developed, ranging from terminal-based tools to more advanced GUI-driven applications, and hundreds of students have successfully used multiple courses in them. The SDI concept supports flexibility, scalability, and cost-effectiveness, making it ideal for teaching basic measurement techniques, circuit behavior, and embedded system development.",
       "startsAt": "2026-09-18T13:15:00+02:00",
       "endsAt": "2026-09-18T13:30:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -769,10 +769,10 @@
     {
       "id": "ses-043",
       "title": "Exploring a new indirect approach to latency measurement",
-      "description": "",
+      "description": "This paper explores a novel indirect approach to measure latency for digital signal processing systems. Current approach of measuring real-time DSP systems is by calculating the correlation of the input and output signal in time domain which requires high computational power and without interpolation delivers only 10.41 µs latency precision with 48 kHz sampling frequency. Our methodology suggests an indirect latency measurement which requires minimal computational power, uses basic lab equipment and delivers uncertainty u95% = 0.135 µs; two orders higher than non-interpolated correlation.",
       "startsAt": "2026-09-18T13:30:00+02:00",
       "endsAt": "2026-09-18T13:45:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -788,10 +788,10 @@
     {
       "id": "ses-044",
       "title": "Detection of Mercury Ion in Water Samples Using a Low-Tech EPS-Coated Interdigitated Capacitive Sensor through S-Parameter Analysis",
-      "description": "",
+      "description": "This work presents the experimental characterization of a low-tech interdigitated capacitive (IDC) sensor designed for mercury (Hg2+) detection in liquid media. The sensor response was evaluated using scattering parameters at 10 MHz, with and without a sensitive extracellular polymeric substance (EPS) coating. As results, statistical analysis based on Student's t-test showed that the uncoated sensor detects Hg2+ concentrations as low as 10^-6 M, whereas the EPS-coated sensor reached a detection limit of 10^-5 M. Although the EPS layer reduced the detection limit, it improved sensitivity by at least four times. Also, standard deviation values remained below 0.06 dB and 0.7 degrees for S11, and below 1.3 dB and 2.2 degrees for S21, indicating good repeatability. Overall, the proposed IDC sensor offers a competitive detection limit at an exceptionally low fabrication cost of USD 0.05, without requiring advanced technological facilities, making it suitable for decentralized and low-resource environments.",
       "startsAt": "2026-09-18T13:45:00+02:00",
       "endsAt": "2026-09-18T14:00:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -807,10 +807,10 @@
     {
       "id": "ses-045",
       "title": "Development and Experimental Evaluation of a Three-Lead ECG Holter System",
-      "description": "",
+      "description": "This paper presents the design and experimental evaluation of a compact three-lead ECG Holter system for portable low-power cardiac monitoring. The system acquires standard bipolar leads I, II, and III using an analog front-end with amplification, filtering, and common-mode interference suppression. The signals are digitized by a microcontroller-based unit and further processed by digital filtering. Experimental verification was performed on a healthy volunteer under resting conditions, focusing on signal quality, inter-lead consistency, and temporal stability. Channel agreement was assessed using Einthoven's law, while additional analysis included R-peak detection, RR interval evaluation, and signal-to-noise ratio estimation. The results confirmed stable three-lead acquisition and sufficient signal quality for technical ECG monitoring. The prototype provides a suitable platform for future implementation of compressive sensing methods.",
       "startsAt": "2026-09-18T14:00:00+02:00",
       "endsAt": "2026-09-18T14:15:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -826,10 +826,10 @@
     {
       "id": "ses-046",
       "title": "Multiparametric metrological characterization of an inductive sensing element for mechanical wear estimation",
-      "description": "",
+      "description": "Online wear debris monitoring is essential for preventive maintenance of mechanical systems, allowing early fault detection and the prevention of catastrophic failures. Inductive debris sensors are widely used, however their sensing elements are often not characterized from a metrological perspective. This paper presents a multiparametric experimental analysis of an inductive sensing element to measure the mass of accumulated ferromagnetic material. The influence of the main geometrical parameters, coil diameter, number of turns, and excitation frequency on sensor response is investigated through frequency sweep measurements. A calibration function relating the impedance variation to the captured debris mass is then derived, including a detailed uncertainty analysis that accounts for instrumentation effects and particle distribution. The obtained results allows the optimal design to be identified and, within the investigated mass range, show that the main influence quantity is the particle distribution while the particle size has a negligible effect.",
       "startsAt": "2026-09-18T14:15:00+02:00",
       "endsAt": "2026-09-18T14:30:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -848,7 +848,7 @@
       "description": "",
       "startsAt": "2026-09-18T14:30:00+02:00",
       "endsAt": "2026-09-18T15:00:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": true,
       "isPlenumSession": false,
       "speakers": [],
@@ -863,7 +863,7 @@
       "description": "",
       "startsAt": "2026-09-18T15:00:00+02:00",
       "endsAt": "2026-09-18T15:15:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -879,10 +879,10 @@
     {
       "id": "ses-048",
       "title": "Detection of Physical Layer Anomalies and Eavesdropping in Real World Data Cables",
-      "description": "",
+      "description": "The reliability and security of communication cables are critical in Cyber-Physical Systems (CPS), where physical-layer anomalies such as damage and unauthorized tapping can compromise system integrity. This work presents a passive, non-invasive approach for anomaly detection in Ethernet cables, targeting low-cost edge deployment. Unlike active diagnostic methods, the proposed approach operates on naturally transmitted signals without interrupting communication. A system is developed, integrating a custom differential amplifier, and a Red Pitaya acquisition platform. Real-world datasets have been collected from 10BASE-T and 100BASE-TX Ethernet links under controlled normal and faulty conditions, including air exposure, water exposure, and tapping. Initial signal analysis using amplitude histograms reveals distinct statistical variations across cable conditions. The current results establish a validated data acquisition pipeline and demonstrate the feasibility of passive signal monitoring. This work lays the foundation for scalable, edge-based cable diagnostics in industrial and critical infrastructure systems.",
       "startsAt": "2026-09-18T15:15:00+02:00",
       "endsAt": "2026-09-18T15:30:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -898,10 +898,10 @@
     {
       "id": "ses-049",
       "title": "Sustainability-oriented optimization of a sensing board for applications as a cyber-physical measurement system (CPMS)",
-      "description": "",
+      "description": "Within the Industry 5.0 paradigm, Cyber-Physical Systems (CPSs) represent a key technological enabler through the integration of physical processes, sensing, communication, and computation. In this context, traditional Measurement and Monitoring Systems (MMSs), typically devoted to data acquisition and transmission, can evolve into autonomous and intelligent Cyber-Physical Measurement Systems (CPMSs). Starting from this perspective, this paper presents a sustainability-oriented methodology for CPMSs, aimed at providing a self-adaptation and self-configuration capabilities: these features are in fact crucial in 5.0 CPMSs. In particular, the proposed methodology addresses the self-adaption of sensing and communication configurations according to the operating condition in order to reduce energy demand and the related operational environmental impact. As a case study, the methodology is implemented on an ST SensorTile.box PRO, a compact multi-sensor platform for environmental and inertial monitoring: this device is widely adopted as a smart sensing device in cyber-physical applications. To this end, the implemented sustainability-oriented strategy relies on the autonomous identification of quiescent and moving states and dynamically reconfigure sensing and transmission configurations accordingly. Environmental quantities are prioritized in quiescent conditions, whereas inertial data are emphasized during motion. Experimental results, expressed through mean values and standard uncertainties, show an energy saving of approximately 4.77%, with a corresponding reduction in the operational Carbon Footprint. These results highlight the potential of sustainability-oriented CPMSs for more adaptive and resource-aware measurement infrastructures in line with the Industry 5.0 vision.",
       "startsAt": "2026-09-18T15:30:00+02:00",
       "endsAt": "2026-09-18T15:45:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -917,10 +917,10 @@
     {
       "id": "ses-051",
       "title": "Vector Fitting-Based Feature Extraction from Electrochemical Impedance Spectroscopy for SOC and SOH Estimation",
-      "description": "",
+      "description": "This paper analyses the use of vector fitting parameters obtained from electrochemical impedance spectroscopy (EIS) data to estimate battery state variables. The impedance frequency response is rationally approximated using a vector fitting algorithm, and the resulting parameters, together with temperature, are used as inputs to predict the battery states. Specifically, two models are developed to estimate State Of Charge (SOC) and State Of Health (SOH). The evaluation is based on repeated random train-validation-test splits to obtain robust performance estimates. The results show strong predictive performance, with SOC estimation achieving average R2 values above 90%, while SOH estimation reaches an average R2 of approximately 73%. Overall, the results indicate that vector fitting parameters provide a useful feature representation for battery state estimation when combined with non-linear models.",
       "startsAt": "2026-09-18T15:45:00+02:00",
       "endsAt": "2026-09-18T16:00:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -936,10 +936,10 @@
     {
       "id": "ses-052",
       "title": "Measurement of the characteristics of EDL and hybrid supercapacitors versus temperature",
-      "description": "",
+      "description": "This study presents an experimental characterization of supercapacitors (SCs) of different sizes and technologies under varying operating temperatures. The identification of SCs main parameters as a function of temperature primarily involves the measurement of capacitance (C) and equivalent series resistance (ESR). To assess C and ESR, the main characterization techniques employed were cyclic voltammetry and galvanostatic charge/discharge measurements. The latter was performed including a constant-voltage charging phase, in accordance with standard procedures. Experimental results reveal markedly different behaviors between electric double-layer SCs and hybrid SCs. In both technologies, C decreases as temperature declines; however, this reduction is significantly more pronounced in hybrid supercapacitors. Conversely, the ESR increases as the temperature approaches sub-zero values.",
       "startsAt": "2026-09-18T16:00:00+02:00",
       "endsAt": "2026-09-18T16:15:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -955,10 +955,10 @@
     {
       "id": "ses-053",
       "title": "Non-Destructive Microwave Dielectric Characterization of Leather for Automotive Applications",
-      "description": "",
+      "description": "The automotive industry increasingly requires advanced non-destructive methods for assessing the quality and conservation state of high-value leather used in premium interiors. Since leather is a hygroscopic collagen-based material, its mechanical properties, dimensional stability, surface appearance, and long-term durability are strongly influenced by environmental humidity and absorbed moisture. In this work, a microwave resonant technique is proposed for the dielectric characterization of natural bovine leather under controlled humidity conditions. The method is based on a high-Q dielectric-loaded resonator operating near 10 GHz, specifically designed for an enhanced sensitivity to the complex permittivity of thin and lossy materials. Two leather samples with different thicknesses (1.6 mm and 0.9 mm) were conditioned for 48 h in sealed environments at four relative humidity (RH) levels, ranging from dry conditions (RH < 10%) up to 80% RH. From the measurements of the resonance frequency and quality factor of the used dielectric loaded resonator the dielectric constant was extracted by means of finite-element calibration curves. Experimental results show a clear and repeatable decrease of the resonant frequency with increasing humidity, corresponding to an increase in the real part of the relative permittivity. For both samples, ε' increased from approximately 2 in dry conditions to values around 3.2 at high humidity levels. The thicker and more homogeneous sample exhibited the best linearity and repeatability, while the thinner specimen showed larger variability due to reduced electromagnetic perturbation and surface irregularities. Standard uncertainty on the extracted permittivity remained below 3%. The results demonstrate that microwave dielectric-loaded resonators provide a sensitive, contactless, and fully non-destructive tool for monitoring humidity-related changes in leather. The proposed approach is therefore promising for future inline quality-control systems and smart handling platforms for automotive leather manufacturing, where rapid and reliable evaluation of material state is required.",
       "startsAt": "2026-09-18T16:15:00+02:00",
       "endsAt": "2026-09-18T16:30:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -974,10 +974,10 @@
     {
       "id": "ses-054",
       "title": "Measurements of Wetsuits Thermal Properties at 100 kPa and 600 kPa Absolute Pressure",
-      "description": "",
+      "description": "To assess the thermal properties of neoprene scuba-diving wetsuits for water immersion at different depths, it is fundamental to create a measurement setup able to characterize their thermal resistance in an environment that can replicate the real working conditions of the material. In this paper, neoprene wetsuits of different thicknesses, producers, and material composition, were tested in cold water conditions at two different working pressures. The wetsuit thermal resistance was measured under quasi-steady-state temperature conditions, recorded and studied as a function of time. Measurements of the heat transfer across the wetsuit sample were performed by means of an electrical-to-thermal watt balance in a de facto quasi-stationary regime of the thermal power flux. Experimental results show a significant degradation of the wetsuit insulation property at increasing water pressures, but also as a function of the wetting conditions and wetting time. Results in terms of reduced wetsuit insulation were empirically analyzed and collected, for the first time to our knowledge, in a comprehensive public report.",
       "startsAt": "2026-09-18T16:30:00+02:00",
       "endsAt": "2026-09-18T16:45:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -996,7 +996,7 @@
       "description": "",
       "startsAt": "2026-09-18T16:45:00+02:00",
       "endsAt": "2026-09-18T17:00:00+02:00",
-      "roomId": "room-main-hall",
+      "roomId": "room-t2-c3-340",
       "isServiceSession": true,
       "isPlenumSession": false,
       "speakers": [],
@@ -1741,8 +1741,8 @@
       "name": "CIIRC CTU Penthouse"
     },
     {
-      "id": "room-main-hall",
-      "name": "Main Hall"
+      "id": "room-t2-c3-340",
+      "name": "T2:C3:340"
     },
     {
       "id": "room-restaurace-mlnec",

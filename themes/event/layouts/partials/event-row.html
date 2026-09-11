@@ -2,8 +2,9 @@
 
 {{- /*
     A row is only clickable when it links to a detail page worth opening.
-    Contributed papers have no extra info or photos yet, so they render as
-    static rows. Keynotes and selected service sessions link to detail pages.
+    Talks (keynotes and contributed papers) link to their own generated
+    session page, which shows the abstract. Breaks and ceremonies stay
+    static rows unless they point to an editorial detail page.
 
     A service session with a detail page is a social event rather than a mere
     break, so it drops the compact break styling for a feature row that shows
