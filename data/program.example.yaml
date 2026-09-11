@@ -58,7 +58,7 @@ sessions:
     id: ses-002
     type: ceremony
     track: Ceremony
-    room: Main Hall
+    room: T2:C3:340
     isServiceSession: true
     start: 2026-09-17 08:30
     end: 2026-09-17 08:55
@@ -70,7 +70,7 @@ sessions:
     speakers: [Prof. Paolo Carbone]
     type: keynote
     track: Keynote
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-17 08:55
     end: 2026-09-17 09:30
 
@@ -80,7 +80,7 @@ sessions:
     speakers: [Valentyn Isaiev]
     type: contributed paper
     track: Calibration & Standards
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-17 09:30
     end: 2026-09-17 09:45
 
@@ -90,7 +90,7 @@ sessions:
     speakers: [Marco Coïsson]
     type: contributed paper
     track: Calibration & Standards
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-17 09:45
     end: 2026-09-17 10:00
 
@@ -100,7 +100,7 @@ sessions:
     speakers: [Luca Callegaro]
     type: contributed paper
     track: Calibration & Standards
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-17 10:00
     end: 2026-09-17 10:15
 
@@ -110,7 +110,7 @@ sessions:
     speakers: [Alessandro Cultrera]
     type: contributed paper
     track: Calibration & Standards
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-17 10:15
     end: 2026-09-17 10:30
 
@@ -118,7 +118,7 @@ sessions:
     id: ses-008
     type: break
     track: Break
-    room: Main Hall
+    room: T2:C3:340
     isServiceSession: true
     start: 2026-09-17 10:30
     end: 2026-09-17 11:00
@@ -130,7 +130,7 @@ sessions:
     speakers: [Prof. Jiří Tesař]
     type: keynote
     track: Keynote
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-17 11:00
     end: 2026-09-17 11:30
 
@@ -140,7 +140,7 @@ sessions:
     speakers: [Changhao Zhao]
     type: contributed paper
     track: Calibration & Standards
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-17 11:30
     end: 2026-09-17 11:45
 
@@ -150,7 +150,7 @@ sessions:
     speakers: [Michal Spacek]
     type: contributed paper
     track: Calibration & Standards
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-17 11:45
     end: 2026-09-17 12:00
 
@@ -160,7 +160,7 @@ sessions:
     speakers: [Ahmed Khan Leghari]
     type: contributed paper
     track: Calibration & Standards
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-17 12:00
     end: 2026-09-17 12:15
 
@@ -170,7 +170,7 @@ sessions:
     speakers: [Marco Sento]
     type: contributed paper
     track: Calibration & Standards
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-17 12:15
     end: 2026-09-17 12:30
 
@@ -180,7 +180,7 @@ sessions:
     speakers: [Kiril Demerdziev]
     type: contributed paper
     track: Calibration & Standards
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-17 12:30
     end: 2026-09-17 12:45
 
@@ -189,7 +189,7 @@ sessions:
     session: Session 2 - Calibration, Traceability & Metrological Standards II
     speakers: [Antonín Krňoul]
     track: Calibration & Standards
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-17 12:45
     end: 2026-09-17 13:00
 
@@ -197,7 +197,7 @@ sessions:
     id: ses-016
     type: break
     track: Break
-    room: Main Hall
+    room: T2:C3:340
     isServiceSession: true
     start: 2026-09-17 13:00
     end: 2026-09-17 14:00
@@ -209,7 +209,7 @@ sessions:
     speakers: [Dr. Cristian Coman]
     type: keynote
     track: Keynote
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-17 14:00
     end: 2026-09-17 14:30
 
@@ -219,7 +219,7 @@ sessions:
     speakers: [Leopoldo Angrisani]
     type: contributed paper
     track: Calibration & Standards
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-17 14:30
     end: 2026-09-17 14:45
 
@@ -229,7 +229,7 @@ sessions:
     speakers: [Marija Cundeva-Blajer]
     type: contributed paper
     track: Calibration & Standards
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-17 14:45
     end: 2026-09-17 15:00
 
@@ -239,7 +239,7 @@ sessions:
     speakers: [Ana Lucia Medina Rodriguez]
     type: contributed paper
     track: Electrical & Magnetic
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-17 15:00
     end: 2026-09-17 15:15
 
@@ -249,7 +249,7 @@ sessions:
     speakers: [Gabriel Gasparesc]
     type: contributed paper
     track: Electrical & Magnetic
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-17 15:15
     end: 2026-09-17 15:30
 
@@ -257,7 +257,7 @@ sessions:
     id: ses-022
     type: break
     track: Break
-    room: Main Hall
+    room: T2:C3:340
     isServiceSession: true
     start: 2026-09-17 15:30
     end: 2026-09-17 16:00
@@ -269,7 +269,7 @@ sessions:
     speakers: [Franziska Weickert]
     type: contributed paper
     track: Electrical & Magnetic
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-17 16:00
     end: 2026-09-17 16:15
 
@@ -279,7 +279,7 @@ sessions:
     speakers: [Michal Ulvr]
     type: contributed paper
     track: Electrical & Magnetic
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-17 16:15
     end: 2026-09-17 16:30
 
@@ -289,7 +289,7 @@ sessions:
     speakers: [Jiri Maier]
     type: contributed paper
     track: Electrical & Magnetic
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-17 16:30
     end: 2026-09-17 16:45
 
@@ -299,7 +299,7 @@ sessions:
     speakers: [Michal Janosek]
     type: contributed paper
     track: Electrical & Magnetic
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-17 16:45
     end: 2026-09-17 17:00
 
@@ -309,7 +309,7 @@ sessions:
     speakers: [Kostiantyn Torokhtii]
     type: contributed paper
     track: Electrical & Magnetic
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-17 17:00
     end: 2026-09-17 17:15
 
@@ -334,7 +334,7 @@ sessions:
     speakers: [Dr. Michael Street]
     type: keynote
     track: Keynote
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-18 08:30
     end: 2026-09-18 09:00
 
@@ -344,7 +344,7 @@ sessions:
     speakers: [Yang Shen]
     type: contributed paper
     track: ADC/DAC
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-18 09:00
     end: 2026-09-18 09:15
 
@@ -354,7 +354,7 @@ sessions:
     speakers: [Dominique Dallet]
     type: contributed paper
     track: ADC/DAC
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-18 09:15
     end: 2026-09-18 09:30
 
@@ -364,7 +364,7 @@ sessions:
     speakers: [Paolo Carbone]
     type: contributed paper
     track: ADC/DAC
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-18 09:30
     end: 2026-09-18 09:45
 
@@ -374,7 +374,7 @@ sessions:
     speakers: [Jianting Zhao]
     type: contributed paper
     track: ADC/DAC
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-18 09:45
     end: 2026-09-18 10:00
 
@@ -382,7 +382,7 @@ sessions:
     id: ses-034
     type: break
     track: Break
-    room: Main Hall
+    room: T2:C3:340
     isServiceSession: true
     start: 2026-09-18 10:00
     end: 2026-09-18 10:30
@@ -394,7 +394,7 @@ sessions:
     speakers: [Prof. Kruno Miličević]
     type: keynote
     track: Keynote
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-18 10:30
     end: 2026-09-18 11:00
 
@@ -404,7 +404,7 @@ sessions:
     speakers: [Martin Maxa]
     type: contributed paper
     track: Sensors & Signal Processing
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-18 11:00
     end: 2026-09-18 11:15
 
@@ -414,7 +414,7 @@ sessions:
     speakers: [Shingo Tamaru]
     type: contributed paper
     track: Sensors & Signal Processing
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-18 11:15
     end: 2026-09-18 11:30
 
@@ -424,7 +424,7 @@ sessions:
     speakers: [Kamil Herman]
     type: contributed paper
     track: Sensors & Signal Processing
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-18 11:30
     end: 2026-09-18 11:45
 
@@ -434,7 +434,7 @@ sessions:
     speakers: [Joao Pedro Torres S. Andrade]
     type: contributed paper
     track: Sensors & Signal Processing
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-18 11:45
     end: 2026-09-18 12:00
 
@@ -444,7 +444,7 @@ sessions:
     speakers: [Michal Koldinsky]
     type: contributed paper
     track: Sensors & Signal Processing
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-18 12:00
     end: 2026-09-18 12:15
 
@@ -452,7 +452,7 @@ sessions:
     id: ses-041
     type: break
     track: Break
-    room: Main Hall
+    room: T2:C3:340
     isServiceSession: true
     start: 2026-09-18 12:15
     end: 2026-09-18 13:15
@@ -464,7 +464,7 @@ sessions:
     speakers: [Jakub Svatos]
     type: contributed paper
     track: Sensors & Signal Processing
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-18 13:15
     end: 2026-09-18 13:30
 
@@ -474,7 +474,7 @@ sessions:
     speakers: [Jakub Turinsky]
     type: contributed paper
     track: Sensors & Signal Processing
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-18 13:30
     end: 2026-09-18 13:45
 
@@ -484,7 +484,7 @@ sessions:
     speakers: [Henrique Dantas Silva]
     type: contributed paper
     track: Sensors & Signal Processing
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-18 13:45
     end: 2026-09-18 14:00
 
@@ -494,7 +494,7 @@ sessions:
     speakers: [Ondrej Kovac]
     type: contributed paper
     track: Sensors & Signal Processing
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-18 14:00
     end: 2026-09-18 14:15
 
@@ -504,7 +504,7 @@ sessions:
     speakers: [Davide Ceschini]
     type: contributed paper
     track: Sensors & Signal Processing
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-18 14:15
     end: 2026-09-18 14:30
 
@@ -512,7 +512,7 @@ sessions:
     id: ses-047
     type: break
     track: Break
-    room: Main Hall
+    room: T2:C3:340
     isServiceSession: true
     start: 2026-09-18 14:30
     end: 2026-09-18 15:00
@@ -524,7 +524,7 @@ sessions:
     speakers: [Laura Martin]
     type: keynote
     track: Keynote
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-18 15:00
     end: 2026-09-18 15:15
 
@@ -534,7 +534,7 @@ sessions:
     speakers: [Amit Duwal]
     type: contributed paper
     track: Applications
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-18 15:15
     end: 2026-09-18 15:30
 
@@ -544,7 +544,7 @@ sessions:
     speakers: [Leopoldo Angrisani]
     type: contributed paper
     track: Applications
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-18 15:30
     end: 2026-09-18 15:45
 
@@ -554,7 +554,7 @@ sessions:
     speakers: [Pedro Ramos]
     type: contributed paper
     track: Applications
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-18 15:45
     end: 2026-09-18 16:00
 
@@ -564,7 +564,7 @@ sessions:
     speakers: [Ornella Conti]
     type: contributed paper
     track: Applications
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-18 16:00
     end: 2026-09-18 16:15
 
@@ -574,7 +574,7 @@ sessions:
     speakers: [Kostiantyn Torokhtii]
     type: contributed paper
     track: Applications
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-18 16:15
     end: 2026-09-18 16:30
 
@@ -584,7 +584,7 @@ sessions:
     speakers: [Cesare Svelto]
     type: contributed paper
     track: Applications
-    room: Main Hall
+    room: T2:C3:340
     start: 2026-09-18 16:30
     end: 2026-09-18 16:45
 
@@ -592,7 +592,7 @@ sessions:
     id: ses-055
     type: ceremony
     track: Ceremony
-    room: Main Hall
+    room: T2:C3:340
     isServiceSession: true
     start: 2026-09-18 16:45
     end: 2026-09-18 17:00
