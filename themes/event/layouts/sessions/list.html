@@ -96,7 +96,7 @@
                 {{- range $dayPages }}
                     {{- if .Params.isServiceSession }}
                         {{- if gt (len $currentTalks) 0 }}
-                            {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "chair" (index $currentTalks 0).Params.sessionChair "pages" $currentTalks) }}
+                            {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "chair" (index $currentTalks 0).Params.sessionChair "room" (index $currentTalks 0).Params.room.name "pages" $currentTalks) }}
                             {{- $currentTalks = slice }}
                             {{- $currentGroup = "" }}
                         {{- end }}
@@ -104,7 +104,7 @@
                     {{- else }}
                         {{- $pageGroup := or .Params.sessionGroup "" }}
                         {{- if and (gt (len $currentTalks) 0) (ne $pageGroup $currentGroup) }}
-                            {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "chair" (index $currentTalks 0).Params.sessionChair "pages" $currentTalks) }}
+                            {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "chair" (index $currentTalks 0).Params.sessionChair "room" (index $currentTalks 0).Params.room.name "pages" $currentTalks) }}
                             {{- $currentTalks = slice }}
                         {{- end }}
                         {{- $currentGroup = $pageGroup }}
@@ -112,7 +112,7 @@
                     {{- end }}
                 {{- end }}
                 {{- if gt (len $currentTalks) 0 }}
-                    {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "chair" (index $currentTalks 0).Params.sessionChair "pages" $currentTalks) }}
+                    {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "chair" (index $currentTalks 0).Params.sessionChair "room" (index $currentTalks 0).Params.room.name "pages" $currentTalks) }}
                 {{- end }}
 
                 {{- range $blocks }}
@@ -133,12 +133,20 @@
                                     {{- . -}}
                                 </h3>
                             {{- end }}
-                            {{- with .chair }}
-                                <p class="session-day-section__session-chair">
-                                    <span class="session-day-section__session-chair-label">Chair</span>
-                                    <span>{{ . }}</span>
-                                </p>
-                            {{- end }}
+                            <div class="session-day-section__session-meta">
+                                {{- with .chair }}
+                                    <p class="session-day-section__session-chair">
+                                        <span class="session-day-section__session-chair-label">Chair</span>
+                                        <span>{{ . }}</span>
+                                    </p>
+                                {{- end }}
+                                {{- with .room }}
+                                    <p class="session-day-section__session-room">
+                                        <span class="session-day-section__session-room-label">Room</span>
+                                        <span>{{ . }}</span>
+                                    </p>
+                                {{- end }}
+                            </div>
                         </header>
                         <menu class="session-day-section__group">
                             {{- range .pages }}

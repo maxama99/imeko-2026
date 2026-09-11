@@ -17,7 +17,15 @@
     color: var(--color-primary);
 }
 
-.session-day-section__session-chair {
+.session-day-section__session-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem 1.25rem;
+    flex-wrap: wrap;
+}
+
+.session-day-section__session-chair,
+.session-day-section__session-room {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
@@ -27,7 +35,8 @@
     font-weight: 600;
 }
 
-.session-day-section__session-chair-label {
+.session-day-section__session-chair-label,
+.session-day-section__session-room-label {
     padding: 0.25rem 0.625rem;
     border-radius: 999px;
     background-color: var(--color-primary);
