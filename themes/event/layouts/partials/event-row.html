@@ -21,6 +21,10 @@
 {{- end }}
 {{- if not $clickable }}
     {{- $classes = $classes | append "event-row--static" }}
+{{- else }}
+    {{- /* Every clickable row (talk or feature event) reads as the same
+        white card; --feature only adds its own image/teaser layout on top. */ -}}
+    {{- $classes = $classes | append "event-row--clickable" }}
 {{- end }}
 {{- $hrefAttribute := "" }}
 {{- if $clickable }}
@@ -54,6 +58,9 @@
                 <span>{{- .name -}}</span>
             {{- end }}
         </h3>
+        {{- with $input.excerpt }}
+            <p class="event-row__excerpt">{{ . }}</p>
+        {{- end }}
         {{- if $feature }}
             <p class="event-row__details-cue">
                 <span class="event-row__details-cue-text">

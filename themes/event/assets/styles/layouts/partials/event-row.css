@@ -75,20 +75,24 @@
 }
 
 /*
- * Social events (get-together, gala dinner) are service sessions that carry a
- * detail page. Unlike a plain break they keep the full row layout, adding a
- * teaser, a photo of the venue and an explicit cue that there is more to read.
+ * Every clickable row (a talk linking to its own abstract page, or a feature
+ * social event) reads as the same white card.
  */
-.event-row--feature {
+.event-row--clickable {
     background-color: white;
     box-shadow: 0 0.0625rem 0.1875rem 0 var(--color-shadow);
 }
 
 /* Lift the card on hover, a stronger hint than the outline the rows share. */
-.event-row--feature:hover {
+.event-row--clickable:hover {
     box-shadow: 0 0.25rem 0.75rem 0 var(--color-shadow);
 }
 
+/*
+ * Social events (get-together, gala dinner) are service sessions that carry a
+ * detail page. Unlike a plain break they keep the full row layout, adding a
+ * teaser, a photo of the venue and an explicit cue that there is more to read.
+ */
 .event-row--feature .event-row__track,
 .event-row--feature .event-row__speakers {
     display: none;
@@ -103,6 +107,16 @@
     color: var(--color-secondary-darker);
     font-size: 1rem;
     line-height: 1.4;
+}
+
+/* A quiet preview of the abstract; unlike the teaser it makes no bid for
+ * attention -- no cue, no arrow, just enough text to read as "more inside". */
+.event-row__excerpt {
+    margin: 0;
+    color: var(--color-secondary-darker);
+    font-size: 0.875rem;
+    line-height: 1.45;
+    opacity: 0.85;
 }
 
 .event-row__thumbnail {

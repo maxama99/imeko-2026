@@ -28,6 +28,13 @@
         {{- errorf "session %q references the missing image asset %q" $page.Title . }}
     {{- end }}
 {{- end }}
+{{- /* A short preview of the abstract for talks (contributed papers and
+    keynotes read their own generated page); feature rows show a teaser
+    instead, so skip it there to avoid showing both. */ -}}
+{{- $excerpt := "" }}
+{{- if and $page.Params.description (not $page.Params.teaser) }}
+    {{- $excerpt = truncate 150 $page.Params.description }}
+{{- end }}
 {{- $transformedSpeakers := slice }}
 {{- range $page.Params.speakers }}
     {{- $speakerAvatarResource := ($sectionResources.GetMatch (printf "avatar-%s-%s.*" $page.Params.sessionId .id)) }}
@@ -56,6 +63,7 @@
         "endsAt" $page.Params.endsAt
         "linkable" $linkable
         "teaser" $page.Params.teaser
+        "excerpt" $excerpt
         "imageResource" $imageResource
         )
     }}
