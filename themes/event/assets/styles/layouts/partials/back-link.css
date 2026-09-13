@@ -1,0 +1,34 @@
+/*
+ * A quiet "back to X" link shown above a detail page (a session, or a
+ * social event like the gala dinner). Deliberately understated -- it is a
+ * navigational aid, not a call to action.
+ */
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-secondary-darker);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.back-link:hover .back-link__text {
+    text-decoration: underline;
+    text-decoration-thickness: 0.0625rem;
+    text-underline-offset: 0.25rem;
+}
+
+.back-link__arrow {
+    display: inline-flex;
+    align-items: center;
+    width: 0.9375rem;
+    height: 0.8125rem;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+}
+
+.back-link:hover .back-link__arrow {
+    transform: translateX(-0.25rem);
+}

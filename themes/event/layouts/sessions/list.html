@@ -15,10 +15,13 @@
             class="session-filter-input"
             value="day-{{ $index }}"
             id="filter-day-{{ $index }}"
+            data-date="{{ $element.Key }}"
             {{- if eq $index 0 }}
                 checked
             {{- end }} />
     {{- end }}
+
+    {{- partial "select-current-day.html" . }}
 
     {{- range $index, $element := $sessionsGroupedByTrack }}
         <input
@@ -34,6 +37,16 @@
     <header class="section-container">
         <div class="section">
             <h1 class="heading heading--1">{{ T "sessions_page.heading" }}</h1>
+            {{- with T "sessions_page.venue_note" }}
+                <p class="session-list-venue-note">
+                    {{ . }}
+                    {{- with site.GetPage "lecture-room" }}
+                        <a class="link" href="{{ .RelPermalink }}">
+                            {{- T "sessions_page.venue_note_link" -}}
+                        </a>
+                    {{- end }}
+                </p>
+            {{- end }}
             <div class="session-list-filters">
                 {{- if gt ($sessionsGroupedByDay | len) 1 }}
                     <article class="session-list-filter">
@@ -96,7 +109,7 @@
                 {{- range $dayPages }}
                     {{- if .Params.isServiceSession }}
                         {{- if gt (len $currentTalks) 0 }}
-                            {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "chair" (index $currentTalks 0).Params.sessionChair "pages" $currentTalks) }}
+                            {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "chair" (index $currentTalks 0).Params.sessionChair "room" (index $currentTalks 0).Params.room.name "pages" $currentTalks) }}
                             {{- $currentTalks = slice }}
                             {{- $currentGroup = "" }}
                         {{- end }}
@@ -104,7 +117,7 @@
                     {{- else }}
                         {{- $pageGroup := or .Params.sessionGroup "" }}
                         {{- if and (gt (len $currentTalks) 0) (ne $pageGroup $currentGroup) }}
-                            {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "chair" (index $currentTalks 0).Params.sessionChair "pages" $currentTalks) }}
+                            {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "chair" (index $currentTalks 0).Params.sessionChair "room" (index $currentTalks 0).Params.room.name "pages" $currentTalks) }}
                             {{- $currentTalks = slice }}
                         {{- end }}
                         {{- $currentGroup = $pageGroup }}
@@ -112,7 +125,7 @@
                     {{- end }}
                 {{- end }}
                 {{- if gt (len $currentTalks) 0 }}
-                    {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "chair" (index $currentTalks 0).Params.sessionChair "pages" $currentTalks) }}
+                    {{- $blocks = $blocks | append (dict "kind" "talks" "group" $currentGroup "chair" (index $currentTalks 0).Params.sessionChair "room" (index $currentTalks 0).Params.room.name "pages" $currentTalks) }}
                 {{- end }}
 
                 {{- range $blocks }}
@@ -133,12 +146,26 @@
                                     {{- . -}}
                                 </h3>
                             {{- end }}
-                            {{- with .chair }}
-                                <p class="session-day-section__session-chair">
-                                    <span class="session-day-section__session-chair-label">Chair</span>
-                                    <span>{{ . }}</span>
-                                </p>
-                            {{- end }}
+                            <div class="session-day-section__session-meta">
+                                {{- with .chair }}
+                                    <p class="session-day-section__session-chair">
+                                        <span class="session-day-section__session-chair-label">Chair</span>
+                                        <span>{{ . }}</span>
+                                    </p>
+                                {{- end }}
+                                {{- with .room }}
+                                    {{- $room := . }}
+                                    {{- $venue := site.GetPage "lecture-room" }}
+                                    <p class="session-day-section__session-room">
+                                        <span class="session-day-section__session-room-label">Room</span>
+                                        {{- if $venue }}
+                                            <a class="session-day-section__session-room-link" href="{{ $venue.RelPermalink }}">{{ $room }}</a>
+                                        {{- else }}
+                                            <span>{{ $room }}</span>
+                                        {{- end }}
+                                    </p>
+                                {{- end }}
+                            </div>
                         </header>
                         <menu class="session-day-section__group">
                             {{- range .pages }}

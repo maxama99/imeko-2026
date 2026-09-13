@@ -9,9 +9,11 @@
 {{- $page := .page }}
 {{- $sectionResources := .sectionResources }}
 {{- $trackIndices := .trackIndices }}
-{{- /* Keynotes use their generated detail page; selected service sessions can point to editorial pages. */ -}}
+{{- /* Every talk (keynote or contributed paper) links to its own generated
+    detail page, which shows the abstract; only service sessions (breaks,
+    ceremonies) stay static unless they point to an editorial page below. */ -}}
 {{- $link := $page.RelPermalink }}
-{{- $linkable := eq $page.Params.track "Keynote" }}
+{{- $linkable := not $page.Params.isServiceSession }}
 {{- with $page.Params.detailPage }}
     {{- with site.GetPage . }}
         {{- $link = .RelPermalink }}
@@ -26,6 +28,13 @@
         {{- errorf "session %q references the missing image asset %q" $page.Title . }}
     {{- end }}
 {{- end }}
+{{- /* A short preview of the abstract for talks (contributed papers and
+    keynotes read their own generated page); feature rows show a teaser
+    instead, so skip it there to avoid showing both. */ -}}
+{{- $excerpt := "" }}
+{{- if and $page.Params.description (not $page.Params.teaser) }}
+    {{- $excerpt = truncate 150 $page.Params.description }}
+{{- end }}
 {{- $transformedSpeakers := slice }}
 {{- range $page.Params.speakers }}
     {{- $speakerAvatarResource := ($sectionResources.GetMatch (printf "avatar-%s-%s.*" $page.Params.sessionId .id)) }}
@@ -38,6 +47,9 @@
 {{- end }}
 <li
     role="presentation"
+    {{- with $page.Params.categories }}
+        data-session-type="{{ index . 0 }}"
+    {{- end }}
     {{- if $page.Params.track }}
         data-track="{{ (index $trackIndices $page.Params.track) }}"
     {{- end }}>
@@ -54,6 +66,7 @@
         "endsAt" $page.Params.endsAt
         "linkable" $linkable
         "teaser" $page.Params.teaser
+        "excerpt" $excerpt
         "imageResource" $imageResource
         )
     }}

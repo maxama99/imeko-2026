@@ -2,6 +2,7 @@
 title: 'Welcome Ceremony & Get-Together Reception'
 type: 'miscellaneous'
 layout: 'single'
+backToProgramme: true
 ---
 
 ## Begin IMEKO 2026 above the rooftops of Prague
@@ -19,3 +20,15 @@ Perched above Prague, with its own terrace and views across the rooftops towards
     src="images/social-events/ciirc-1.jpg"
     alt="Exterior of the CIIRC CTU building, a curved glass tower on the CTU Dejvice campus"
     caption="The CIIRC CTU building on the CTU Dejvice campus, where the reception is held." >}}
+
+## Getting there
+
+The reception is held in the CIIRC CTU building on the **CTU Dejvice campus**, a short walk across the campus from the [lecture room](../lecture-room) where the technical programme takes place.
+
+**Address:** CIIRC CTU, Jugoslávských partyzánů 1580/3, 160 00 Prague 6
+
+- **Metro A, Dejvická station:** about 5 minutes on foot.
+- **From the airport:** trolleybus 59 to Veleslavín, then Metro A to Dejvická.
+- **By car:** paid parking is available near the campus.
+
+Full directions to the campus are described on the [venue page](../location).

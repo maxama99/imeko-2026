@@ -17,7 +17,15 @@
     color: var(--color-primary);
 }
 
-.session-day-section__session-chair {
+.session-day-section__session-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem 1.25rem;
+    flex-wrap: wrap;
+}
+
+.session-day-section__session-chair,
+.session-day-section__session-room {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
@@ -27,7 +35,8 @@
     font-weight: 600;
 }
 
-.session-day-section__session-chair-label {
+.session-day-section__session-chair-label,
+.session-day-section__session-room-label {
     padding: 0.25rem 0.625rem;
     border-radius: 999px;
     background-color: var(--color-primary);
@@ -56,6 +65,23 @@
 }
 
 /*
+ * Talks get a floor height so the schedule reads as evenly paced, and a
+ * keynote -- a 30 minute slot against the usual 15 -- takes twice as much
+ * room as a regular session.
+ */
+.session-day-section__group > li {
+    --session-row-height: 8rem;
+}
+
+.session-day-section__group > li[data-session-type='keynote'] {
+    --session-row-height: 16rem;
+}
+
+.session-day-section__group > li > .event-row {
+    min-height: var(--session-row-height);
+}
+
+/*
  * Breaks and ceremonies separate the talk blocks. Extra vertical breathing
  * room turns them into visual dividers between sessions.
  */
@@ -64,6 +90,28 @@
     list-style: none;
     display: block;
     margin: 1.75rem 0;
+}
+
+/* One line under the schedule heading naming the room every session runs in. */
+.session-list-venue-note {
+    margin: 0 0 1.5rem;
+    max-width: 60ch;
+    color: var(--color-secondary-darker);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.session-day-section__session-room-link {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-thickness: 0.0625rem;
+    text-decoration-color: color-mix(in srgb, currentcolor 45%, transparent);
+    text-underline-offset: 0.25rem;
+    transition: text-decoration-color 0.3s ease;
+}
+
+.session-day-section__session-room-link:hover {
+    text-decoration-color: currentcolor;
 }
 
 .session-list-filters {

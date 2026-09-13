@@ -1,0 +1,14 @@
+{{- /*
+    A quiet "back to X" link shown above a detail page (a session, or a
+    social event like the gala dinner). Expects a dict with:
+    "href"  the page to link back to
+    "label" the link text
+    */
+-}}
+{{- $input := . }}
+<a class="back-link" href="{{ $input.href }}">
+    <span class="back-link__arrow" aria-hidden="true">
+        {{- partial "graphics/arrow-left.html" -}}
+    </span>
+    <span class="back-link__text">{{ $input.label }}</span>
+</a>
