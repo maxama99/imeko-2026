@@ -6,7 +6,7 @@
     */
 -}}
 {{- $timezone := "Europe/Prague" }}
-{{- with index hugo.Data "program.example" }}
+{{- with index site.Data "program.example" }}
     {{- with .timezone }}
         {{- $timezone = . }}
     {{- end }}
