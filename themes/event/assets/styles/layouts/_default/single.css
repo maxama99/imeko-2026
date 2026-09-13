@@ -2,3 +2,25 @@
     max-width: 48.125rem;
     margin-bottom: 3.125rem;
 }
+
+/*
+    A heading introduces the text below it, so the breathing room belongs above
+    the heading, where it separates one section from the previous one, rather
+    than below it, where it only pushes the heading away from its own first
+    paragraph. .heading zeroes out every margin, so both sides are set here.
+    The values mirror the ones .markdown already uses for prose.
+*/
+.layout-single-default :is(h2, h3) {
+    margin-top: 2.875rem;
+    margin-bottom: 1rem;
+}
+
+.layout-single-default h4 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* The first heading has nothing above it to be separated from. */
+.layout-single-default > .heading:first-child {
+    margin-top: 0;
+}

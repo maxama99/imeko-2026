@@ -7,11 +7,11 @@ backToProgramme: true
 
 ## Where the sessions take place
 
-The whole technical programme — every keynote and every contributed paper — runs in a single lecture room, **T2:C3:340**, on the **third floor** of the Faculty of Electrical Engineering building of the Czech Technical University in Prague, Technická 2, 160 00 Prague 6, on the Dejvice campus.
+Every keynote and every contributed paper runs in a single lecture room, **T2:C3:340**, on the **third floor** of the Faculty of Electrical Engineering building of the Czech Technical University in Prague, Technická 2, 160 00 Prague 6, on the Dejvice campus.
 
 ## Reading the room number
 
-CTU room codes double as directions: **T2** is the Technická 2 building, **C3** is the block and the floor — block C, third floor — and **340** is the room itself.
+CTU room codes double as directions: **T2** is the Technická 2 building, **C3** is the block and the floor (block C, third floor), and **340** is the room itself.
 
 ## Getting to the campus
 
