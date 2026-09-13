@@ -1,12 +1,15 @@
 {{ define "main" }}
     <div class="section-container">
         <section class="section">
-            {{- partial "back-link.html" (
-                dict
-                "href" (site.GetPage "sessions").RelPermalink
-                "label" (T "sessions_page.back_to_program")
-                )
-            -}}
+            {{- /* Only pages the schedule links to lead back to it. */ -}}
+            {{- if .Params.backToProgramme }}
+                {{- partial "back-link.html" (
+                    dict
+                    "href" (site.GetPage "sessions").RelPermalink
+                    "label" (T "sessions_page.back_to_program")
+                    )
+                -}}
+            {{- end }}
             <article class="layout-single-default">{{ .Content }}</article>
         </section>
     </div>

@@ -92,6 +92,28 @@
     margin: 1.75rem 0;
 }
 
+/* One line under the schedule heading naming the room every session runs in. */
+.session-list-venue-note {
+    margin: 0 0 1.5rem;
+    max-width: 60ch;
+    color: var(--color-secondary-darker);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.session-day-section__session-room-link {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-thickness: 0.0625rem;
+    text-decoration-color: color-mix(in srgb, currentcolor 45%, transparent);
+    text-underline-offset: 0.25rem;
+    transition: text-decoration-color 0.3s ease;
+}
+
+.session-day-section__session-room-link:hover {
+    text-decoration-color: currentcolor;
+}
+
 .session-list-filters {
     width: 100%;
     display: flex;

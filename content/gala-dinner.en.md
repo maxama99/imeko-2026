@@ -2,6 +2,7 @@
 title: 'IMEKO TC4 Gala Dinner'
 type: 'miscellaneous'
 layout: 'single'
+backToProgramme: true
 ---
 
 ## An evening beside Charles Bridge

@@ -2,6 +2,7 @@
 title: 'Welcome Ceremony & Get-Together Reception'
 type: 'miscellaneous'
 layout: 'single'
+backToProgramme: true
 ---
 
 ## Begin IMEKO 2026 above the rooftops of Prague

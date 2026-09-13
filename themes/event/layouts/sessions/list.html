@@ -37,6 +37,16 @@
     <header class="section-container">
         <div class="section">
             <h1 class="heading heading--1">{{ T "sessions_page.heading" }}</h1>
+            {{- with T "sessions_page.venue_note" }}
+                <p class="session-list-venue-note">
+                    {{ . }}
+                    {{- with site.GetPage "lecture-room" }}
+                        <a class="link" href="{{ .RelPermalink }}">
+                            {{- T "sessions_page.venue_note_link" -}}
+                        </a>
+                    {{- end }}
+                </p>
+            {{- end }}
             <div class="session-list-filters">
                 {{- if gt ($sessionsGroupedByDay | len) 1 }}
                     <article class="session-list-filter">
@@ -144,9 +154,15 @@
                                     </p>
                                 {{- end }}
                                 {{- with .room }}
+                                    {{- $room := . }}
+                                    {{- $venue := site.GetPage "lecture-room" }}
                                     <p class="session-day-section__session-room">
                                         <span class="session-day-section__session-room-label">Room</span>
-                                        <span>{{ . }}</span>
+                                        {{- if $venue }}
+                                            <a class="session-day-section__session-room-link" href="{{ $venue.RelPermalink }}">{{ $room }}</a>
+                                        {{- else }}
+                                            <span>{{ $room }}</span>
+                                        {{- end }}
                                     </p>
                                 {{- end }}
                             </div>
