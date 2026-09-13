@@ -1,9 +1,23 @@
 {{- define "main" }}
+    {{- /*
+        The countdown runs to the moment the programme actually opens, which is
+        the first scheduled session, not startDate. startDate carries no time of
+        day, so a browser reads it as midnight UTC and the counter hits zero on
+        the wrong day. Session start times keep their UTC offset, so they land on
+        the right instant for every visitor regardless of their own timezone.
+    */}}
+    {{- $countdownTarget := .Site.Params.themes.event.startDate }}
+    {{- $scheduledSessions := where (where .Site.RegularPages "Section" "sessions") "Params.isScheduled" true }}
+    {{- with (sort $scheduledSessions "Params.startsAt") }}
+        {{- $countdownTarget = (index . 0).Params.startsAt | time.Format "2006-01-02T15:04:05Z07:00" }}
+    {{- end }}
+
     {{- partial "sections/event-title.html"
         (dict
         "title" .Site.Params.themes.event.title
         "location" .Site.Params.themes.event.location
         "startDate" .Site.Params.themes.event.startDate
+        "countdownTarget" $countdownTarget
         "backgroundImage" .Site.Params.themes.event.images.titleBackground
         "eventbriteId" .Site.Params.themes.event.callToAction.eventbrite.eventId
         "ctaUrl" .Site.Params.themes.event.callToAction.other.url
