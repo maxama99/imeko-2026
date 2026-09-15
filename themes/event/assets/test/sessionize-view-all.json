@@ -531,7 +531,7 @@
         "type-keynote"
       ],
       "sessionGroup": "Session 5 - ADC/DAC, Waveform & Data Conversion Metrology",
-      "sessionChair": "Pedro M. Ramos"
+      "sessionChair": "Jan Holub"
     },
     {
       "id": "ses-030",
@@ -550,7 +550,7 @@
         "type-contributed-paper"
       ],
       "sessionGroup": "Session 5 - ADC/DAC, Waveform & Data Conversion Metrology",
-      "sessionChair": "Pedro M. Ramos"
+      "sessionChair": "Jan Holub"
     },
     {
       "id": "ses-031",
@@ -569,7 +569,7 @@
         "type-contributed-paper"
       ],
       "sessionGroup": "Session 5 - ADC/DAC, Waveform & Data Conversion Metrology",
-      "sessionChair": "Pedro M. Ramos"
+      "sessionChair": "Jan Holub"
     },
     {
       "id": "ses-032",
@@ -588,7 +588,7 @@
         "type-contributed-paper"
       ],
       "sessionGroup": "Session 5 - ADC/DAC, Waveform & Data Conversion Metrology",
-      "sessionChair": "Pedro M. Ramos"
+      "sessionChair": "Jan Holub"
     },
     {
       "id": "ses-033",
@@ -607,7 +607,7 @@
         "type-contributed-paper"
       ],
       "sessionGroup": "Session 5 - ADC/DAC, Waveform & Data Conversion Metrology",
-      "sessionChair": "Pedro M. Ramos"
+      "sessionChair": "Jan Holub"
     },
     {
       "id": "ses-034",
@@ -640,7 +640,8 @@
         "track-keynote",
         "type-keynote"
       ],
-      "sessionGroup": "Session 6 - Advanced Sensors & Signal Processing I"
+      "sessionGroup": "Session 6 - Advanced Sensors & Signal Processing I",
+      "sessionChair": "Pedro M. Ramos"
     },
     {
       "id": "ses-036",
@@ -658,7 +659,8 @@
         "track-sensors-signal-processing",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 6 - Advanced Sensors & Signal Processing I"
+      "sessionGroup": "Session 6 - Advanced Sensors & Signal Processing I",
+      "sessionChair": "Pedro M. Ramos"
     },
     {
       "id": "ses-037",
@@ -676,7 +678,8 @@
         "track-sensors-signal-processing",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 6 - Advanced Sensors & Signal Processing I"
+      "sessionGroup": "Session 6 - Advanced Sensors & Signal Processing I",
+      "sessionChair": "Pedro M. Ramos"
     },
     {
       "id": "ses-038",
@@ -694,7 +697,8 @@
         "track-sensors-signal-processing",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 6 - Advanced Sensors & Signal Processing I"
+      "sessionGroup": "Session 6 - Advanced Sensors & Signal Processing I",
+      "sessionChair": "Pedro M. Ramos"
     },
     {
       "id": "ses-039",
@@ -712,7 +716,8 @@
         "track-sensors-signal-processing",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 6 - Advanced Sensors & Signal Processing I"
+      "sessionGroup": "Session 6 - Advanced Sensors & Signal Processing I",
+      "sessionChair": "Pedro M. Ramos"
     },
     {
       "id": "ses-040",
@@ -730,7 +735,8 @@
         "track-sensors-signal-processing",
         "type-contributed-paper"
       ],
-      "sessionGroup": "Session 6 - Advanced Sensors & Signal Processing I"
+      "sessionGroup": "Session 6 - Advanced Sensors & Signal Processing I",
+      "sessionChair": "Pedro M. Ramos"
     },
     {
       "id": "ses-041",
@@ -886,7 +892,7 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "spk-amit-duwal"
+        "spk-luca-de-vito"
       ],
       "categoryItems": [
         "track-applications",
@@ -1595,10 +1601,10 @@
       "questionAnswers": []
     },
     {
-      "id": "spk-amit-duwal",
-      "firstName": "Amit",
-      "lastName": "Duwal",
-      "fullName": "Amit Duwal",
+      "id": "spk-luca-de-vito",
+      "firstName": "Luca",
+      "lastName": "De Vito",
+      "fullName": "Luca De Vito",
       "tagLine": "",
       "bio": "",
       "isTopSpeaker": false,

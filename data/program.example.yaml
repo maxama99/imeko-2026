@@ -15,7 +15,8 @@ session_chairs:
   "Session 2 - Calibration, Traceability & Metrological Standards II": Luca Callegaro
   "Session 3 - Uncertainty Evaluation & Electrical/Magnetic Instrumentation": Paolo Carbone
   "Session 4 - Electrical & Magnetic Instrumentation": Cesare Svelto
-  "Session 5 - ADC/DAC, Waveform & Data Conversion Metrology": Pedro M. Ramos
+  "Session 5 - ADC/DAC, Waveform & Data Conversion Metrology": Jan Holub
+  "Session 6 - Advanced Sensors & Signal Processing I": Pedro M. Ramos
   "Session 7 - Advanced Sensors & Measurement Systems II": Luca De Vito
   "Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization": Gabriel Gasparesc
 
@@ -564,7 +565,7 @@ sessions:
     id: ses-048
     description: "The reliability and security of communication cables are critical in Cyber-Physical Systems (CPS), where physical-layer anomalies such as damage and unauthorized tapping can compromise system integrity. This work presents a passive, non-invasive approach for anomaly detection in Ethernet cables, targeting low-cost edge deployment. Unlike active diagnostic methods, the proposed approach operates on naturally transmitted signals without interrupting communication. A system is developed, integrating a custom differential amplifier, and a Red Pitaya acquisition platform. Real-world datasets have been collected from 10BASE-T and 100BASE-TX Ethernet links under controlled normal and faulty conditions, including air exposure, water exposure, and tapping. Initial signal analysis using amplitude histograms reveals distinct statistical variations across cable conditions. The current results establish a validated data acquisition pipeline and demonstrate the feasibility of passive signal monitoring. This work lays the foundation for scalable, edge-based cable diagnostics in industrial and critical infrastructure systems."
     session: Session 8 - Applications in Energy Systems, Emerging Technologies & Materials Characterization
-    speakers: [Amit Duwal]
+    speakers: [Luca De Vito]
     type: contributed paper
     track: Applications
     room: T2:C3:340
