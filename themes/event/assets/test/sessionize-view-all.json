@@ -892,7 +892,7 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "spk-amit-duwal"
+        "spk-luca-de-vito"
       ],
       "categoryItems": [
         "track-applications",
@@ -1601,10 +1601,10 @@
       "questionAnswers": []
     },
     {
-      "id": "spk-amit-duwal",
-      "firstName": "Amit",
-      "lastName": "Duwal",
-      "fullName": "Amit Duwal",
+      "id": "spk-luca-de-vito",
+      "firstName": "Luca",
+      "lastName": "De Vito",
+      "fullName": "Luca De Vito",
       "tagLine": "",
       "bio": "",
       "isTopSpeaker": false,
