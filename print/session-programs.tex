@@ -1,0 +1,83 @@
+%% session-programs.tex -- one-page session programme for each session chair
+%% A4 portrait, one page per session: running order plus ruled space for notes.
+%% Content transcribed from data/program.example.yaml (sessions, in file order).
+%% Build:  pdflatex session-programs.tex
+
+\documentclass[a4paper,11pt]{article}
+\usepackage[top=13mm,bottom=11mm,left=16mm,right=16mm]{geometry}
+\usepackage{imeko-chair}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+\begin{sessionpage}{Session 1}{Calibration, Traceability \& Metrological Standards I}{Thursday 17 September 2026, 08:55--10:30}{T2:C3:340}{Marija Cundeva-Blajer}
+  \talk{08:55--09:30}{K}{One Bit to Useful Knowledge: Rethinking Data Acquisition for Low-Power and High-Speed Measurement Systems}{Prof. Paolo Carbone}
+  \talk{09:30--09:45}{}{Development of System for Disseminating AC/DC Voltage Difference Using Ranges of Transfer Standard and Investigating Stability}{Valentyn Isaiev}
+  \talk{09:45--10:00}{}{MetroMag: a European infrastructure for low magnetic field metrology}{Marco Coïsson}
+  \talk{10:00--10:15}{}{Franco Cabiati, electrical impedance metrology, and IMEKO}{Luca Callegaro}
+  \talk{10:15--10:30}{}{Exploring calibration schemes for electric impedance measurements beyond the short-open-load}{Alessandro Cultrera}
+\end{sessionpage}
+
+\begin{sessionpage}{Session 2}{Calibration, Traceability \& Metrological Standards II}{Thursday 17 September 2026, 11:00--13:00}{T2:C3:340}{Luca Callegaro}
+  \talk{11:00--11:30}{K}{Major European Research Projects in Electrical Metrology}{Prof. Jiří Tesař}
+  \talk{11:30--11:45}{}{High-Temperature Superconductor Josephson Junction Arrays Coupled to Microwave of Different Polarizations}{Changhao Zhao}
+  \talk{11:45--12:00}{}{MEMS-based Long-haul Optical Link Asymmetry Estimation for Atomic Clock Comparison}{Michal Spacek}
+  \talk{12:00--12:15}{}{A Model for Secure Exchange of Digital Calibration Certificates}{Ahmed Khan Leghari}
+  \talk{12:15--12:30}{}{Metrological Traceability in IoT Sensor Networks: A Microservice-based Framework for Automated Calibration Management}{Marco Sento}
+  \talk{12:30--12:45}{}{Implementation of Monte Carlo Simulation for measurement uncertainty estimation in electrical power and energy reference standards calibration}{Kiril Demerdziev}
+  \talk{12:45--13:00}{}{The Use of Thermography for Non-Destructive Testing}{Antonín Krňoul}
+\end{sessionpage}
+
+\begin{sessionpage}{Session 3}{Uncertainty Evaluation \& Electrical/Magnetic Instrumentation}{Thursday 17 September 2026, 14:00--15:30}{T2:C3:340}{Paolo Carbone}
+  \talk{14:00--14:30}{K}{Measuring the Performance of C-UAS Systems: How Hard Can It Be?}{Dr. Cristian Coman}
+  \talk{14:30--14:45}{}{GUM-compliant uncertainty evaluation in measurements based on ML regression or classification models}{Leopoldo Angrisani}
+  \talk{14:45--15:00}{}{Quality Infrastructure for Resilient Electrical Sector - Ensuring Confident Measurement Results in Calibration of High Currents Instruments}{Marija Cundeva-Blajer}
+  \talk{15:00--15:15}{}{Development of the Digital Twin for a Digital Impedance Ratio Bridge}{Ana Lucia Medina Rodriguez}
+  \talk{15:15--15:30}{}{Accuracy Analysis of THD Measurement of Power Signals by Means of a Low-cost Oscilloscope}{Gabriel Gasparesc}
+\end{sessionpage}
+
+\begin{sessionpage}{Session 4}{Electrical \& Magnetic Instrumentation}{Thursday 17 September 2026, 16:00--17:15}{T2:C3:340}{Cesare Svelto}
+  \talk{16:00--16:15}{}{The primary Tesla Standard at PTB}{Franziska Weickert}
+  \talk{16:15--16:30}{}{A traceable calibration of low-field magnetic coil systems in noisy industrial environments}{Michal Ulvr}
+  \talk{16:30--16:45}{}{Model-based magnetization measurement in Fluxgate sensors}{Jiri Maier}
+  \talk{16:45--17:00}{}{Estimation of torquer rod magnetic moment with fluxmetric method and compact sensing coils}{Michal Janosek}
+  \talk{17:00--17:15}{}{Compact modular cryogenic dielectric resonator for surface impedance measurements in high magnetic fields}{Kostiantyn Torokhtii}
+\end{sessionpage}
+
+\begin{sessionpage}{Session 5}{ADC/DAC, Waveform \& Data Conversion Metrology}{Friday 18 September 2026, 08:30--10:00}{T2:C3:340}{Jan Holub}
+  \talk{08:30--09:00}{K}{Artificially indeterminate: measuring quantity, cost and impact of Artificial Intelligence}{Dr. Michael Street}
+  \talk{09:00--09:15}{}{A systematic aliasing suppression architecture for real-time FI-DAC based on linear-phase complementary filter and oversampling}{Yang Shen}
+  \talk{09:15--09:30}{}{Parameter estimation of complex-valued sinewaves by a frequency-domain linearized sine-fit algorithm}{Dominique Dallet}
+  \talk{09:30--09:45}{}{Benchmarks for IIR Model Identification Based on Binary Measurements}{Paolo Carbone}
+  \talk{09:45--10:00}{}{A Digital Voltage Ramp Generator with Integrating Compensation}{Jianting Zhao}
+\end{sessionpage}
+
+\begin{sessionpage}{Session 6}{Advanced Sensors \& Signal Processing I}{Friday 18 September 2026, 10:30--12:15}{T2:C3:340}{Pedro M. Ramos}
+  \talk{10:30--11:00}{K}{Trust by Design in Digital Metrology: From Machine-Readable Documents to Privacy-Preserving Computation}{Prof. Kruno Miličević}
+  \talk{11:00--11:15}{}{Acoustic-Based Detection, Classification, and Localization of Impulsive Sounds}{Martin Maxa}
+  \talk{11:15--11:30}{}{Lock-in detection algorithm for signals modulated with irregular intervals}{Shingo Tamaru}
+  \talk{11:30--11:45}{}{A Wireless Acoustic Monitoring System for Drone Localization Based on MEMS Microphones and LoRa Communication}{Kamil Herman}
+  \talk{11:45--12:00}{}{Comparative Analysis of Search Algorithms for Automatic L-type Matching Network}{Joao Pedro Torres S. Andrade}
+  \talk{12:00--12:15}{}{Airborne Navigation During GNSS Outages Using Tightly Coupled IMU/DVB-T2 Fusion}{Michal Koldinsky}
+\end{sessionpage}
+
+\begin{sessionpage}{Session 7}{Advanced Sensors \& Measurement Systems II}{Friday 18 September 2026, 13:15--14:30}{T2:C3:340}{Luca De Vito}
+  \talk{13:15--13:30}{}{Microcontroller Based Software Defined Instruments as an Economical Substitute of Virtual Measurement Instruments}{Jakub Svatos}
+  \talk{13:30--13:45}{}{Exploring a new indirect approach to latency measurement}{Jakub Turinsky}
+  \talk{13:45--14:00}{}{Detection of Mercury Ion in Water Samples Using a Low-Tech EPS-Coated Interdigitated Capacitive Sensor through S-Parameter Analysis}{Henrique Dantas Silva}
+  \talk{14:00--14:15}{}{Development and Experimental Evaluation of a Three-Lead ECG Holter System}{Ondrej Kovac}
+  \talk{14:15--14:30}{}{Multiparametric metrological characterization of an inductive sensing element for mechanical wear estimation}{Davide Ceschini}
+\end{sessionpage}
+
+\begin{sessionpage}{Session 8}{Applications in Energy Systems, Emerging Technologies \& Materials Characterization}{Friday 18 September 2026, 15:00--16:45}{T2:C3:340}{Gabriel Gasparesc}
+  \talk{15:00--15:15}{K}{EUROLAB: Empowering Digital and Sustainable Labs and other CABs}{Laura Martin}
+  \talk{15:15--15:30}{}{Detection of Physical Layer Anomalies and Eavesdropping in Real World Data Cables}{Luca De Vito}
+  \talk{15:30--15:45}{}{Sustainability-oriented optimization of a sensing board for applications as a cyber-physical measurement system (CPMS)}{Leopoldo Angrisani}
+  \talk{15:45--16:00}{}{Vector Fitting-Based Feature Extraction from Electrochemical Impedance Spectroscopy for SOC and SOH Estimation}{Pedro Ramos}
+  \talk{16:00--16:15}{}{Measurement of the characteristics of EDL and hybrid supercapacitors versus temperature}{Ornella Conti}
+  \talk{16:15--16:30}{}{Non-Destructive Microwave Dielectric Characterization of Leather for Automotive Applications}{Kostiantyn Torokhtii}
+  \talk{16:30--16:45}{}{Measurements of Wetsuits Thermal Properties at 100 kPa and 600 kPa Absolute Pressure}{Cesare Svelto}
+\end{sessionpage}
+
+\end{document}

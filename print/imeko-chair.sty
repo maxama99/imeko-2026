@@ -1,0 +1,141 @@
+%% imeko-chair.sty -- shared style for the IMEKO TC4 2026 session-chair kit
+%% Provides: \tentcard (A4 landscape folded name card)
+%%           sessionpage environment + \talk (A4 portrait session programme)
+%% Engine: pdflatex (run twice -- the tent cards use TikZ remember picture)
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{imeko-chair}[2026/09/16 IMEKO TC4 2026 chair kit]
+
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[T1]{fontenc}
+\RequirePackage{lmodern}
+\RequirePackage{helvet}
+\RequirePackage{xcolor}
+\RequirePackage{graphicx}
+\RequirePackage{tikz}
+\RequirePackage{microtype}
+
+\definecolor{imekoblue}{HTML}{143C6E}
+\definecolor{imekogrey}{HTML}{5C6470}
+\definecolor{rulegrey}{HTML}{AEB4BD}
+
+\graphicspath{{logos/}}
+\newcommand{\imekologo}[1]{\includegraphics[height=#1]{imeko-logo.png}}
+%% Department of Measurement, FEE CTU in Prague (themes/event/assets/logos/meas-logo.png)
+\newcommand{\deptlogo}[1]{\includegraphics[height=#1]{meas-logo.png}}
+
+%% Conference identity, used in the running heads
+\newcommand{\confshort}{27th IMEKO TC4 Conference 2026}
+\newcommand{\confplace}{CTU in Prague, 16--18 September 2026}
+
+%% ---------------------------------------------------------------- helpers --
+%% \fitwidth{<max width>}{<content>} -- shrink content only if it is too wide
+\newsavebox{\imk@box}
+\newcommand{\fitwidth}[2]{%
+  \sbox\imk@box{#2}%
+  \ifdim\wd\imk@box>#1\relax
+    \resizebox{#1}{!}{\usebox\imk@box}%
+  \else
+    \usebox\imk@box
+  \fi}
+
+% ================================================================ tent card ==
+%% \tentcard{name}{affiliation}{Session N}{session title}{day and time}{room}
+%% One A4 landscape page, folded along the middle: the upper half is rotated by
+%% 180 degrees so that it reads towards the audience once the sheet stands up.
+
+\newcommand{\imk@cardhalf}[6]{%
+  \begin{minipage}[c][92mm][c]{257mm}%
+    \sffamily
+    % --- top strip: logo + session metadata
+    \noindent
+    \begin{minipage}[c]{62mm}%
+      \imekologo{17mm}\hspace{5mm}\raisebox{1mm}{\deptlogo{18mm}}%
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[c]{185mm}%
+      \raggedleft
+      {\color{imekoblue}\bfseries\fontsize{13}{15}\selectfont #3}\\[1mm]
+      {\color{imekogrey}\fontsize{10.5}{13}\selectfont #5 \quad\textbullet\quad Room #6}
+    \end{minipage}%
+    \par\vfill
+    % --- name
+    \centering
+    {\color{imekoblue}\fitwidth{\linewidth}{\bfseries\fontsize{58}{62}\selectfont #1}}\par
+    \vspace{5mm}
+    {\color{black!80}\fontsize{15}{19}\selectfont #2}\par
+    \vfill
+    % --- session title
+    {\color{imekogrey}\fontsize{11}{14}\selectfont #4}\par
+    \vspace{1mm}
+    {\color{rulegrey}\fontsize{8.5}{10}\selectfont \confshort}
+  \end{minipage}}
+
+\newcommand{\tentcard}[6]{%
+  \thispagestyle{empty}%
+  \null
+  \begin{tikzpicture}[remember picture,overlay]
+    % lower half -- reads towards the chair
+    \node[anchor=center] at ([yshift=-52.5mm]current page.center)
+      {\imk@cardhalf{#1}{#2}{#3}{#4}{#5}{#6}};
+    % upper half -- rotated, reads towards the audience after folding
+    \node[anchor=center,rotate=180] at ([yshift=52.5mm]current page.center)
+      {\imk@cardhalf{#1}{#2}{#3}{#4}{#5}{#6}};
+    % fold line
+    \draw[rulegrey,dashed,line width=0.3pt]
+      ([xshift=8mm]current page.west) -- ([xshift=-8mm]current page.east);
+    \node[fill=white,inner sep=1mm,anchor=center] at ([xshift=-24mm]current page.east)
+      {\sffamily\fontsize{7}{8}\selectfont\color{rulegrey} fold here / zde p\v{r}elo\v{z}it};
+  \end{tikzpicture}%
+  \clearpage}
+
+% =========================================================== session sheet ==
+%% \begin{sessionpage}{Session N}{title}{day and time}{room}{chair} ... \end
+\newenvironment{sessionpage}[5]{%
+  \thispagestyle{empty}%
+  \sffamily
+  \noindent
+  \begin{minipage}[b]{\dimexpr\linewidth-52mm\relax}
+    {\color{imekogrey}\fontsize{8.5}{10}\selectfont \confshort\ \textbullet\ \confplace}\par
+    \vspace{1.5mm}
+    {\color{imekoblue}\bfseries\fontsize{17}{20}\selectfont #1}\par
+    \vspace{1mm}
+    {\bfseries\fontsize{12}{15}\selectfont #2}
+  \end{minipage}%
+  \hfill
+  \begin{minipage}[b]{48mm}%
+    \raggedleft\raisebox{0.5mm}{\deptlogo{14mm}}\hspace{4mm}\imekologo{15mm}%
+  \end{minipage}%
+  \par\vspace{3.5mm}
+  \noindent{\fontsize{10}{12}\selectfont\bfseries Chair: #5}\hfill
+  {\color{imekogrey}\fontsize{10}{12}\selectfont #3 \quad\textbullet\quad Room #4}\par
+}{%
+  \vfil
+  \par\noindent{\color{imekogrey}\sffamily\fontsize{7.5}{9}\selectfont
+    Contributed papers: 15 minutes including questions. Please keep the session on time.%
+    \hfill imeko2026@fel.cvut.cz}
+  \clearpage}
+
+%% \talk{time}{keynote flag (K or empty)}{title}{presenter}
+\newcommand{\talk}[4]{%
+  \par\vspace{1.9mm}
+  \noindent
+  \begin{minipage}[t]{24mm}
+    \sffamily\bfseries\fontsize{9.5}{11}\selectfont #1
+  \end{minipage}%
+  \hfill
+  \begin{minipage}[t]{\dimexpr\linewidth-27mm\relax}
+    \sffamily
+    {\bfseries\fontsize{9.5}{11.5}\selectfont #3}%
+    \imk@keytag{#2}\par
+    \vspace{0.8mm}
+    {\color{imekogrey}\fontsize{9}{11}\selectfont #4}\par
+    \vspace{9mm}
+  \end{minipage}\par\vfil}
+
+\newcommand{\imk@keytag}[1]{%
+  \if\relax\detokenize{#1}\relax\else
+    \ \colorbox{imekoblue}{\textcolor{white}{\sffamily\bfseries\fontsize{6.5}{8}\selectfont\,KEYNOTE\,}}%
+  \fi}
+
+\endinput
