@@ -5,7 +5,7 @@
     The numbers are the file name prefixes of the photographs to show.
     */
 -}}
-{{- $picks := slice "03" "05" "09" "11" "19" "37" }}
+{{- $picks := slice "06" "08" "11" "13" "19" "35" }}
 {{- $photos := resources.Match "photos/*.jpg" }}
 {{- $gallery := site.GetPage "/gallery" }}
 {{- $remaining := sub (len $photos) (len $picks) }}
