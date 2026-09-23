@@ -19,10 +19,6 @@
     </div>
 
     <div class="event-title-section__footer">
-        {{- with (or $input.countdownTarget $input.startDate) }}
-            {{ partial "countdown.html" (dict "targetDate" .) }}
-        {{- end }}
-
         {{- partial "cta/button.html" (dict "eventbriteId" $input.eventbriteId "ctaUrl" $input.ctaUrl) }}
     </div>
 </section>
