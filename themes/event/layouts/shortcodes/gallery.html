@@ -1,0 +1,56 @@
+{{- /*
+    Renders every photograph in an asset directory as a thumbnail grid that
+    opens in a GLightbox lightbox. Each thumbnail's id is taken from the file
+    name prefix (07_….jpg → photo-7), so /gallery/#photo-7 opens the lightbox
+    at that photograph even after other photographs are removed.
+
+    Parameters:
+    dir     asset directory holding the JPEGs, e.g. "photos"
+    alt     alternative text prefix, the photo number is appended
+    credit  optional photographer credit rendered below the grid
+    */
+-}}
+{{- $dir := .Get "dir" }}
+{{- $alt := or (.Get "alt") "Photo" }}
+{{- $photos := sort (resources.Match (printf "%s/*.jpg" $dir)) "Name" }}
+{{- if not $photos }}
+    {{- errorf "gallery shortcode: no photos found in assets/%s (%s)" $dir .Position }}
+{{- end }}
+<div class="photo-gallery">
+    {{- range $photo := $photos }}
+        {{- $number := index (split (path.Base $photo.Name) "_") 0 | strings.TrimLeft "0" | int }}
+        {{- /* fit never upscales, it only caps oversized originals. */ -}}
+        {{- $full := $photo.Process "fit 1280x1280 webp q82" }}
+        {{- $thumb := $photo.Process "resize 480x webp q75" }}
+        <a
+            class="photo-gallery__link"
+            id="photo-{{ $number }}"
+            href="{{ $full.RelPermalink }}"
+            data-gallery="photo-gallery">
+            <img
+                class="photo-gallery__image"
+                src="{{ $thumb.RelPermalink }}"
+                alt="{{ $alt }} {{ $number }}"
+                width="{{ $thumb.Width }}"
+                height="{{ $thumb.Height }}"
+                loading="lazy"
+                decoding="async" />
+        </a>
+    {{- end }}
+</div>
+{{- with .Get "credit" }}
+    <p class="photo-gallery__credit">{{ . }}</p>
+{{- end }}
+{{- with resources.Get "vendor/glightbox/glightbox.min.js" | fingerprint }}
+    <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
+{{- end }}
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const lightbox = GLightbox({ selector: '.photo-gallery__link' });
+        const links = [...document.querySelectorAll('.photo-gallery__link')];
+        const index = links.findIndex((link) => '#' + link.id === window.location.hash);
+        if (index >= 0) {
+            lightbox.openAt(index);
+        }
+    });
+</script>

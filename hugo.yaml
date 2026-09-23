@@ -11,6 +11,16 @@ languages:
           name: Conference
           pageRef: /about
           weight: 10
+        - identifier: highlights
+          name: Thank You & Highlights
+          pageRef: /highlights
+          parent: conference
+          weight: 10
+        - identifier: gallery
+          name: Photo Gallery
+          pageRef: /gallery
+          parent: conference
+          weight: 11
         - identifier: about
           name: About IMEKO 2026
           pageRef: /about

@@ -1,0 +1,8 @@
+{{- /* Renders a link styled as a button, see partials/link-button.html. */ -}}
+{{- partial "link-button.html" (dict
+    "url" (.Get "url")
+    "label" (.Get "label")
+    "outlined" (eq (.Get "outlined") "true")
+    "newTab" (eq (.Get "newTab") "true")
+    )
+-}}

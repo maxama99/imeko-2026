@@ -1,0 +1,22 @@
+{{- /*
+    Post-conference note under the hero: summary of the highlights page, a
+    strip of gallery thumbnails and links to the full note and proceedings.
+    */
+-}}
+{{- with site.GetPage "/highlights" }}
+    <div class="section-container" id="highlights">
+        <section class="section section--long post-conference-section">
+            <h1 class="heading heading--highlighted">{{ .Date | time.Format ":date_long" }}</h1>
+            <h2 class="heading heading--2">{{ .Title }}</h2>
+            <div class="post-conference-section__summary">{{ .Summary }}</div>
+            {{- partial "photo-strip.html" . }}
+            <div class="post-conference-section__actions">
+                {{- partial "link-button.html" (dict "url" "highlights/" "label" "Read more →") }}
+                {{- partial "link-button.html" (dict "url" "IMEKO2026_TC4_Proceedings.pdf" "label" "Proceedings (PDF)" "outlined" true "newTab" true) }}
+            </div>
+        </section>
+    </div>
+    <div class="section-container" aria-hidden="true">
+        <div class="section post-conference-divider"><hr /></div>
+    </div>
+{{- end }}

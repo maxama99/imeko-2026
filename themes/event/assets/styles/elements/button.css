@@ -81,3 +81,9 @@
     max-width: 1.25rem;
     max-height: 1.25rem;
 }
+
+/* Sits in running text instead of claiming the whole line. */
+.button--inline {
+    display: inline-flex;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+}

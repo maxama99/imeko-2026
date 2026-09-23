@@ -1,0 +1,13 @@
+{{ define "main" }}
+    {{- /* A dated news post: the title and date come from front matter, so
+        the content (and with it .Summary) starts with the first paragraph. */ -}}
+    <div class="section-container">
+        <section class="section">
+            <article class="layout-single-default">
+                <h2 class="heading heading--2">{{ .Title }}</h2>
+                <p class="page-date">Posted on {{ .Date | time.Format ":date_long" }}</p>
+                {{ .Content }}
+            </article>
+        </section>
+    </div>
+{{ end }}

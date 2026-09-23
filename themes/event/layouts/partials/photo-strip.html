@@ -1,0 +1,35 @@
+{{- /*
+    A row of square thumbnails teasing the photo gallery. Each thumbnail opens
+    the gallery lightbox at the same photograph (/gallery/#photo-N); the last
+    one carries a "+N photos" overlay counting the photographs not shown.
+    The numbers are the file name prefixes of the photographs to show.
+    */
+-}}
+{{- $picks := slice "06" "08" "11" "13" "19" "35" }}
+{{- $photos := resources.Match "photos/*.jpg" }}
+{{- $gallery := site.GetPage "/gallery" }}
+{{- $remaining := sub (len $photos) (len $picks) }}
+<div class="photo-strip">
+    {{- range $i, $number := $picks }}
+        {{- $photo := index (resources.Match (printf "photos/%s_*.jpg" $number)) 0 }}
+        {{- if not $photo }}
+            {{- errorf "photo-strip: no photo with prefix %s in assets/photos" $number }}
+        {{- end }}
+        {{- $thumb := $photo.Process "fill 320x320 webp q75" }}
+        {{- $isLast := eq (add $i 1) (len $picks) }}
+        {{- $id := $number | strings.TrimLeft "0" }}
+        <a class="photo-strip__item" href="{{ $gallery.RelPermalink }}#photo-{{ $id }}">
+            <img
+                class="photo-strip__image"
+                src="{{ $thumb.RelPermalink }}"
+                alt="IMEKO TC4 2026 conference, photo {{ $id }}"
+                width="{{ $thumb.Width }}"
+                height="{{ $thumb.Height }}"
+                loading="lazy"
+                decoding="async" />
+            {{- if and $isLast (gt $remaining 0) }}
+                <span class="photo-strip__more">+{{ $remaining }} photos</span>
+            {{- end }}
+        </a>
+    {{- end }}
+</div>
