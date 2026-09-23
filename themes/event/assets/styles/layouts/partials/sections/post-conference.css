@@ -1,0 +1,10 @@
+.post-conference-section__summary {
+    max-width: 60rem;
+    color: var(--color-secondary-darker);
+    line-height: 1.5rem;
+}
+
+.post-conference-section__actions {
+    display: flex;
+    flex-wrap: wrap;
+}
