@@ -47,7 +47,11 @@
     flex-wrap: wrap;
 }
 
-.event-highlights-section__paragraph {
-    color: var(--color-secondary-darker);
-    line-height: 1.5rem;
+
+/*
+    The description is a flex item, so its first paragraph's margin doesn't
+    collapse into the heading's; drop it to keep the heading gap consistent.
+*/
+.event-highlights-section__text > :first-child {
+    margin-top: 0;
 }

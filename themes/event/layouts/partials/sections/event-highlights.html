@@ -19,7 +19,7 @@
                     {{ $input.subtitle }}
                 </h2>
 
-                <p class="paragraph event-highlights-section__paragraph">{{ $input.description | markdownify }}</p>
+                <div class="event-highlights-section__text">{{ $input.description | markdownify }}</div>
             </article>
             {{- if gt ($logos | len) 0 }}
                 <div class="event-highlights-section__logos">
