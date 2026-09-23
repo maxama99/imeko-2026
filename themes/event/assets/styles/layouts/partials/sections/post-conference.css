@@ -10,7 +10,7 @@
 }
 
 /* A hairline separating the post from the welcome section below. */
-.post-conference-divider {
+.section.post-conference-divider {
     padding-top: 0;
     padding-bottom: 0;
 }
@@ -19,4 +19,13 @@
     margin: 0;
     border: 0;
     border-top: 0.0625rem solid color-mix(in srgb, var(--color-secondary-darker) 25%, transparent);
+}
+
+/* Half the usual spacing on both sides of the divider. */
+.section.post-conference-section {
+    padding-bottom: 4rem;
+}
+
+.section-container:has(.post-conference-divider) + .section-container > .section {
+    padding-top: 4rem;
 }
