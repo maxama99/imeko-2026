@@ -1,0 +1,31 @@
+{{- /*
+    A row of square thumbnails teasing the photo gallery. Each thumbnail opens
+    the gallery lightbox at the same photograph (/gallery/#photo-N); the last
+    one carries a "+N photos" overlay counting the photographs not shown.
+    The numbers are positions in the gallery, i.e. the file name prefixes.
+    */
+-}}
+{{- $picks := slice 4 9 14 27 32 33 }}
+{{- $photos := sort (resources.Match "photos/*.jpg") "Name" }}
+{{- $gallery := site.GetPage "/gallery" }}
+{{- $remaining := sub (len $photos) (len $picks) }}
+<div class="photo-strip">
+    {{- range $i, $number := $picks }}
+        {{- $photo := index $photos (sub $number 1) }}
+        {{- $thumb := $photo.Process "fill 320x320 webp q75" }}
+        {{- $isLast := eq (add $i 1) (len $picks) }}
+        <a class="photo-strip__item" href="{{ $gallery.RelPermalink }}#photo-{{ $number }}">
+            <img
+                class="photo-strip__image"
+                src="{{ $thumb.RelPermalink }}"
+                alt="IMEKO TC4 2026 conference, photo {{ $number }}"
+                width="{{ $thumb.Width }}"
+                height="{{ $thumb.Height }}"
+                loading="lazy"
+                decoding="async" />
+            {{- if and $isLast (gt $remaining 0) }}
+                <span class="photo-strip__more">+{{ $remaining }} photos</span>
+            {{- end }}
+        </a>
+    {{- end }}
+</div>

@@ -1,0 +1,16 @@
+{{- /*
+    A link styled as a button.
+
+    Parameters:
+    url       target, relative to the site root, e.g. "highlights/"
+    label     button text
+    outlined  optional, render the outlined variant
+    newTab    optional, open the target in a new tab (e.g. a PDF)
+    */
+-}}
+<a
+    class="button button--inline{{ if .outlined }} button--outlined{{ end }}"
+    href="{{ relURL .url }}"
+    {{ if .newTab }}target="_blank" rel="noopener"{{ end }}>
+    {{- .label -}}
+</a>
