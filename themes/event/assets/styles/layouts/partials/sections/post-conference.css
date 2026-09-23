@@ -8,3 +8,15 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+/* A hairline separating the post from the welcome section below. */
+.post-conference-divider {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.post-conference-divider hr {
+    margin: 0;
+    border: 0;
+    border-top: 0.0625rem solid color-mix(in srgb, var(--color-secondary-darker) 25%, transparent);
+}
