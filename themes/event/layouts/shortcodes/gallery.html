@@ -19,7 +19,8 @@
 <div class="photo-gallery">
     {{- range $photo := $photos }}
         {{- $number := index (split (path.Base $photo.Name) "_") 0 | strings.TrimLeft "0" | int }}
-        {{- $full := $photo.Process "webp q82" }}
+        {{- /* fit never upscales, it only caps oversized originals. */ -}}
+        {{- $full := $photo.Process "fit 1280x1280 webp q82" }}
         {{- $thumb := $photo.Process "resize 480x webp q75" }}
         <a
             class="photo-gallery__link"
