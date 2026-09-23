@@ -37,3 +37,14 @@
     font-size: 0.875rem;
     line-height: 1.25rem;
 }
+
+/* The gallery uses the full section width, not the narrow text column. */
+.layout-single-default:has(.photo-gallery) {
+    max-width: none;
+}
+
+@media (width > 992px) {
+    .photo-gallery {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
