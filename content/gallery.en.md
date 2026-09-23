@@ -11,4 +11,4 @@ Moments from the 27th IMEKO TC4 Conference 2026, held on 16–18 September 2026 
 {{< gallery
     dir="photos"
     alt="IMEKO TC4 2026 conference, photo"
-    credit="Photos: Petr Neugebauer, FEL ČVUT" >}}
+    credit="Photos by Petr Neugebauer, FEL ČVUT" >}}

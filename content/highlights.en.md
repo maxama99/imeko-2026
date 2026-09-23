@@ -9,19 +9,19 @@ The Organizing Committee would like to sincerely thank all authors, speakers, se
 
 <!--more-->
 
-The full conference proceedings are now available:
+The full conference proceedings are now available for download.
 
 {{< link-button url="IMEKO2026_TC4_Proceedings.pdf" label="Conference Proceedings (PDF, 16 MB)" newTab="true" >}}
 
-Congratulations to the winners of the conference awards:
+Congratulations to the winners of the conference awards.
 
-- **Best Paper Award** — Shingo Tamaru (AIST, Japan), for the paper _"Lock-in detection algorithm for signals modulated with irregular intervals."_
-- **Best Paper Presented by a Young Scientist** — Changhao Zhao (National Institute of Metrology, China), for the paper _"High-Temperature Superconductor Josephson Junction Arrays Coupled to Microwave of Different Polarizations."_
+- **Best Paper Award** was awarded to Shingo Tamaru (AIST, Japan) for the paper _"Lock-in detection algorithm for signals modulated with irregular intervals."_
+- **Best Paper Presented by a Young Scientist** was awarded to Changhao Zhao (National Institute of Metrology, China) for the paper _"High-Temperature Superconductor Josephson Junction Arrays Coupled to Microwave of Different Polarizations."_
 
-Relive the conference in our [photo gallery]({{< relURL "gallery/" >}}):
+Relive the conference in our [photo gallery]({{< relURL "gallery/" >}}).
 
 {{< photo-strip >}}
 
-Our special thanks go to our sponsors — Teste, HTEST, and TMV SS — whose generous support was essential in making the conference possible.
+Our special thanks go to our sponsors Teste, HTEST, and TMV SS, whose generous support was essential in making the conference possible.
 
 We look forward to seeing you at the IMEKO World Congress in Rimini! Thank you for being part of IMEKO TC4 2026 in Prague!
