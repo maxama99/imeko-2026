@@ -54,6 +54,10 @@ The Editor and the Organizing Committee thank the following reviewers for their 
 - **Jakub Svatos**, CTU in Prague, Czechia
 - **Jakub Turinský**, CTU in Prague, Czechia
 
+## Publication Ethics
+
+The Proceedings follow the conference [Publication Ethics Statement]({{< relURL "publication-ethics/" >}}), which sets out the responsibilities of authors, reviewers and editors regarding originality and plagiarism, authorship, conflicts of interest, confidentiality of the review process, and corrections and retractions.
+
 ## Conference Proceedings
 
 **Proceedings of the 27th IMEKO TC4 Conference 2026 with Special TC11 Technical Session – Measuring the Future**
