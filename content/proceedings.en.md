@@ -67,4 +67,4 @@ The Editor and the Organizing Committee thank the following reviewers for their 
 
 ## Journal Special Issue
 
-Authors of selected high-quality papers will be invited to submit an extended version to a Special Issue of *Measurement* (Elsevier). Invited papers must be technically extended by at least 30 % with respect to the conference paper, and their similarity with the original conference paper must not exceed 30 %. Invited papers undergo the regular peer review of the journal.
+Authors of selected high-quality papers will be invited to submit an extended version to a Special Issue of *Measurement* (Elsevier) and *ACTA IMEKO*. Invited papers must be technically extended by at least 30 % with respect to the conference paper, and their similarity with the original conference paper must not exceed 30 %. Invited papers undergo the regular peer review of the journal, and even invited papers may be desk-rejected if their originality and quality are not regarded as sufficient by the journal's Editorial Team.
