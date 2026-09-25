@@ -40,7 +40,7 @@ Full papers will undergo peer review by the Technical Program Committee.
 
 Accepted full papers will be published in the official Conference Proceedings.
 
-Selected high-quality papers will be invited for extended publication in a Special Issue of selected peer-reviewed journals (ACTA IMEO, Measurement journal).
+Selected high-quality papers will be invited for extended publication in a Special Issue of selected peer-reviewed journals (ACTA IMEKO, Measurement journal).
 
 This category is suitable for mature research results intended for archival publication and further dissemination within the IMEKO community.
 
