@@ -9,9 +9,9 @@ The Organizing Committee would like to sincerely thank all authors, speakers, se
 
 <!--more-->
 
-The full conference proceedings are now available for download.
+The conference proceedings, the peer review process and the list of reviewers are available on the [Proceedings]({{< relURL "proceedings/" >}}) page.
 
-{{< link-button url="IMEKO2026_TC4_Proceedings.pdf" label="Conference Proceedings (PDF, 16 MB)" newTab="true" >}}
+{{< link-button url="proceedings/" label="Conference Proceedings" >}}
 
 Congratulations to the winners of the conference awards.
 
