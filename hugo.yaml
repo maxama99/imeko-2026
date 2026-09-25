@@ -21,11 +21,16 @@ languages:
           pageRef: /gallery
           parent: conference
           weight: 11
+        - identifier: proceedings
+          name: Proceedings
+          pageRef: /proceedings
+          parent: conference
+          weight: 12
         - identifier: about
           name: About IMEKO 2026
           pageRef: /about
           parent: conference
-          weight: 12
+          weight: 13
         - identifier: committees
           name: Committees
           pageRef: /committees
