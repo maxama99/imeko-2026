@@ -26,11 +26,16 @@ languages:
           pageRef: /proceedings
           parent: conference
           weight: 12
+        - identifier: publication-ethics
+          name: Publication Ethics
+          pageRef: /publication-ethics
+          parent: conference
+          weight: 13
         - identifier: about
           name: About IMEKO 2026
           pageRef: /about
           parent: conference
-          weight: 13
+          weight: 14
         - identifier: committees
           name: Committees
           pageRef: /committees
