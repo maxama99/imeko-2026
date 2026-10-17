@@ -69,6 +69,12 @@ The Proceedings follow the conference [Publication Ethics Statement]({{< relURL 
 
 {{< link-button url="IMEKO2026_TC4_Proceedings.pdf" label="Download the Proceedings (PDF, 16 MB)" newTab="true" >}}
 
+## Book of Abstracts
+
+The Book of Abstracts for the 27th IMEKO TC4 Conference 2026 with Special TC11 Technical Session – Measuring the Future, held in Prague, Czechia, on September 16–18, 2026, is available below.
+
+{{< link-button url="IMEKO2026_TC4_BookOfAbstracts.pdf" label="Download the Book of Abstracts (PDF, 4.6 MB)" newTab="true" >}}
+
 ## Journal Special Issue
 
 Authors of selected high-quality papers will be invited to submit an extended version to a Special Issue of *Measurement* (Elsevier) and *ACTA IMEKO*. Invited papers must be technically extended by at least 30 % with respect to the conference paper, and their similarity with the original conference paper must not exceed 30 %. Invited papers undergo the regular peer review of the journal, and even invited papers may be desk-rejected if their originality and quality are not regarded as sufficient by the journal's Editorial Team.
